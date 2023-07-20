@@ -84,6 +84,8 @@
 
         const pBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(praias);
 
+        const pConceicao = L.marker([38.54315386675781, -28.61898418710231]).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(praias);
+
         // Angra do Heroísmo
 
         const angraHeroismo = L.layerGroup();
@@ -91,6 +93,12 @@
         const cSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(angraHeroismo);
 
         const cBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(angraHeroismo);
+
+        // Horta
+
+        const horta = L.layerGroup();
+
+        const cConceicao = L.marker([38.54315386675781, -28.61898418710231]).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(horta);
 
         // Map layers
 
@@ -124,6 +132,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Angra do Heroísmo': angraHeroismo,
+            'Horta': horta,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
