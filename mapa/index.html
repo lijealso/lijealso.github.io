@@ -98,27 +98,27 @@
 
         // Alentejo
 
-        const pAbertaNova = L.marker([38.13342490039907, -8.79002050035875]).bindPopup('NOME: ABERTA NOVA<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCK8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nvmWox8ei5tY4nyd9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.13342490039907<br>Longitude: -8.79002050035875').addTo(praias);
+        const pAbertaNova = L.marker([38.13342490039907, -8.79002050035875], { icon: marker }).bindPopup('NOME: ABERTA NOVA<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCK8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nvmWox8ei5tY4nyd9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.13342490039907<br>Longitude: -8.79002050035875').addTo(praias);
 
         // Algarve
 
-        const pZavial = L.marker([37.04558180593652, -8.86786248151883]).bindPopup('NOME: ZAVIAL<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCN2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/5fk9uhCauGjbezMN9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04558180593652<br>Longitude: -8.86786248151883').addTo(praias);
+        const pZavial = L.marker([37.04558180593652, -8.86786248151883, { icon: marker }]).bindPopup('NOME: ZAVIAL<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCN2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/5fk9uhCauGjbezMN9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04558180593652<br>Longitude: -8.86786248151883').addTo(praias);
 
 
         // Centro
 
-        const pPenedaCascalheiraSecarias = L.marker([40.249167769468215, -8.036070159051558]).bindPopup('NOME: PENEDA CASCALHEIRA-SECARIAS<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCQ8C<br> CATEGORIA: INTERIOR <br> Referência: <a href="https://goo.gl/maps/Ap9y284y4XbVrq4z7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.249167769468215<br>Longitude: -8.036070159051558').addTo(praias);
+        const pPenedaCascalheiraSecarias = L.marker([40.249167769468215, -8.036070159051558, { icon: marker }]).bindPopup('NOME: PENEDA CASCALHEIRA-SECARIAS<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCQ8C<br> CATEGORIA: INTERIOR <br> Referência: <a href="https://goo.gl/maps/Ap9y284y4XbVrq4z7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.249167769468215<br>Longitude: -8.036070159051558').addTo(praias);
 
         // Madeira
-        const pSerraAgua = L.marker([32.71647508770341, -17.168424549065723]).bindPopup('NOME: PRAIA DA SERRA DE ÁGUA<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMK3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1OxNv_VGrJH5Gi2eJVw09KUllQFSflSNe/view" target="_blank">Ver ficheiro</a> <br>Latitude: 32.67941<br>Longitude: -17,16879').addTo(praias);
+        const pSerraAgua = L.marker([32.71647508770341, -17.168424549065723, { icon: marker }]).bindPopup('NOME: PRAIA DA SERRA DE ÁGUA<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMK3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1OxNv_VGrJH5Gi2eJVw09KUllQFSflSNe/view" target="_blank">Ver ficheiro</a> <br>Latitude: 32.67941<br>Longitude: -17,16879').addTo(praias);
 
         // Norte
 
-        const pAzenhasVilarMouros = L.marker([41.88889, -8.78362]).bindPopup('NOME: AZENHAS - VILAR DE MOUTOS<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCD2X<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/Azenhas_PTCD2X.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.88889<br>Longitude: -8.78362').addTo(praias);
+        const pAzenhasVilarMouros = L.marker([41.88889, -8.78362], { icon: marker }).bindPopup('NOME: AZENHAS - VILAR DE MOUTOS<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCD2X<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/Azenhas_PTCD2X.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.88889<br>Longitude: -8.78362').addTo(praias);
 
         // Tejo e Oeste
 
-        const pAldeiaMato = L.marker([39.5454153, -8.2798622]).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://goo.gl/maps/S8h1AQXniNNKcwhQA" target="_blank">Ver mapa</a><br>Latitude: 39.5454153<br>Longitude: -8.2798622').addTo(praias);
+        const pAldeiaMato = L.marker([39.5454153, -8.2798622], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://goo.gl/maps/S8h1AQXniNNKcwhQA" target="_blank">Ver mapa</a><br>Latitude: 39.5454153<br>Longitude: -8.2798622').addTo(praias);
 
         // Map layers
 
