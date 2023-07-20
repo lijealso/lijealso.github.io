@@ -62,7 +62,7 @@
 <body>
 
     <ul>
-        <li><a  href="index.html">Todas as Praias</a></li>
+        <li><a href="index.html">Todas as Praias</a></li>
         <li><a class="active" href="acores.html">Açores</a></li>
         <li><a href="alentejo.html">Alentejo</a></li>
         <li><a href="algarve.html">Algarve</a></li>
@@ -80,14 +80,17 @@
 
         const praias = L.layerGroup();
 
-        const pSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(praias);
+        const pSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude: -27.24806478099635').addTo(praias);
 
+        const pBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(praias);
 
         // Angra do Heroísmo
 
         const angraHeroismo = L.layerGroup();
 
         const cSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(angraHeroismo);
+
+        const cBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(angraHeroismo);
 
         // Map layers
 
@@ -120,7 +123,7 @@
 
         const overlays = {
             'Todas as Praias': praias,
-            'Angra do Heroísmo' : angraHeroismo,
+            'Angra do Heroísmo': angraHeroismo,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
