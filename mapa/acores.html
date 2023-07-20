@@ -62,7 +62,7 @@
 <body>
 
     <ul>
-        <li><a  href="index.html">Todas as Praias</a></li>
+        <li><a href="index.html">Todas as Praias</a></li>
         <li><a class="active" href="acores.html">Açores</a></li>
         <li><a href="alentejo.html">Alentejo</a></li>
         <li><a href="algarve.html">Algarve</a></li>
@@ -71,16 +71,21 @@
     <div id='map'></div>
 
     <script>
-        const cities = L.layerGroup();
-        const mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
-        const mDenver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
-        const mAurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities);
-        const mGolden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
 
-        const parks = L.layerGroup();
-        const crownHill = L.marker([39.75, -105.09]).bindPopup('This is Crown Hill Park.').addTo(parks);
-        const rubyHill = L.marker([39.68, -105.00]).bindPopup('This is Ruby Hill Park.').addTo(parks);
+        // Todas as praias
 
+        const praias = L.layerGroup();
+
+        const pSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(praias);
+
+
+        // Angra do Heroísmo
+
+        const angraHeroismo = L.layerGroup();
+
+        const cSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(angraHeroismo);
+
+        // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
@@ -98,9 +103,9 @@
         });
 
         const map = L.map('map', {
-            center: [39.73, -104.99],
-            zoom: 10,
-            layers: [osm]
+            center: [38.5527067, -28.8185579],
+            zoom: 8,
+            layers: [osm, praias]
         });
 
         const baseLayers = {
@@ -110,17 +115,11 @@
         };
 
         const overlays = {
-            'Cities': cities,
-            'Parks': parks,
+            'Todas as Praias': praias,
+            'Angra do Heroísmo' : angraHeroismo,
         };
 
-        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
-
-
-
-
-
-        // layerControl.addOverlay(parks, 'Parks');
+        const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
     </script>
 
 
