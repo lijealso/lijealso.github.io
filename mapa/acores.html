@@ -201,7 +201,10 @@
 
         const pFurnaSantoAntonio = L.marker([38.535949207425, -28.336266167418493], { icon: marker }).bindPopup('NOME: FURNA DE SANTO ANTÓNIO<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAN3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/UYNHeWpJ514bE1FV7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.535949207425<br>Longitude: -28.336266167418493').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Velas
+
+        const pPocoFrades = L.marker([38.67814744951038, -28.20777973116312], { icon: marker }).bindPopup('NOME: POÇO DOS FRADES<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAK3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/mG6ayPhqqYD6G9R1A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.67814744951038<br>Longitude: -28.20777973116312').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
@@ -343,6 +346,12 @@
 
         const cFurnaSantoAntonio = L.marker([38.535949207425, -28.336266167418493], { icon: marker }).bindPopup('NOME: FURNA DE SANTO ANTÓNIO<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAN3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/UYNHeWpJ514bE1FV7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.535949207425<br>Longitude: -28.336266167418493').addTo(saoRoquePico);
 
+        // Concelho - Velas
+
+        const velas = L.layerGroup();
+
+        const cPocoFrades = L.marker([38.67814744951038, -28.20777973116312], { icon: marker }).bindPopup('NOME: POÇO DOS FRADES<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAK3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/mG6ayPhqqYD6G9R1A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.67814744951038<br>Longitude: -28.20777973116312').addTo(velas);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -388,6 +397,7 @@
             'Santa Cruz da Graciosa': santaCruzGraciosa,
             'Santa Cruz das Flores': santaCruzFlores,
             'São Roque do Pico': saoRoquePico,
+            'Velas': velas,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
