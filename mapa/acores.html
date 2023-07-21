@@ -135,7 +135,10 @@
 
         const pZonaBalnearLajes = L.marker([38.390700843602815, -28.25186168416874], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DAS LAJES<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DO PICO<br>CÓDIGO: PTAD7Q<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/sVyFBEyrEeN26Z987?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.390700843602815<br>Longitude: -28.25186168416874').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Madalena
+
+        const pZonaBalnearMadalena = L.marker([38.53394556939277, -28.530283112326366], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DA MADALENA<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAV7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/JGvZgrdaGLW5WiQt6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.53394556939277<br>Longitude: -28.530283112326366').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
@@ -195,6 +198,12 @@
 
         const cZonaBalnearLajes = L.marker([38.390700843602815, -28.25186168416874], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DAS LAJES<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DO PICO<br>CÓDIGO: PTAD7Q<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/sVyFBEyrEeN26Z987?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.390700843602815<br>Longitude: -28.25186168416874').addTo(lajesPico);
 
+        // Concelho - Madalena
+
+        const madalena = L.layerGroup();
+
+        const cZonaBalnearMadalena = L.marker([38.53394556939277, -28.530283112326366], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DA MADALENA<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAV7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/JGvZgrdaGLW5WiQt6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.53394556939277<br>Longitude: -28.530283112326366').addTo(madalena);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -232,6 +241,7 @@
             'Lagoa': lagoa,
             'Lajes das Flores': lajesFlores,
             'Lajes do Pico': lajesPico,
+            'Madalena': madalena,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
