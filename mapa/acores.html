@@ -76,6 +76,19 @@
 
     <script>
 
+        // Custom marker
+
+        var marker = L.icon({
+            iconUrl: 'marker.png',
+            // shadowUrl: 'leaf-shadow.png',
+
+            iconSize: [38, 48], // size of the icon
+            // shadowSize: [50, 64], // size of the shadow
+            iconAnchor: [22, 47], // point of the icon which will correspond to marker's location
+            // shadowAnchor: [4, 62],  // the same for the shadow
+            // popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
         // Todas as praias
 
         const praias = L.layerGroup();
@@ -97,6 +110,8 @@
         const pConceicao = L.marker([38.54315386675781, -28.61898418710231], { icon: marker }).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(praias);
 
         const pFaja = L.marker([38.61025695572107, -28.757553873910283], { icon: marker }).bindPopup('NOME: FAJÃ<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL9P<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/nAkTwwmN17GAQjDt8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.61025695572107<br>Longitude: -28.757553873910283').addTo(praias);
+
+
 
         // Praias por concelho
 
