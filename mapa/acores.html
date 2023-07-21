@@ -217,9 +217,10 @@
 
         const pFormosa = L.marker([36.95120477805674, -25.097741793740337], { icon: marker }).bindPopup('REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAH7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nbGwTLviibDqvBte9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.95120477805674<br>Longitude: -25.097741793740337').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila Franca do Campo
+
+        const pPrainhaAguaDalto = L.marker([37.71853957929118, -25.48058625626372], { icon: marker }).bindPopup('NOME: PRAINHA DE ÁGUA DE ALTO<br>REGIÃO: AÇORES<br>CONCELHO: VILA FRANCA DO CAMPO<br>CÓDIGO: PTAJ2D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/SukMuiw28XsxujJD8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71853957929118<br>Longitude: -25.48058625626372').addTo(praias);
+
 
         // Praias por concelho
 
@@ -378,6 +379,12 @@
 
         const cFormosa = L.marker([36.95120477805674, -25.097741793740337], { icon: marker }).bindPopup('REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAH7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nbGwTLviibDqvBte9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.95120477805674<br>Longitude: -25.097741793740337').addTo(vilaPorto);
 
+        // Concelho - Vila Franca do Campo
+
+        const vilaFrancaCampo = L.layerGroup();
+
+        const cPrainhaAguaDalto = L.marker([37.71853957929118, -25.48058625626372], { icon: marker }).bindPopup('NOME: PRAINHA DE ÁGUA DE ALTO<br>REGIÃO: AÇORES<br>CONCELHO: VILA FRANCA DO CAMPO<br>CÓDIGO: PTAJ2D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/SukMuiw28XsxujJD8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71853957929118<br>Longitude: -25.48058625626372').addTo(vilaFrancaCampo);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -425,6 +432,7 @@
             'São Roque do Pico': saoRoquePico,
             'Velas': velas,
             'Vila do Porto': vilaPorto,
+            'Vila Franca do Campo': vilaFrancaCampo,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
