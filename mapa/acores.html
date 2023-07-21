@@ -187,6 +187,15 @@
 
         const pMoinhos = L.marker([37.82343952870504, -25.444927651790472], { icon: marker }).bindPopup('NOME: PRAIA DOS MOÍNHOS<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAX8Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/vfS9gWnLW6S6FnA6A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.84051950755295<br>Longitude: -25.448852859725967').addTo(praias);
 
+        // Todas - Santa Cruz da Graciosa
+
+        const pBarroVermelho = L.marker([39.09643858894751, -28.0294798316145], { icon: marker }).bindPopup('NOME: BARRO VERMELHO<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DA GRACIOSA<br>CÓDIGO: PTAN7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pC6jkSyfiBtE5gBa6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.09643858894751<br>Longitude: -28.0294798316145').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
@@ -307,6 +316,12 @@
 
         const cMoinhos = L.marker([37.82343952870504, -25.444927651790472], { icon: marker }).bindPopup('NOME: PRAIA DOS MOÍNHOS<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAX8Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/vfS9gWnLW6S6FnA6A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.84051950755295<br>Longitude: -25.448852859725967').addTo(ribeiraGrande);
 
+        // Concelho - Santa Cruz da Graciosa
+
+        const santaCruzGraciosa = L.layerGroup();
+
+        const cBarroVermelho = L.marker([39.09643858894751, -28.0294798316145], { icon: marker }).bindPopup('NOME: BARRO VERMELHO<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DA GRACIOSA<br>CÓDIGO: PTAN7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pC6jkSyfiBtE5gBa6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.09643858894751<br>Longitude: -28.0294798316145').addTo(santaCruzGraciosa);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -349,6 +364,7 @@
             'Povoação': povoacao,
             'Praia da Vitória': praiaVitoria,
             'Ribeira Grande': ribeiraGrande,
+            'Santa Cruz da Graciosa': santaCruzGraciosa,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
