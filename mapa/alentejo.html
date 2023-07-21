@@ -119,9 +119,14 @@
 
         const pAlbufeiraTapadaGrande = L.marker([37.67195330548636, -7.505474306747064], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA TAPADA GRANDE<br>REGIÃO: ALENTEJO<br>CONCELHO: MÉRTOLA<br>CÓDIGO: PTCQ3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/5QzRxmHJ9eWMSTYr5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.67195330548636<br>Longitude: -7.505474306747064').addTo(praias);
 
+        // Todas - Mourão
+
         const pMourao = L.marker([38.3690489351301, -7.356133982354972], { icon: marker }).bindPopup('NOME: MOURÃO<br>REGIÃO: ALENTEJO<br>CONCELHO: MOURÃO<br>CÓDIGO: PTCJ3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/LXegKEnCbCpTLqVE6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.3690489351301<br>Longitude: -7.356133982354972').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Odemira
+
+        const pAlmograve = L.marker([37.652800368744785, -8.802235054283644], { icon: marker }).bindPopup('NOME: ALMOGRAVE<br>REGIÃO: ALENTEJO<br>CONCELHO: ODEMIRA<br>CÓDIGO: PTCE8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/jibSsgn9j2ZNxJWg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.652800368744785<br>Longitude: -8.802235054283644').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -164,6 +169,12 @@
 
         const cMourao = L.marker([38.3690489351301, -7.356133982354972], { icon: marker }).bindPopup('NOME: MOURÃO<br>REGIÃO: ALENTEJO<br>CONCELHO: MOURÃO<br>CÓDIGO: PTCJ3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/LXegKEnCbCpTLqVE6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.3690489351301<br>Longitude: -7.356133982354972').addTo(mourao);
 
+        // Concelho - Odemira
+
+        const odemira = L.layerGroup();
+
+        const cAlmograve = L.marker([37.652800368744785, -8.802235054283644], { icon: marker }).bindPopup('NOME: ALMOGRAVE<br>REGIÃO: ALENTEJO<br>CONCELHO: ODEMIRA<br>CÓDIGO: PTCE8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/jibSsgn9j2ZNxJWg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.652800368744785<br>Longitude: -8.802235054283644').addTo(odemira);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -198,6 +209,7 @@
             'Grândola': grandola,
             'Mértola': mertola,
             'Mourão': mourao,
+            'Odemira': odemira,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
