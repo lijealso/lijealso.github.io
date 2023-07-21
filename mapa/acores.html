@@ -195,7 +195,10 @@
 
         const pSantaCruzFlores = L.marker([39.460157495125216, -31.125700593867716], { icon: marker }).bindPopup('NOME: SANTA CRUZ DAS FLORES<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DAS FLORES<br>CÓDIGO: PTAP7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/4QZHhUPgn5zXaTHp7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.460157495125216<br>Longitude: -31.125700593867716').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - São Roque do Pico
+
+        const pPiscinasCais = L.marker([38.52483505694489, -28.31718352457893], { icon: marker }).bindPopup('NOME: PISCINAS DO CAIS<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAV2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/84DWmzw4gpqGc3i97?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.52483505694489<br>Longitude: -28.31718352457893').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
@@ -331,6 +334,12 @@
 
         const cSantaCruzFlores = L.marker([39.460157495125216, -31.125700593867716], { icon: marker }).bindPopup('NOME: SANTA CRUZ DAS FLORES<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DAS FLORES<br>CÓDIGO: PTAP7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/4QZHhUPgn5zXaTHp7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.460157495125216<br>Longitude: -31.125700593867716').addTo(santaCruzFlores);
 
+        // Concelho - São Roque do Pico
+
+        const saoRoquePico = L.layerGroup();
+
+        const cPiscinasCais = L.marker([38.52483505694489, -28.31718352457893], { icon: marker }).bindPopup('NOME: PISCINAS DO CAIS<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAV2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/84DWmzw4gpqGc3i97?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.52483505694489<br>Longitude: -28.31718352457893').addTo(saoRoquePico);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -375,6 +384,7 @@
             'Ribeira Grande': ribeiraGrande,
             'Santa Cruz da Graciosa': santaCruzGraciosa,
             'Santa Cruz das Flores': santaCruzFlores,
+            'São Roque do Pico': saoRoquePico,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
