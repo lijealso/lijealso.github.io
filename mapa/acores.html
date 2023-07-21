@@ -121,8 +121,13 @@
 
         const pVaradouro = L.marker([38.56482830224091, -28.774366559087785], { icon: marker }).bindPopup('NOME: VARADOURO<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cFnDe5RhFPxPVGzWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.56482830224091<br>Longitude: -28.774366559087785').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Lagoa
 
+        const pCaloura = L.marker([37.71322518105702, -25.49524285119418], { icon: marker }).bindPopup('NOME: LAGOA<br>REGIÃO: AÇORES<br>CONCELHO: LAGOA<br>CÓDIGO: PTAW9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/r14hZQS4su8eUZv96?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71322518105702<br>Longitude: -25.49524285119418').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
         // Praias por concelho
 
@@ -159,6 +164,12 @@
 
         const cVaradouro = L.marker([38.56482830224091, -28.774366559087785], { icon: marker }).bindPopup('NOME: VARADOURO<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cFnDe5RhFPxPVGzWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.56482830224091<br>Longitude: -28.774366559087785').addTo(horta);
 
+        // Concelho - Lagoa
+
+        const lagoa = L.layerGroup();
+
+        const cCaloura = L.marker([37.71322518105702, -25.49524285119418], { icon: marker }).bindPopup('NOME: LAGOA<br>REGIÃO: AÇORES<br>CONCELHO: LAGOA<br>CÓDIGO: PTAW9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/r14hZQS4su8eUZv96?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71322518105702<br>Longitude: -25.49524285119418').addTo(lagoa);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -193,6 +204,7 @@
             'Angra do Heroísmo': angraHeroismo,
             'Corvo': corvo,
             'Horta': horta,
+            'Lagoa': lagoa,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
