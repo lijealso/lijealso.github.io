@@ -179,7 +179,10 @@
 
         const pZonaBalnearBiscoitos = L.marker([38.803471095440166, -27.256760893332643], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DOS BISCOITOS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAD3Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/K1ST7NFuP9z2KePWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.803471095440166<br>Longitude: -27.256760893332643').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Ribeira Grande
+
+        const pArealSantaBarbara = L.marker([37.81989292400355, -25.54185365767058], { icon: marker }).bindPopup('NOME: AREAL DE SANTA BÁRBARA<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAP8T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rUp5foPZWVmqev7q9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.81989292400355<br>Longitude: -25.54185365767058').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
@@ -291,6 +294,12 @@
         const cSargentos = L.marker([38.72611389815384, -27.060337615586157], { icon: marker }).bindPopup('NOME: SARGENTOS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAF3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1JftqogeLNTkqoF47?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.72611389815384<br>Longitude: -27.060337615586157').addTo(praiaVitoria);
 
         const cZonaBalnearBiscoitos = L.marker([38.803471095440166, -27.256760893332643], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DOS BISCOITOS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAD3Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/K1ST7NFuP9z2KePWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.803471095440166<br>Longitude: -27.256760893332643').addTo(praiaVitoria);
+
+        // Concelho - Ribeira Grande
+
+        const ribeiraGrande = L.layerGroup();
+
+        const cArealSantaBarbara = L.marker([37.81989292400355, -25.54185365767058], { icon: marker }).bindPopup('NOME: AREAL DE SANTA BÁRBARA<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAP8T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rUp5foPZWVmqev7q9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.81989292400355<br>Longitude: -25.54185365767058').addTo(ribeiraGrande);
 
         // Map layers
 
