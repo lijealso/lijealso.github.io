@@ -161,7 +161,10 @@
 
         const pZonaBalnearFornoCal = L.marker([37.744747459593626, -25.640064535695487], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DO FORNO DA CAL<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAJ7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/DxPiih8ZAZsXcUbc6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.744747459593626<br>Longitude: -25.640064535695487').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Povoação
+
+        const pPortinhoFaialTerra = L.marker([37.739608695046584, -25.196597355013502], { icon: marker }).bindPopup('NOME: PORTINHO DO FAIAL DA TERRA<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAL9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/HohskasSdeNvLvjh6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.739608695046584<br>Longitude: -25.196597355013502').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
@@ -250,6 +253,12 @@
 
         const cZonaBalnearFornoCal = L.marker([37.744747459593626, -25.640064535695487], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DO FORNO DA CAL<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAJ7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/DxPiih8ZAZsXcUbc6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.744747459593626<br>Longitude: -25.640064535695487').addTo(pontaDelgada);
 
+        // Concelho - Povoação
+
+        const povoacao = L.layerGroup();
+
+        const cPortinhoFaialTerra = L.marker([37.739608695046584, -25.196597355013502], { icon: marker }).bindPopup('NOME: PORTINHO DO FAIAL DA TERRA<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAL9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/HohskasSdeNvLvjh6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.739608695046584<br>Longitude: -25.196597355013502').addTo(povoacao);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -289,6 +298,7 @@
             'Lajes do Pico': lajesPico,
             'Madalena': madalena,
             'Ponta Delgada': pontaDelgada,
+            'Povoação': povoacao,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
