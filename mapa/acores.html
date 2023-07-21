@@ -113,15 +113,15 @@
 
         const pCorvoAreia = L.marker([39.67314023911659, -31.121677714384088], { icon: marker }).bindPopup('NOME: CORVO/AREIA<br>REGIÃO: AÇORES<br>CONCELHO: CORVO<br>CÓDIGO: PTAE8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/HuH2YDq3bovS3yjG6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.67314023911659<br>Longitude: -31.121677714384088').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
-
         // Todas - Horta
 
         const pConceicao = L.marker([38.54315386675781, -28.61898418710231], { icon: marker }).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(praias);
 
         const pFaja = L.marker([38.61025695572107, -28.757553873910283], { icon: marker }).bindPopup('NOME: FAJÃ<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL9P<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/nAkTwwmN17GAQjDt8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.61025695572107<br>Longitude: -28.757553873910283').addTo(praias);
 
+        const pVaradouro = L.marker([38.56482830224091, -28.774366559087785], { icon: marker }).bindPopup('NOME: VARADOURO<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cFnDe5RhFPxPVGzWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.56482830224091<br>Longitude: -28.774366559087785').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
 
         // Praias por concelho
@@ -157,6 +157,8 @@
 
         const cFaja = L.marker([38.61025695572107, -28.757553873910283], { icon: marker }).bindPopup('NOME: FAJÃ<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL9P<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/nAkTwwmN17GAQjDt8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.61025695572107<br>Longitude: -28.757553873910283').addTo(horta);
 
+        const cVaradouro = L.marker([38.56482830224091, -28.774366559087785], { icon: marker }).bindPopup('NOME: VARADOURO<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cFnDe5RhFPxPVGzWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.56482830224091<br>Longitude: -28.774366559087785').addTo(horta);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -189,8 +191,8 @@
         const overlays = {
             'Todas as Praias': praias,
             'Angra do Heroísmo': angraHeroismo,
-            'Horta': horta,
             'Corvo': corvo,
+            'Horta': horta,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
