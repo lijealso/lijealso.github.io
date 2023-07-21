@@ -169,7 +169,10 @@
 
         const pPraiaFogoRibeiraQuente = L.marker([37.730790187459334, -25.309503559606583], { icon: marker }).bindPopup('NOME: PRAIA DO FOGO (RIBEIRA QUENTE)<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAW9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/qf5ixYvr6cne1Sbw9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.730790187459334<br>Longitude: -25.309503559606583').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // Todas - Praia da Vitória
+
+        const pEscaleiras = L.marker([38.78731327965273, -27.135223527923735], { icon: marker }).bindPopup('NOME: ESCALEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAN3F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/EnoXfXPJJEBmnDjb6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.78731327965273<br>Longitude: -27.135223527923735').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
@@ -269,6 +272,12 @@
 
         const cPraiaFogoRibeiraQuente = L.marker([37.730790187459334, -25.309503559606583], { icon: marker }).bindPopup('NOME: PRAIA DO FOGO (RIBEIRA QUENTE)<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAW9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/qf5ixYvr6cne1Sbw9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.730790187459334<br>Longitude: -25.309503559606583').addTo(povoacao);
 
+        // Concelho - Praia da Vitória
+
+        const praiaVitoria = L.layerGroup();
+
+        const cEscaleiras = L.marker([38.78731327965273, -27.135223527923735], { icon: marker }).bindPopup('NOME: ESCALEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAN3F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/EnoXfXPJJEBmnDjb6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.78731327965273<br>Longitude: -27.135223527923735').addTo(praiaVitoria);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -309,6 +318,7 @@
             'Madalena': madalena,
             'Ponta Delgada': pontaDelgada,
             'Povoação': povoacao,
+            'Praia da Vitória': praiaVitoria,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
