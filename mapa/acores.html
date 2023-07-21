@@ -80,15 +80,27 @@
 
         const praias = L.layerGroup();
 
+        // Todas - Angra do Heroísmo
+
         const pSilveira = L.marker([38.66513881677929, -27.24806478099635]).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude: -27.24806478099635').addTo(praias);
 
         const pBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(praias);
+
+        const pCincoRibeiras = L.marker(38.675656774657284, [-27.32861930173352], { icon: marker }).bindPopup('NOME: CINCO RIBEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAE8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/uCc1QS5ViMwgqPXR7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.675656774657284<br>Longitude: -27.32861930173352').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+
+        // Todas - Horta
 
         const pConceicao = L.marker([38.54315386675781, -28.61898418710231]).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(praias);
 
         const pFaja = L.marker([38.61025695572107, -28.757553873910283]).bindPopup('NOME: FAJÃ<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL9P<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/nAkTwwmN17GAQjDt8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.61025695572107<br>Longitude: -28.757553873910283').addTo(praias);
 
-        // Angra do Heroísmo
+        // Praias por concelho
+
+        // Concelho - Angra do Heroísmo
 
         const angraHeroismo = L.layerGroup();
 
@@ -96,7 +108,9 @@
 
         const cBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448]).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(angraHeroismo);
 
-        // Horta
+        const cCincoRibeiras = L.marker([], { icon: marker }).bindPopup('NOME: CINCO RIBEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAE8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/uCc1QS5ViMwgqPXR7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.675656774657284<br>Longitude:  -27.32861930173352').addTo(angraHeroismo);
+
+        // Concelho - Horta
 
         const horta = L.layerGroup();
 
