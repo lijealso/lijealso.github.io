@@ -207,6 +207,14 @@
 
         const pPreguicaVelas = L.marker([38.68063755067965, -28.212904916351867], { icon: marker }).bindPopup('NOME: PREGUIÇA-VELAS<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAH7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1E4nF9KwrrD8ob6bA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.68063755067965<br>Longitude: -28.212904916351867').addTo(praias);
 
+        // Todas - Vila do Porto
+
+        const pAnjos = L.marker([37.0052248144106, -25.15767155131824], { icon: marker }).bindPopup('NOME: ANJOS<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAX8L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/RxfJptMcX5dFRFSUA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.0052248144106<br>Longitude: -25.15767155131824').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
@@ -355,6 +363,12 @@
 
         const cPreguicaVelas = L.marker([38.68063755067965, -28.212904916351867], { icon: marker }).bindPopup('NOME: PREGUIÇA-VELAS<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAH7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1E4nF9KwrrD8ob6bA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.68063755067965<br>Longitude: -28.212904916351867').addTo(velas);
 
+        // Concelho - Vila do Porto
+
+        const vilaPorto = L.LayerGroup();
+
+        const cAnjos = L.marker([37.0052248144106, -25.15767155131824], { icon: marker }).bindPopup('NOME: ANJOS<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAX8L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/RxfJptMcX5dFRFSUA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.0052248144106<br>Longitude: -25.15767155131824').addTo(vilaPorto);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -401,6 +415,7 @@
             'Santa Cruz das Flores': santaCruzFlores,
             'São Roque do Pico': saoRoquePico,
             'Velas': velas,
+            'Vila do Porto': vilaPorto,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
