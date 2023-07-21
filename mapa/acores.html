@@ -131,6 +131,13 @@
 
         const pFajaGrande = L.marker([39.459338830570616, -31.26234367394488], { icon: marker }).bindPopup('NOME: FAJÃ GRANDE<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DAS FLORES<br>CÓDIGO: PTAJ9Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/scC461RLUB1G51Pa7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.47023472204438<br>Longitude: -31.2629907150117').addTo(praias);
 
+        // Todas - Lajes do Pico
+
+        const pZonaBalnearLajes = L.marker([38.390700843602815, -28.25186168416874], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DAS LAJES<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DO PICO<br>CÓDIGO: PTAD7Q<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/sVyFBEyrEeN26Z987?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.390700843602815<br>Longitude: -28.25186168416874').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo();
 
         // Praias por concelho
@@ -182,6 +189,12 @@
 
         const cFajaGrande = L.marker([39.459338830570616, -31.26234367394488], { icon: marker }).bindPopup('NOME: FAJÃ GRANDE<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DAS FLORES<br>CÓDIGO: PTAJ9Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/scC461RLUB1G51Pa7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.47023472204438<br>Longitude: -31.2629907150117').addTo(lajesFlores);
 
+        // Concelho - Lajes do Pico
+
+        const lajesPico = L.layerGroup();
+
+        const cZonaBalnearLajes = L.marker([38.390700843602815, -28.25186168416874], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DAS LAJES<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DO PICO<br>CÓDIGO: PTAD7Q<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/sVyFBEyrEeN26Z987?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.390700843602815<br>Longitude: -28.25186168416874').addTo(lajesPico);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -218,6 +231,7 @@
             'Horta': horta,
             'Lagoa': lagoa,
             'Lajes das Flores': lajesFlores,
+            'Lajes do Pico': lajesPico,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
