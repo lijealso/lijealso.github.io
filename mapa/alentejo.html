@@ -115,7 +115,10 @@
 
         const pTroiaMar = L.marker([38.487514943867374, -8.907483647251585], { icon: marker }).bindPopup('NOME: TRÓIA-MAR<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCU9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/MmriWhPrV26fuzc4A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.487514943867374<br>Longitude: -8.907483647251585').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Mértola
+
+        const pAlbufeiraTapadaGrande = L.marker([37.67195330548636, -7.505474306747064], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA TAPADA GRANDE<br>REGIÃO: ALENTEJO<br>CONCELHO: MÉRTOLA<br>CÓDIGO: PTCQ3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/5QzRxmHJ9eWMSTYr5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.67195330548636<br>Longitude: -7.505474306747064').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -147,6 +150,12 @@
         const cTroiaGale = L.marker([38.48145289463018, -8.901878256983066], { icon: marker }).bindPopup('NOME: TRÓIA-GALÉ<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCP3E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cAxo3ZEMqBAP9G6H7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.48145289463018<br>Longitude: -8.901878256983066').addTo(grandola);
 
         const cTroiaMar = L.marker([38.487514943867374, -8.907483647251585], { icon: marker }).bindPopup('NOME: TRÓIA-MAR<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCU9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/MmriWhPrV26fuzc4A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.487514943867374<br>Longitude: -8.907483647251585').addTo(grandola);
+
+        // Concelho - Mértola
+
+        const mertola = L.layerGroup();
+
+        const cAlbufeiraTapadaGrande = L.marker([37.67195330548636, -7.505474306747064], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA TAPADA GRANDE<br>REGIÃO: ALENTEJO<br>CONCELHO: MÉRTOLA<br>CÓDIGO: PTCQ3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/5QzRxmHJ9eWMSTYr5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.67195330548636<br>Longitude: -7.505474306747064').addTo(mertola);
 
         // Map layers
 
@@ -180,6 +189,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Grândola': grandola,
+            'Mértola': mertola,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
