@@ -93,9 +93,10 @@
 
         const praias = L.layerGroup();
 
-        // Todas - Angra do Heroísmo
+        // Todas - Grândola
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        const pAbertaNova = L.marker([38.13342490039907, -8.79002050035875], { icon: marker }).bindPopup('NOME: ABERTA NOVA<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCK8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nvmWox8ei5tY4nyd9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.13342490039907<br>Longitude: -8.79002050035875').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -103,7 +104,11 @@
 
         // Praias por concelho
 
-        // Concelho - Angra do Heroísmo
+        // Concelho - Grândola
+
+        const grandola = L.layerGroup();
+
+        const cAbertaNova = L.marker([38.13342490039907, -8.79002050035875], { icon: marker }).bindPopup('NOME: ABERTA NOVA<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCK8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nvmWox8ei5tY4nyd9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.13342490039907<br>Longitude: -8.79002050035875').addTo(grandola);
 
         // Map layers
 
@@ -136,6 +141,7 @@
 
         const overlays = {
             'Todas as Praias': praias,
+            'Grândola': grandola,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
