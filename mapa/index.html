@@ -79,46 +79,147 @@
         // Custom marker
 
         var marker = L.icon({
-                iconUrl: 'marker.png',
-               // shadowUrl: 'leaf-shadow.png',
+            iconUrl: 'marker.png',
+            // shadowUrl: 'leaf-shadow.png',
 
-               iconSize: [38, 48], // size of the icon
-               // shadowSize: [50, 64], // size of the shadow
-               iconAnchor: [22, 47], // point of the icon which will correspond to marker's location
-               // shadowAnchor: [4, 62],  // the same for the shadow
-               // popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-            });
+            iconSize: [38, 48], // size of the icon
+            // shadowSize: [50, 64], // size of the shadow
+            iconAnchor: [22, 47], // point of the icon which will correspond to marker's location
+            // shadowAnchor: [4, 62],  // the same for the shadow
+            // popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
 
-        // PRAIAS
+        // Todas as praias - Açores
 
         const praias = L.layerGroup();
 
-        // Açores
-        const pSilveira = L.marker([38.65606852372489, -27.235503524711802], { icon: marker }).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude:  -27.24806478099635').addTo(praias);
+        // Todas - Angra do Heroísmo
 
-        // Alentejo
+        // TODO: fix lat & long
+        const pSilveira = L.marker([38.66513881677929, -27.24806478099635], { icon: marker }).bindPopup('NOME: SILVEIRA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAL7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gnDnWVsvGCE1udxg8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.66513881677929<br>Longitude: -27.24806478099635').addTo(praias);
 
-        const pAbertaNova = L.marker([38.13342490039907, -8.79002050035875], { icon: marker }).bindPopup('NOME: ABERTA NOVA<br>REGIÃO: ALENTEJO<br>CONCELHO: GRÂNDOLA<br>CÓDIGO: PTCK8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nvmWox8ei5tY4nyd9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.13342490039907<br>Longitude: -8.79002050035875').addTo(praias);
+        const pBaiaRefugo = L.marker([38.64703681389117, -27.112867167367448], { icon: marker }).bindPopup('NOME: BAÍA DO REFUGO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9F<br> CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/R3TsukKGLHbRhvpe8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64703681389117<br>Longitude: -27.112867167367448').addTo(praias);
 
-        // Algarve
+        const pCincoRibeiras = L.marker([38.675656774657284, -27.32861930173352], { icon: marker }).bindPopup('NOME: CINCO RIBEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAE8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/uCc1QS5ViMwgqPXR7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.675656774657284<br>Longitude: -27.32861930173352').addTo(praias);
 
-        const pZavial = L.marker([37.04558180593652, -8.86786248151883], { icon: marker }).bindPopup('NOME: ZAVIAL<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCN2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/5fk9uhCauGjbezMN9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04558180593652<br>Longitude: -8.86786248151883').addTo(praias);
+        const pNegrito = L.marker([38.65558406033739, -27.281854840513727], { icon: marker }).bindPopup('NOME: NEGRITO<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAQ3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/iqeQ469FesRqXPmg7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.65558406033739<br>Longitude: -27.281854840513727').addTo(praias);
+
+        const pSalga = L.marker([38.64861285106249, -27.096643097509894], { icon: marker }).bindPopup('NOME: SALGA<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAQ3D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ALV91GvopHwZeBvY6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.64861285106249<br>Longitude: -27.096643097509894').addTo(praias);
 
 
-        // Centro
+        const pSalgueiros = L.marker([38.67156447970148, -27.074762857382503], { icon: marker }).bindPopup('NOME: SALGUEIROS<br>REGIÃO: AÇORES<br>CONCELHO: ANGRA DO HEROÍSMO<br>CÓDIGO: PTAN9L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/tCk6o5fwwxXims679?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.67288111553154<br>Longitude: -27.07456718961866').addTo(praias);
 
-        const pPenedaCascalheiraSecarias = L.marker([40.249167769468215, -8.036070159051558], { icon: marker }).bindPopup('NOME: PENEDA CASCALHEIRA-SECARIAS<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCQ8C<br> CATEGORIA: INTERIOR <br> Referência: <a href="https://goo.gl/maps/Ap9y284y4XbVrq4z7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.249167769468215<br>Longitude: -8.036070159051558').addTo(praias);
+        // Todas - Corvo
 
-        // Madeira
-        const pSerraAgua = L.marker([32.71647508770341, -17.168424549065723], { icon: marker } ).bindPopup('NOME: PRAIA DA SERRA DE ÁGUA<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMK3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1OxNv_VGrJH5Gi2eJVw09KUllQFSflSNe/view" target="_blank">Ver ficheiro</a> <br>Latitude: 32.67941<br>Longitude: -17,16879').addTo(praias);
+        const pCorvoAreia = L.marker([39.67314023911659, -31.121677714384088], { icon: marker }).bindPopup('NOME: CORVO/AREIA<br>REGIÃO: AÇORES<br>CONCELHO: CORVO<br>CÓDIGO: PTAE8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/HuH2YDq3bovS3yjG6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.67314023911659<br>Longitude: -31.121677714384088').addTo(praias);
 
-        // Norte
+        // Todas - Horta
 
-        const pAzenhasVilarMouros = L.marker([41.88889, -8.78362], { icon: marker }).bindPopup('NOME: AZENHAS - VILAR DE MOUTOS<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCD2X<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/Azenhas_PTCD2X.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.88889<br>Longitude: -8.78362').addTo(praias);
+        const pConceicao = L.marker([38.54315386675781, -28.61898418710231], { icon: marker }).bindPopup('NOME: CONCEIÇÃO<br>REGIÃO: AÇORES<br> CONCELHO: HORTA <br>CÓDIGO: PTAV9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Fj3WMPHZB3qCDSudA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54315386675781<br>Longitude: -28.61898418710231').addTo(praias);
 
-        // Tejo e Oeste
+        const pFaja = L.marker([38.61025695572107, -28.757553873910283], { icon: marker }).bindPopup('NOME: FAJÃ<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL9P<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/nAkTwwmN17GAQjDt8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.61025695572107<br>Longitude: -28.757553873910283').addTo(praias);
 
-        const pAldeiaMato = L.marker([39.5454153, -8.2798622], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br> Referência: <a href="https://goo.gl/maps/S8h1AQXniNNKcwhQA" target="_blank">Ver mapa</a><br>Latitude: 39.5454153<br>Longitude: -8.2798622').addTo(praias);
+        const pVaradouro = L.marker([38.56482830224091, -28.774366559087785], { icon: marker }).bindPopup('NOME: VARADOURO<br>REGIÃO: AÇORES<br>CONCELHO: HORTA<br>CÓDIGO: PTAL2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cFnDe5RhFPxPVGzWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.56482830224091<br>Longitude: -28.774366559087785').addTo(praias);
+
+        // Todas - Lagoa
+
+        const pCaloura = L.marker([37.71322518105702, -25.49524285119418], { icon: marker }).bindPopup('NOME: CALOURA<br>REGIÃO: AÇORES<br>CONCELHO: LAGOA<br>CÓDIGO: PTAW9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/r14hZQS4su8eUZv96?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71322518105702<br>Longitude: -25.49524285119418').addTo(praias);
+
+        const pZonaBalnearLagoa = L.marker([37.74180871092974, -25.574451653389644], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DA LAGOA<br>REGIÃO: AÇORES<br>CONCELHO: LAGOA<br>CÓDIGO: PTAN2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/zvjS7nqdQAtQuA9u7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.74180871092974<br>Longitude: -25.574451653389644').addTo(praias);
+
+        // Todas - Lajes das Flores
+
+        const pFajaGrande = L.marker([39.459338830570616, -31.26234367394488], { icon: marker }).bindPopup('NOME: FAJÃ GRANDE<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DAS FLORES<br>CÓDIGO: PTAJ9Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/scC461RLUB1G51Pa7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.47023472204438<br>Longitude: -31.2629907150117').addTo(praias);
+
+        // Todas - Lajes do Pico
+
+        const pZonaBalnearLajes = L.marker([38.390700843602815, -28.25186168416874], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DAS LAJES<br>REGIÃO: AÇORES<br>CONCELHO: LAJES DO PICO<br>CÓDIGO: PTAD7Q<br>CATEGORIA: COSTEIRA<br> Referência: <a href="https://goo.gl/maps/sVyFBEyrEeN26Z987?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.390700843602815<br>Longitude: -28.25186168416874').addTo(praias);
+
+        // Todas - Madalena
+
+        const pZonaBalnearMadalena = L.marker([38.53394556939277, -28.530283112326366], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DA MADALENA<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAV7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/JGvZgrdaGLW5WiQt6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.53394556939277<br>Longitude: -28.530283112326366').addTo(praias);
+
+        const pBaixas = L.marker([38.41890686166473, -28.385368822631566], { icon: marker }).bindPopup('NOME: BAIXAS<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAJ2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/q3npWNVwxhEmExYBA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.41890686166473<br>Longitude: -28.385368822631566').addTo(praias);
+
+        const pBarca = L.marker([38.54336359475422, -28.520654823801404], { icon: marker }).bindPopup('NOME: BARCA<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAJ3X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/CiTqMtfb23DpEvsM8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.54336359475422,<br>Longitude: -28.520654823801404').addTo(praias);
+
+        const pCaisMourato = L.marker([38.55853505235262, -28.480734461525053], { icon: marker }).bindPopup('NOME: CAIS MOURATO<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAX7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/AxorFoHEBnr2EX687?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.55853505235262<br>Longitude: -28.480734461525053').addTo(praias);
+
+        const pCriacaoVelha = L.marker([38.50518059065045, -28.541278729222533], { icon: marker }).bindPopup('NOME: CRIAÇÃO VELHA<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAQ8U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/kbegubyjR9rbcoZq9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.50518059065045<br>Longitude: -28.541278729222533').addTo(praias);
+
+        const pPocinho = L.marker([38.49570275866797, -28.538975601446186], { icon: marker }).bindPopup('NOME: POCINHO<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAV2D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/XMknuRmrLYLZSsSEA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.49570275866797<br>Longitude: -28.538975601446186').addTo(praias);
+
+        const pSaoMateus = L.marker([38.431012854627596, -28.460384487434176], { icon: marker }).bindPopup('NOME: SÃO MATEUS<br>REGIÃO: AÇORES<br>CONCELHO: MADALENA<br>CÓDIGO: PTAT2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nf7pKZcvvncV1juq9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.431012854627596<br>Longitude: -28.460384487434176').addTo(praias);
+
+        // Todas - Ponta Delgada
+
+        const pPortasMar = L.marker([37.739957746504096, -25.66128846980793], { icon: marker }).bindPopup('NOME: PISCINA NATURAL DAS PORTAS DO MAR<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAD2T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/hsWg4kT8eYRuPX9u6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.739957746504096<br>Longitude: -25.66128846980793').addTo(praias);
+
+        const pPocosSaoVicenteFerreira = L.marker([37.83474514516133, -25.669518181301225], { icon: marker }).bindPopup('NOME: POÇOS S. VICENTE FERREIRA<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAJ3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ipCDbQxv9j8dsL7F9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.83474514516133<br>Longitude: -25.669518181301225').addTo(praias);
+
+        const pPopulo = L.marker([37.75062230554068, -25.618182561270423], { icon: marker }).bindPopup('NOME: PÓPULO<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAL8M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rhjMb1ubkz6NtWJx7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.75062230554068<br>Longitude: -25.618182561270423').addTo(praias);
+
+        const pZonaBalnearFornoCal = L.marker([37.744747459593626, -25.640064535695487], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DO FORNO DA CAL<br>REGIÃO: AÇORES<br>CONCELHO: PONTA DELGADA<br>CÓDIGO: PTAJ7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/DxPiih8ZAZsXcUbc6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.744747459593626<br>Longitude: -25.640064535695487').addTo(praias);
+
+        // Todas - Povoação
+
+        const pPortinhoFaialTerra = L.marker([37.739608695046584, -25.196597355013502], { icon: marker }).bindPopup('NOME: PORTINHO DO FAIAL DA TERRA<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAL9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/HohskasSdeNvLvjh6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.739608695046584<br>Longitude: -25.196597355013502').addTo(praias);
+
+        const pMorro = L.marker([37.74603941126812, -25.24332780846087], { icon: marker }).bindPopup('NOME: MORRO<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAV9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/JML1wRGT8xA66skQA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.74622312332544<br>Longitude: -25.24334782213977').addTo(praias);
+
+        const pPraiaFogoRibeiraQuente = L.marker([37.730790187459334, -25.309503559606583], { icon: marker }).bindPopup('NOME: PRAIA DO FOGO (RIBEIRA QUENTE)<br>REGIÃO: AÇORES<br>CONCELHO: POVOAÇÃO<br>CÓDIGO: PTAW9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/qf5ixYvr6cne1Sbw9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.730790187459334<br>Longitude: -25.309503559606583').addTo(praias);
+
+        // Todas - Praia da Vitória
+
+        const pEscaleiras = L.marker([38.78731327965273, -27.135223527923735], { icon: marker }).bindPopup('NOME: ESCALEIRAS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAN3F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/EnoXfXPJJEBmnDjb6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.78731327965273<br>Longitude: -27.135223527923735').addTo(praias);
+
+        const pPortoMartins = L.marker([38.68061351921628, -27.055080114151615], { icon: marker }).bindPopup('NOME: PORTO MARTINS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAD9H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ET8R8W5K9nRoSFgh9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.68061351921628<br>Longitude: -27.055080114151615').addTo(praias);
+
+        const pSargentos = L.marker([38.72611389815384, -27.060337615586157], { icon: marker }).bindPopup('NOME: SARGENTOS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAF3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1JftqogeLNTkqoF47?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.72611389815384<br>Longitude: -27.060337615586157').addTo(praias);
+
+        const pZonaBalnearBiscoitos = L.marker([38.803471095440166, -27.256760893332643], { icon: marker }).bindPopup('NOME: ZONA BALNEAR DOS BISCOITOS<br>REGIÃO: AÇORES<br>CONCELHO: PRAIA DA VITÓRIA<br>CÓDIGO: PTAD3Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/K1ST7NFuP9z2KePWA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.803471095440166<br>Longitude: -27.256760893332643').addTo(praias);
+
+        // Todas - Ribeira Grande
+
+        const pArealSantaBarbara = L.marker([37.81989292400355, -25.54185365767058], { icon: marker }).bindPopup('NOME: AREAL DE SANTA BÁRBARA<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAP8T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rUp5foPZWVmqev7q9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.81989292400355<br>Longitude: -25.54185365767058').addTo(praias);
+
+        const pCalhetas = L.marker([37.82439553447424, -25.606824185264685], { icon: marker }).bindPopup('NOME: CALHETAS<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAN3M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pNM7U5p4tdnx5Wgq5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.82439553447424<br>Longitude: -25.606824185264685').addTo(praias);
+
+        const pMoinhos = L.marker([37.82343952870504, -25.444927651790472], { icon: marker }).bindPopup('NOME: PRAIA DOS MOÍNHOS<br>REGIÃO: AÇORES<br>CONCELHO: RIBEIRA GRANDE<br>CÓDIGO: PTAX8Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/vfS9gWnLW6S6FnA6A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.84051950755295<br>Longitude: -25.448852859725967').addTo(praias);
+
+        // Todas - Santa Cruz da Graciosa
+
+        const pBarroVermelho = L.marker([39.09643858894751, -28.0294798316145], { icon: marker }).bindPopup('NOME: BARRO VERMELHO<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DA GRACIOSA<br>CÓDIGO: PTAN7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pC6jkSyfiBtE5gBa6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.09643858894751<br>Longitude: -28.0294798316145').addTo(praias);
+
+        // Todas - Santa Cruz das Flores
+
+        const pSantaCruzFlores = L.marker([39.460157495125216, -31.125700593867716], { icon: marker }).bindPopup('NOME: SANTA CRUZ DAS FLORES<br>REGIÃO: AÇORES<br>CONCELHO: SANTA CRUZ DAS FLORES<br>CÓDIGO: PTAP7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/4QZHhUPgn5zXaTHp7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.460157495125216<br>Longitude: -31.125700593867716').addTo(praias);
+
+        // Todas - São Roque do Pico
+
+        const pPiscinasCais = L.marker([38.52483505694489, -28.31718352457893], { icon: marker }).bindPopup('NOME: PISCINAS DO CAIS<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAV2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/84DWmzw4gpqGc3i97?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.52483505694489<br>Longitude: -28.31718352457893').addTo(praias);
+
+        const pFurnaSantoAntonio = L.marker([38.535949207425, -28.336266167418493], { icon: marker }).bindPopup('NOME: FURNA DE SANTO ANTÓNIO<br>REGIÃO: AÇORES<br>CONCELHO: SÃO ROQUE DO PICO<br>CÓDIGO: PTAN3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/UYNHeWpJ514bE1FV7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.535949207425<br>Longitude: -28.336266167418493').addTo(praias);
+
+        // Todas - Velas
+
+        const pPocoFrades = L.marker([38.67814744951038, -28.20777973116312], { icon: marker }).bindPopup('NOME: POÇO DOS FRADES<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAK3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/mG6ayPhqqYD6G9R1A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.67814744951038<br>Longitude: -28.20777973116312').addTo(praias);
+
+        const pPreguicaVelas = L.marker([38.68063755067965, -28.212904916351867], { icon: marker }).bindPopup('NOME: PREGUIÇA-VELAS<br>REGIÃO: AÇORES<br>CONCELHO: VELAS<br>CÓDIGO: PTAH7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1E4nF9KwrrD8ob6bA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.68063755067965<br>Longitude: -28.212904916351867').addTo(praias);
+
+        // Todas - Vila do Porto
+
+        const pAnjos = L.marker([37.0052248144106, -25.15767155131824], { icon: marker }).bindPopup('NOME: ANJOS<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAX8L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/RxfJptMcX5dFRFSUA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.0052248144106<br>Longitude: -25.15767155131824').addTo(praias);
+
+        const pMaia = L.marker([36.93980050634198, -25.013531587819227], { icon: marker }).bindPopup('NOME: MAIA<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAX3E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/vL4kFGQqgV56Yev78?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.93980050634198<br>Longitude: -25.013531587819227').addTo(praias);
+
+        const pSaoLourenco = L.marker([36.98973252128421, -25.054833911202763], { icon: marker }).bindPopup('NOME: SÃO LOURENÇO<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAU9N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ThuJYFWWNzJjVa4E7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.98973252128421<br>Longitude: -25.054833911202763').addTo(praias);
+
+        const pFormosa = L.marker([36.95120477805674, -25.097741793740337], { icon: marker }).bindPopup('REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAH7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nbGwTLviibDqvBte9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.95120477805674<br>Longitude: -25.097741793740337').addTo(praias);
+
+        // Todas - Vila Franca do Campo
+
+        const pPrainhaAguaDalto = L.marker([37.71853957929118, -25.48058625626372], { icon: marker }).bindPopup('NOME: PRAINHA DE ÁGUA DE ALTO<br>REGIÃO: AÇORES<br>CONCELHO: VILA FRANCA DO CAMPO<br>CÓDIGO: PTAJ2D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/SukMuiw28XsxujJD8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.71853957929118<br>Longitude: -25.48058625626372').addTo(praias);
 
         // Map layers
 
