@@ -176,7 +176,10 @@
 
         const pIlhaFarolMar = L.marker([36.9743760279018, -7.863600962659443], { icon: marker }).bindPopup('NOME: ILHA DO FAROL-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: FARO<br>CÓDIGO: PTCV8W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/AWYdozdwNtoKSek8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.9743760279018<br>Longitude: -7.863600962659443').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Lagoa
+
+        const pCarvoeiro = L.marker([37.09627932365885, -8.471878044955561], { icon: marker }).bindPopup('NOME: CARVOEIRO<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOA<br>CÓDIGO: PTCF9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gP22exfWLL87Fd5W8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.09627932365885<br>Longitude: -8.471878044955561').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -279,6 +282,12 @@
 
         const cIlhaFarolMar = L.marker([36.9743760279018, -7.863600962659443], { icon: marker }).bindPopup('NOME: ILHA DO FAROL-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: FARO<br>CÓDIGO: PTCV8W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/AWYdozdwNtoKSek8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.9743760279018<br>Longitude: -7.863600962659443').addTo(faro);
 
+        // Concelho - Lagoa
+
+        const lagoa = L.layerGroup();
+
+        const cCarvoeiro = L.marker([37.09627932365885, -8.471878044955561], { icon: marker }).bindPopup('NOME: CARVOEIRO<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOA<br>CÓDIGO: PTCF9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gP22exfWLL87Fd5W8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.09627932365885<br>Longitude: -8.471878044955561').addTo(lagoa);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -314,6 +323,7 @@
             'Aljezur': aljezur,
             'Castro Marim': castroMarim,
             'Faro': faro,
+            'Lagoa': lagoa,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
