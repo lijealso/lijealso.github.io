@@ -140,7 +140,10 @@
 
         const pSantaEulalia = L.marker([37.088564028004306, -8.214654964449585], { icon: marker }).bindPopup('NOME: SANTA EULÁLIA<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCT8C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/wwhvFhAtJWcFg8jo8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.088564028004306<br>Longitude: -8.214654964449585').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Aljezur
+
+        const pAmado = L.marker([37.17035047532638, -8.90351660911142], { icon: marker }).bindPopup('NOME: AMADO<br>REGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCL3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/aSKmYnUERSnTu6nF9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.17035047532638<br>Longitude: -8.90351660911142').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -194,6 +197,12 @@
 
         const cSantaEulalia = L.marker([37.088564028004306, -8.214654964449585], { icon: marker }).bindPopup('NOME: SANTA EULÁLIA<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCT8C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/wwhvFhAtJWcFg8jo8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.088564028004306<br>Longitude: -8.214654964449585').addTo(albufeira);
 
+        // Concelho - Aljezur
+
+        const aljezur = L.layerGroup();
+
+        const cAmado = L.marker([37.17035047532638, -8.90351660911142], { icon: marker }).bindPopup('NOME: AMADO<br>REGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCL3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/aSKmYnUERSnTu6nF9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.17035047532638<br>Longitude: -8.90351660911142').addTo(aljezur);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -226,6 +235,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Albufeira': albufeira,
+            'Aljezur': aljezur,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
