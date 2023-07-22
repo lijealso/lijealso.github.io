@@ -158,7 +158,10 @@
 
         const pValeFigueiras = L.marker([37.2480260587978, -8.868777627465354], { icon: marker }).bindPopup('NOME: VALE FIGUEIRAS<br>REGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCN8U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rB5cd2RJXeauKJxX6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.2480260587978<br>Longitude: -8.868777627465354').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Castro Marim
+
+        const pAlagoaAltura = L.marker([37.170045587513286, -7.497915272798802], { icon: marker }).bindPopup('NOME: ALAGOA-ALTURA<br>REGIÃO: ALGARVE<br>CONCELHO: CASTRO MARIM<br>CÓDIGO: PTCF9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/27QyRxkp3g3FJfWD9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.170045587513286<br>Longitude: -7.497915272798802').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -236,6 +239,12 @@
 
         const cValeFigueiras = L.marker([37.2480260587978, -8.868777627465354], { icon: marker }).bindPopup('NOME: VALE FIGUEIRAS<br>REGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCN8U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rB5cd2RJXeauKJxX6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.2480260587978<br>Longitude: -8.868777627465354').addTo(aljezur);
 
+        // Concelho - Castro Marim
+
+        const castroMarim = L.layerGroup();
+
+        const cAlagoaAltura = L.marker([37.170045587513286, -7.497915272798802], { icon: marker }).bindPopup('NOME: ALAGOA-ALTURA<br>REGIÃO: ALGARVE<br>CONCELHO: CASTRO MARIM<br>CÓDIGO: PTCF9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/27QyRxkp3g3FJfWD9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.170045587513286<br>Longitude: -7.497915272798802').addTo(castroMarim);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -269,6 +278,7 @@
             'Todas as Praias': praias,
             'Albufeira': albufeira,
             'Aljezur': aljezur,
+            'Castro Marim': castroMarim,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
