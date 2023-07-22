@@ -3338,8 +3338,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>ODECEIXE-MAR</name>
-        <description><![CDATA[REGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCU9K<br>CATEGORIA: COSTEIRA<br>Referência: https://goo.gl/maps/1b9hu1f3AxS8E4YN9?coh=178573&entry=tt<br>Latitude: 37.44212555210594<br>Longitude: -8.797403422341516]]></description>
+        <name>ODREGIÃO: ALGARVE<br>CONCELHO: ALJEZUR<br>CÓDIGO: PTCU9K<br>CATEGORIA: COSTEIRA<br>Referência: https://goo.gl/maps/1b9hu1f3AxS8E4YN9?coh=178573&entry=tt<br>Latitude: 37.44212555210594<br>Longitude: -8.797403422341516ECEIXE-MAR</name>
+        <description><![CDATA[]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <ExtendedData>
           <Data name="REGIÃO">
