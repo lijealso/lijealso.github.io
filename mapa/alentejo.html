@@ -155,6 +155,12 @@
 
         const pPortinhoArrabida = L.marker([38.48019460850856, -8.978559133667568], { icon: marker }).bindPopup('NOME: PORTINHO DA ARRÁBIDA<br>REGIÃO: ALENTEJO<br>CONCELHO: SETÚBAL<br>CÓDIGO: PTCW2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/P7fqpYfmVvKpikYT9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.48019460850856<br>Longitude: -8.978559133667568').addTo(praias);
 
+        // Todas - Sines
+
+        const pGrandePortocovo = L.marker([37.85735778817762, -8.793698618240214], { icon: marker }).bindPopup('NOME: GRANDE DE PORTO COVO<br>REGIÃO: ALENTEJO<br>CONCELHO: SINES<br>CÓDIGO: PTCD9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/bPeF1q6kzdj4wnbx9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.85735778817762<br>Longitude: -8.793698618240214').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -235,6 +241,12 @@
 
         const cPortinhoArrabida = L.marker([38.48019460850856, -8.978559133667568], { icon: marker }).bindPopup('NOME: PORTINHO DA ARRÁBIDA<br>REGIÃO: ALENTEJO<br>CONCELHO: SETÚBAL<br>CÓDIGO: PTCW2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/P7fqpYfmVvKpikYT9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.48019460850856<br>Longitude: -8.978559133667568').addTo(setubal);
 
+        // Concelho - Sines
+
+        const sines = L.layerGroup();
+
+        const cGrandePortocovo = L.marker([37.85735778817762, -8.793698618240214], { icon: marker }).bindPopup('NOME: GRANDE DE PORTO COVO<br>REGIÃO: ALENTEJO<br>CONCELHO: SINES<br>CÓDIGO: PTCD9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/bPeF1q6kzdj4wnbx9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.85735778817762<br>Longitude: -8.793698618240214').addTo(sines);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -273,6 +285,7 @@
             'Reguengos de Monsaraz': reguengosMonsaraz,
             'Santiago do Cacém': santiagoCacem,
             'Setúbal': setubal,
+            'Sines': sines,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
