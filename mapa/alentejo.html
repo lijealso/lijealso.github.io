@@ -149,7 +149,10 @@
 
         const pFonteCortico = L.marker([38.05625187326448, -8.821592796786112], { icon: marker }).bindPopup('NOME: FONTE DO CORTIÇO<br>REGIÃO: ALENTEJO<br>CONCELHO: SANTIAGO DO CACÉM<br>CÓDIGO: PTCL3D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Wm19aark117Gb9bA6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.05625187326448<br>Longitude: -8.821592796786112').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Setúbal
+
+        const pFigueirinha = L.marker([38.484354418422235, -8.944727886509087], { icon: marker }).bindPopup('NOME: FIGUEIRINHA<br>REGIÃO: ALENTEJO<br>CONCELHO: SETÚBAL<br>CÓDIGO: PTCJ7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Jz5tCFiei8fFJX7C7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.484354418422235<br>Longitude: -8.944727886509087').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -223,6 +226,12 @@
 
         const cFonteCortico = L.marker([38.05625187326448, -8.821592796786112], { icon: marker }).bindPopup('NOME: FONTE DO CORTIÇO<br>REGIÃO: ALENTEJO<br>CONCELHO: SANTIAGO DO CACÉM<br>CÓDIGO: PTCL3D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Wm19aark117Gb9bA6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.05625187326448<br>Longitude: -8.821592796786112').addTo(santiagoCacem);
 
+        // Concelho - Setúbal
+
+        const setubal = L.layerGroup();
+
+        const cFigueirinha = L.marker([38.484354418422235, -8.944727886509087], { icon: marker }).bindPopup('NOME: FIGUEIRINHA<br>REGIÃO: ALENTEJO<br>CONCELHO: SETÚBAL<br>CÓDIGO: PTCJ7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/Jz5tCFiei8fFJX7C7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.484354418422235<br>Longitude: -8.944727886509087').addTo(setubal);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -260,6 +269,7 @@
             'Odemira': odemira,
             'Reguengos de Monsaraz': reguengosMonsaraz,
             'Santiago do Cacém': santiagoCacem,
+            'Setúbal': setubal,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
