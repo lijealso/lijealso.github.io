@@ -166,7 +166,10 @@
 
         const pPraiaVerde = L.marker([37.17417046804949, -7.480268463885038], { icon: marker }).bindPopup('NOME: PRAIA VERDE<br>REGIÃO: ALGARVE<br>CONCELHO: CASTRO MARIM<br>CÓDIGO: PTCU8X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/shbuv3EdtsGTi4Wg6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.17417046804949<br>Longitude: -7.480268463885038').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Faro
+
+        const pBarreta = L.marker([36.963304859592895, -7.888033516555332], { icon: marker }).bindPopup('NOME: BARRETA<br>REGIÃO: ALGARVE<br>CONCELHO: FARO<br>CÓDIGO: PTCK9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/aULZPfjnEmB1Tq2y6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.963304859592895<br>Longitude: -7.888033516555332').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -250,6 +253,12 @@
         const cCabeco = L.marker([37.17617620047672, -7.472075988023329], { icon: marker }).bindPopup('NOME: CABEÇO<br>REGIÃO: ALGARVE<br>CONCELHO: CASTRO MARIM<br>CÓDIGO: PTCJ3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/cRUPod1MvZmzaQM67?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.17617620047672<br>Longitude: -7.472075988023329').addTo(castroMarim);
 
         const cPraiaVerde = L.marker([37.17417046804949, -7.480268463885038], { icon: marker }).bindPopup('NOME: PRAIA VERDE<br>REGIÃO: ALGARVE<br>CONCELHO: CASTRO MARIM<br>CÓDIGO: PTCU8X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/shbuv3EdtsGTi4Wg6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.17417046804949<br>Longitude: -7.480268463885038').addTo(castroMarim);
+
+        // Concelho - Faro
+
+        const faro = L.layerGroup();
+
+        const cBarreta = L.marker([36.963304859592895, -7.888033516555332], { icon: marker }).bindPopup('NOME: BARRETA<br>REGIÃO: ALGARVE<br>CONCELHO: FARO<br>CÓDIGO: PTCK9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/aULZPfjnEmB1Tq2y6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.963304859592895<br>Longitude: -7.888033516555332').addTo(faro);
 
         // Map layers
 
