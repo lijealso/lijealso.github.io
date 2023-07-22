@@ -139,7 +139,10 @@
 
         const pSantaClara = L.marker([37.516630, -8.444088], { icon: marker }).bindPopup('NOME: SANTA CLARA<br>REGIÃO: ALENTEJO<br>CONCELHO: ODEMIRA<br>CÓDIGO: PTCX9T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/dLSc2pTKXr8RGBT26?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.52417759342172<br>Longitude: -8.446100526664477').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Reguengos de Monsaraz
+
+        const pPraiaFluvialMonsaraz = L.marker([], { icon: marker }).bindPopup('NOME: PRAIA FLUVIAL DE MONSARAZ<br>REGIÃO: ALENTEJO<br>CONCELHO: REGUENGOS DE MONSARAZ<br>CÓDIGO: PTCQ7M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/tCspmRpzDjQnfDGr9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.46725685037688<br>Longitude: -7.343173270733757').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -200,6 +203,12 @@
 
         const cSantaClara = L.marker([37.516630, -8.444088], { icon: marker }).bindPopup('NOME: SANTA CLARA<br>REGIÃO: ALENTEJO<br>CONCELHO: ODEMIRA<br>CÓDIGO: PTCX9T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/dLSc2pTKXr8RGBT26?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.52417759342172<br>Longitude: -8.446100526664477').addTo(odemira);
 
+        // Concelho - Reguengos de Monsaraz
+
+        const reguengosMonsaraz = L.layerGroup();
+
+        const cPraiaFluvialMonsaraz = L.marker([], { icon: marker }).bindPopup('NOME: PRAIA FLUVIAL DE MONSARAZ<br>REGIÃO: ALENTEJO<br>CONCELHO: REGUENGOS DE MONSARAZ<br>CÓDIGO: PTCQ7M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/tCspmRpzDjQnfDGr9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 38.46725685037688<br>Longitude: -7.343173270733757').addTo(reguengosMonsaraz);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -235,6 +244,7 @@
             'Mértola': mertola,
             'Mourão': mourao,
             'Odemira': odemira,
+            'Reguengos de Monsaraz': reguengosMonsaraz,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
