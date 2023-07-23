@@ -119,6 +119,19 @@
 
         const pPalheirosZorro = L.marker([40.202668501633305, -8.365216839459215], { icon: marker }).bindPopup('NOME: PALHEIROS E ZORRO<br>REGIÃO: CENTRO<br>CONCELHO: COIMBRA<br>CÓDIGO: PTCN8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/s1FkEYSejrST3HJKA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.202668501633305<br>Longitude: -8.365216839459215').addTo(praias);
 
+        // Todas - Figueira da Foz
+
+        const pBuarcos = L.marker([40.16446713240588, -8.877004974775978], { icon: marker }).bindPopup('NOME: BUARCOS<br>REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCT8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/C5Kc49xWKdbNufoL6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.16446713240588<br>Longitude: -8.877004974775978').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -159,6 +172,12 @@
 
         const cPalheirosZorro = L.marker([40.202668501633305, -8.365216839459215], { icon: marker }).bindPopup('NOME: PALHEIROS E ZORRO<br>REGIÃO: CENTRO<br>CONCELHO: COIMBRA<br>CÓDIGO: PTCN8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/s1FkEYSejrST3HJKA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.202668501633305<br>Longitude: -8.365216839459215').addTo(coimbra);
 
+        // Concelho - Figueira da Foz
+
+        const figueiraFoz = L.layerGroup();
+
+        const cBuarcos = L.marker([40.16446713240588, -8.877004974775978], { icon: marker }).bindPopup('NOME: BUARCOS<br>REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCT8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/C5Kc49xWKdbNufoL6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.16446713240588<br>Longitude: -8.877004974775978').addTo(figueiraFoz);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -194,6 +213,7 @@
             'Aveiro': aveiro,
             'Cantanhede': cantanhede,
             'Coimbra': coimbra,
+            'Figueira da Foz': figueiraFoz,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
