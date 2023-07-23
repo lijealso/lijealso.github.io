@@ -254,7 +254,10 @@
 
         const pTerraEstreita = L.marker([37.099271333239386, -7.639680324757165], { icon: marker }).bindPopup('NOME: TERRA ESTREITA<br>REGIÃO: ALGARVE<br>CONCELHO: TAVIRA<br>CÓDIGO: PTCQ9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/VHpc9bTk4bhyAAYu8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.099271333239386<br>Longitude: -7.639680324757165').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila do Bispo
+
+        const pAlmadenaCabanasVelhas = L.marker([37.0658, -8.7952], { icon: marker }).bindPopup('NOME: ALMÁDENA-CABANAS VELHAS<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCQ2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/almadena-cabanas-velhas/" target="_blank">Ver informação</a><br>Latitude: 37.0658<br>Longitude: -8.7952').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -443,6 +446,12 @@
 
         const cTerraEstreita = L.marker([37.099271333239386, -7.639680324757165], { icon: marker }).bindPopup('NOME: TERRA ESTREITA<br>REGIÃO: ALGARVE<br>CONCELHO: TAVIRA<br>CÓDIGO: PTCQ9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/VHpc9bTk4bhyAAYu8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.099271333239386<br>Longitude: -7.639680324757165').addTo(tavira);
 
+        // Concelho - Vila do Bispo
+
+        const vilaBispo = L.layerGroup();
+
+        const cAlmadenaCabanasVelhas = L.marker([37.0658, -8.7952], { icon: marker }).bindPopup('NOME: ALMÁDENA-CABANAS VELHAS<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCQ2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/almadena-cabanas-velhas/" target="_blank">Ver informação</a><br>Latitude: 37.0658<br>Longitude: -8.7952').addTo(vilaBispo);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -485,6 +494,7 @@
             'Portimão': portimao,
             'Silves': silves,
             'Tavira': tavira,
+            'Vila do Bispo': vilaBispo,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
