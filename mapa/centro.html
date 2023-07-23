@@ -165,7 +165,10 @@
 
         const pPocoCruz = L.marker([40.491222003559905, -8.791923210075728], { icon: marker }).bindPopup('NOME: POÇO DA CRUZ<br>REGIÃO: CENTRO<br>CONCELHO: MIRA<br>CÓDIGO: PTCV3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/8zmC2YhWSRtmBSWy9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.491222003559905<br>Longitude: -8.791923210075728').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Murtosa
+
+        const pBico = L.marker([40.73033220382638, -8.650220695207912], { icon: marker }).bindPopup('NOME: BICO<br>REGIÃO: CENTRO<br>CONCELHO: MURTOSA<br>CÓDIGO: PTCN9P<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://goo.gl/maps/UdvviaB5Zm4CAydn9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.73033220382638<br>Longitude: -8.650220695207912').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -265,6 +268,12 @@
 
         const cPocoCruz = L.marker([40.491222003559905, -8.791923210075728], { icon: marker }).bindPopup('NOME: POÇO DA CRUZ<br>REGIÃO: CENTRO<br>CONCELHO: MIRA<br>CÓDIGO: PTCV3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/8zmC2YhWSRtmBSWy9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.491222003559905<br>Longitude: -8.791923210075728').addTo(mira);
 
+        // Concelho - Murtosa
+
+        const murtosa = L.layerGroup();
+
+        const cBico = L.marker([40.73033220382638, -8.650220695207912], { icon: marker }).bindPopup('NOME: BICO<br>REGIÃO: CENTRO<br>CONCELHO: MURTOSA<br>CÓDIGO: PTCN9P<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://goo.gl/maps/UdvviaB5Zm4CAydn9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.73033220382638<br>Longitude: -8.650220695207912').addTo(murtosa);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -306,6 +315,7 @@
             'Ílhavo': ilhavo,
             'Leiria': leiria,
             'Mira': mira,
+            'Murtosa': murtosa,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
