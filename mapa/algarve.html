@@ -280,7 +280,10 @@
 
         const pZavial = L.marker([37.04558180593652, -8.86786248151883], { icon: marker }).bindPopup('NOME: ZAVIAL<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCN2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/5fk9uhCauGjbezMN9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04558180593652<br>Longitude: -8.86786248151883').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila Real de Santo António
+
+        const pFabricaMar = L.marker([37.15077769255759, -7.551461307682605], { icon: marker }).bindPopup('NOME: FÁBRICA-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: VILA REAL DE SANTO ANTÓNIO<br>CÓDIGO: PTCD2W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/i3k5VhNcWddAHtDo6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.15077769255759<br>Longitude: -7.551461307682605').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -497,6 +500,12 @@
 
         const cZavial = L.marker([37.04558180593652, -8.86786248151883], { icon: marker }).bindPopup('NOME: ZAVIAL<br>REGIÃO: ALGARVE<br>CONCELHO: VILA DO BISPO<br>CÓDIGO: PTCN2M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/5fk9uhCauGjbezMN9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04558180593652<br>Longitude: -8.86786248151883').addTo(vilaBispo);
 
+        // Concelho - Vila Real de Santo António
+
+        const vilaRealSantoAntonio = L.layerGroup();
+
+        const cFabricaMar = L.marker([37.15077769255759, -7.551461307682605], { icon: marker }).bindPopup('NOME: FÁBRICA-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: VILA REAL DE SANTO ANTÓNIO<br>CÓDIGO: PTCD2W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/i3k5VhNcWddAHtDo6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.15077769255759<br>Longitude: -7.551461307682605').addTo(vilaRealSantoAntonio);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -540,6 +549,7 @@
             'Silves': silves,
             'Tavira': tavira,
             'Vila do Bispo': vilaBispo,
+            'Vila Real de Santo António': vilaRealSantoAntonio,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
