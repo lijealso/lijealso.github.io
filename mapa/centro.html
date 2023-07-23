@@ -147,7 +147,10 @@
 
         const pValedoRossim = L.marker([40.402607368412056, -7.586271141300984], { icon: marker }).bindPopup('NOME: VALE DO ROSSIM<br>REGIÃO: CENTRO<br>CONCELHO: GOUVEIA<br>CÓDIGO: PTCP2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/AWJt8jiqgk17UdJ3A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.402607368412056<br>Longitude: -7.586271141300984').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - ÍLHAVO
+
+        const pBarra = L.marker([40.62943407566259, -8.749775792472592], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -229,6 +232,12 @@
 
         const cValedoRossim = L.marker([40.402607368412056, -7.586271141300984], { icon: marker }).bindPopup('NOME: VALE DO ROSSIM<br>REGIÃO: CENTRO<br>CONCELHO: GOUVEIA<br>CÓDIGO: PTCP2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/AWJt8jiqgk17UdJ3A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.402607368412056<br>Longitude: -7.586271141300984').addTo(gouveia);
 
+        // Concelho - Ílhavo
+
+        const ilhavo = L.layerGroup();
+
+        const cBarra = L.marker([40.62943407566259, -8.749775792472592], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(ilhavo);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -267,6 +276,7 @@
             'Figueira da Foz': figueiraFoz,
             'Gois': gois,
             'Gouveia': gouveia,
+            'Ílhavo': ilhavo,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
