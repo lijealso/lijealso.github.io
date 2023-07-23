@@ -139,7 +139,10 @@
 
         const pTamargueira = L.marker([40.16715900054543, -8.882825527499211], { icon: marker }).bindPopup('NOME: TAMARGUEIRA<br>REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCE3Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/joxeeqCmY3TwNhrs9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.16715900054543<br>Longitude: -8.882825527499211').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Góis
+
+        const pPenedaPegoEscuro = L.marker([40.15438644318071, -8.112026339897055], { icon: marker }).bindPopup('NOME: PENEDA/PEGO ESCURO<br>REGIÃO: CENTRO<br>CONCELHO: GÓIS<br>CÓDIGO: PTCJ3D<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/MGpq6c14LEK8NsdbA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.15438644318071<br>Longitude: -8.112026339897055').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -202,6 +205,12 @@
 
         const cTamargueira = L.marker([40.16715900054543, -8.882825527499211], { icon: marker }).bindPopup('NOME: TAMARGUEIRA<br>REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCE3Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/joxeeqCmY3TwNhrs9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.16715900054543<br>Longitude: -8.882825527499211').addTo(figueiraFoz);
 
+        // Concelho - Góis
+
+        const gois = L.layerGroup();
+
+        const cPenedaPegoEscuro = L.marker([40.15438644318071, -8.112026339897055], { icon: marker }).bindPopup('NOME: PENEDA/PEGO ESCURO<br>REGIÃO: CENTRO<br>CONCELHO: GÓIS<br>CÓDIGO: PTCJ3D<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/MGpq6c14LEK8NsdbA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.15438644318071<br>Longitude: -8.112026339897055').addTo(gois);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -238,6 +247,7 @@
             'Cantanhede': cantanhede,
             'Coimbra': coimbra,
             'Figueira da Foz': figueiraFoz,
+            'Gois': gois,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
