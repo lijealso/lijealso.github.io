@@ -99,6 +99,16 @@
 
         const pPiodao = L.marker([40.23017721838457, -7.826232727616182], { icon: marker }).bindPopup('NOME: PIÓDÃO<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCK2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/FYyozJkE8T1UotSa7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.23017721838457<br>Longitude: -7.826232727616182').addTo(praias);
 
+        // Todas - Aveiro
+
+        const pSaoJacinto = L.marker([40.670507608009274, -8.746426255232365], { icon: marker }).bindPopup('NOME: SÃO JACINTO<br>REGIÃO: CENTRO<br>CONCELHO: AVEIRO<br>CÓDIGO: PTCX2L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/yNELpC7zktACdddeA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.670507608009274<br>Longitude: -8.746426255232365').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -112,6 +122,12 @@
         const cPenedaCascalheiraSecarias = L.marker([40.249167769468215, -8.036070159051558], { icon: marker }).bindPopup('NOME: PENEDA CASCALHEIRA-SECARIAS<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCQ8C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/Ap9y284y4XbVrq4z7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.249167769468215<br>Longitude: -8.036070159051558').addTo(arganil);
 
         const cPiodao = L.marker([40.23017721838457, -7.826232727616182], { icon: marker }).bindPopup('NOME: PIÓDÃO<br>REGIÃO: CENTRO<br>CONCELHO: ARGANIL<br>CÓDIGO: PTCK2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/FYyozJkE8T1UotSa7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.23017721838457<br>Longitude: -7.826232727616182').addTo(arganil);
+
+        // Concelho - Aveiro
+
+        const aveiro = L.layerGroup();
+
+        const cSaoJacinto = L.marker([40.670507608009274, -8.746426255232365], { icon: marker }).bindPopup('NOME: SÃO JACINTO<br>REGIÃO: CENTRO<br>CONCELHO: AVEIRO<br>CÓDIGO: PTCX2L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/yNELpC7zktACdddeA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.670507608009274<br>Longitude: -8.746426255232365').addTo(aveiro);
 
 
         // Map layers
@@ -146,6 +162,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Arganil': arganil,
+            'Aveiro': aveiro,
 
         };
 
