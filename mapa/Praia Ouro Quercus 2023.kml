@@ -542,8 +542,8 @@
       </Placemark>
       <Placemark>
         <name>MURTINHEIRA</name>
-        <description><![CDATA[REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCW8K<br>CATEGORIA: COSTEIRA<br>Referência: https://goo.gl/maps/3sde1b1gqug3CvCd8?coh=178573&entry=tt<br>Latitude: 40.208823649736885<br>Longitude: -8.897704161420334]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <description><![CDATA[]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>REGIÃO: CENTRO<br>CONCELHO: FIGUEIRA DA FOZ<br>CÓDIGO: PTCW8K<br>CATEGORIA: COSTEIRA<br>Referência: https://goo.gl/maps/3sde1b1gqug3CvCd8?coh=178573&entry=tt<br>Latitude: 40.208823649736885<br>Longitude: -8.897704161420334
         <ExtendedData>
           <Data name="REGIÃO">
             <value>CENTRO</value>
