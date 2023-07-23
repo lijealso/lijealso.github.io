@@ -190,7 +190,10 @@
 
         const pValeOlival = L.marker([37.10235700355269, -8.370192966193056], { icon: marker }).bindPopup('NOME: VALE DO OLIVAL<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOA<br>CÓDIGO: PTCJ8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rouC5mytejygVTGH6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.10235700355269<br>Longitude: -8.370192966193056').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Lagos
+
+        const pLuz = L.marker([37.08759516686507, -8.726264213653376], { icon: marker }).bindPopup('NOME: LUZ<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOS<br>CÓDIGO: PTCE3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/LoPHuzZ5Ld9ayDN77?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.08759516686507<br>Longitude: -8.726264213653376').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -311,6 +314,13 @@
 
         const cValeOlival = L.marker([37.10235700355269, -8.370192966193056], { icon: marker }).bindPopup('NOME: VALE DO OLIVAL<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOA<br>CÓDIGO: PTCJ8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/rouC5mytejygVTGH6?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.10235700355269<br>Longitude: -8.370192966193056').addTo(lagoa);
 
+        // Concelho - Lagos
+
+        const lagos = L.layerGroup();
+
+
+        const cLuz = L.marker([37.08759516686507, -8.726264213653376], { icon: marker }).bindPopup('NOME: LUZ<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOS<br>CÓDIGO: PTCE3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/LoPHuzZ5Ld9ayDN77?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.08759516686507<br>Longitude: -8.726264213653376').addTo(lagos);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -347,6 +357,7 @@
             'Castro Marim': castroMarim,
             'Faro': faro,
             'Lagoa': lagoa,
+            'Lagos': lagos,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
