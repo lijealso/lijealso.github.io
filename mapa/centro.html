@@ -147,11 +147,12 @@
 
         const pValedoRossim = L.marker([40.402607368412056, -7.586271141300984], { icon: marker }).bindPopup('NOME: VALE DO ROSSIM<br>REGIÃO: CENTRO<br>CONCELHO: GOUVEIA<br>CÓDIGO: PTCP2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/AWJt8jiqgk17UdJ3A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.402607368412056<br>Longitude: -7.586271141300984').addTo(praias);
 
-        // Todas - ÍLHAVO
+        // Todas - Ílhavo
 
         const pBarra = L.marker([40.637331, -8.749533], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        const pCostaNova = L.marker([40.617156, -8.753604], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/re2WHyNfCYEqxTx98" target="_blank">Ver mapa</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -237,6 +238,8 @@
         const ilhavo = L.layerGroup();
 
         const cBarra = L.marker([40.637331, -8.749533], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(ilhavo);
+
+        const cCostaNova = L.marker([40.617156, -8.753604], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/re2WHyNfCYEqxTx98" target="_blank">Ver mapa</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(ilhavo);
 
         // Map layers
 
