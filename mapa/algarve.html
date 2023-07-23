@@ -234,7 +234,10 @@
 
         const pTresCastelos = L.marker([37.1177166481081, -8.546527212019532], { icon: marker }).bindPopup('NOME: TRÊS CASTELOS<br>REGIÃO: ALGARVE<br>CONCELHO: PORTIMÃO<br>CÓDIGO: PTCX8E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gq4UgGFG6EmhuCPD7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.1177166481081<br>Longitude: -8.546527212019532').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Silves
+
+        const pArmacaoPera = L.marker([37.09995351305278, -8.355025681749714], { icon: marker }).bindPopup('NOME: ARMAÇÃO DE PÊRA<br>REGIÃO: ALGARVE<br>CONCELHO: SILVES<br>CÓDIGO: PTCN7V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nqRant9Hp58C4Cqr9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.09995351305278<br>Longitude: -8.355025681749714').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -402,6 +405,12 @@
 
         const cTresCastelos = L.marker([37.1177166481081, -8.546527212019532], { icon: marker }).bindPopup('NOME: TRÊS CASTELOS<br>REGIÃO: ALGARVE<br>CONCELHO: PORTIMÃO<br>CÓDIGO: PTCX8E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/gq4UgGFG6EmhuCPD7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.1177166481081<br>Longitude: -8.546527212019532').addTo(portimao);
 
+        // Concelho - Silves
+
+        const silves = L.layerGroup();
+
+        const cArmacaoPera = L.marker([37.09995351305278, -8.355025681749714], { icon: marker }).bindPopup('NOME: ARMAÇÃO DE PÊRA<br>REGIÃO: ALGARVE<br>CONCELHO: SILVES<br>CÓDIGO: PTCN7V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nqRant9Hp58C4Cqr9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.09995351305278<br>Longitude: -8.355025681749714').addTo(silves);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -442,6 +451,7 @@
             'Loulé': loule,
             'Olhão': olhao,
             'Portimão': portimao,
+            'Silves': silves,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
