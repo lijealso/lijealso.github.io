@@ -103,7 +103,10 @@
 
         const pSaoJacinto = L.marker([40.670507608009274, -8.746426255232365], { icon: marker }).bindPopup('NOME: SÃO JACINTO<br>REGIÃO: CENTRO<br>CONCELHO: AVEIRO<br>CÓDIGO: PTCX2L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/yNELpC7zktACdddeA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.670507608009274<br>Longitude: -8.746426255232365').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Cantanhede
+
+        const pAnca = L.marker([40.290897693361046, -8.52395431794718], { icon: marker }).bindPopup('NOME: ANÇÃ<br>REGIÃO: CENTRO<br>CONCELHO: CANTANHEDE<br>CÓDIGO: PTCL3M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/udefTSxpRbqfE6Gc7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.290897693361046<br>Longitude: -8.52395431794718').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -128,6 +131,12 @@
         const aveiro = L.layerGroup();
 
         const cSaoJacinto = L.marker([40.670507608009274, -8.746426255232365], { icon: marker }).bindPopup('NOME: SÃO JACINTO<br>REGIÃO: CENTRO<br>CONCELHO: AVEIRO<br>CÓDIGO: PTCX2L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/yNELpC7zktACdddeA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.670507608009274<br>Longitude: -8.746426255232365').addTo(aveiro);
+
+        // Concelho - Cantanhede
+
+        const cantanhede = L.layerGroup();
+
+        const cAnca = L.marker([40.290897693361046, -8.52395431794718], { icon: marker }).bindPopup('NOME: ANÇÃ<br>REGIÃO: CENTRO<br>CONCELHO: CANTANHEDE<br>CÓDIGO: PTCL3M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/udefTSxpRbqfE6Gc7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.290897693361046<br>Longitude: -8.52395431794718').addTo(cantanhede);
 
 
         // Map layers
@@ -163,6 +172,7 @@
             'Todas as Praias': praias,
             'Arganil': arganil,
             'Aveiro': aveiro,
+            'Cantanhede': cantanhede,
 
         };
 
