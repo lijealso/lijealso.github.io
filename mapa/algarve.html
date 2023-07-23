@@ -218,9 +218,12 @@
 
         const pValeLobo = L.marker([37.04860474113719, -8.064570712355053], { icon: marker }).bindPopup('NOME: VALE DE LOBO<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCT7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/PBTVk2ZPRGUAvChp7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.04860474113719<br>Longitude: -8.064570712355053').addTo(praias);
 
-        const pVilamoura = L.marker([37.071626, -8.116652], { icon: marker }).bindPopup('NOME: VILAMOURA<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCE3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/2pgfKNm8JBks8f7H8?coh=178573&entry=tt" target="_blank">Ver mapa</a<br>Latitude: 37.072767091705046<br>Longitude: -8.11606488886633').addTo(praias);
+        const pVilamoura = L.marker([37.071626, -8.116652], { icon: marker }).bindPopup('NOME: VILAMOURA<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCE3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/2pgfKNm8JBks8f7H8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.072767091705046<br>Longitude: -8.11606488886633').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Olhão
+
+        const pArmonaRia = L.marker([37.025296699975776, -7.80617081898614], { icon: marker }).bindPopup('NOME: ARMONA-RIA<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCW3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pzr6FKjcFdGhtAbG7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.025296699975776<br>Longitude: -7.80617081898614').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -370,6 +373,12 @@
 
         const cVilamoura = L.marker([37.071626, -8.116652], { icon: marker }).bindPopup('NOME: VILAMOURA<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCE3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/2pgfKNm8JBks8f7H8?coh=178573&entry=tt" target="_blank">Ver mapa</a<br>Latitude: 37.072767091705046<br>Longitude: -8.11606488886633').addTo(loule);
 
+        // Concelho - Olhão
+
+        const olhao = L.layerGroup();
+
+        const cArmonaRia = L.marker([37.025296699975776, -7.80617081898614], { icon: marker }).bindPopup('NOME: ARMONA-RIA<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCW3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pzr6FKjcFdGhtAbG7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.025296699975776<br>Longitude: -7.80617081898614').addTo(olhao);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -408,6 +417,7 @@
             'Lagoa': lagoa,
             'Lagos': lagos,
             'Loulé': loule,
+            'Olhão': olhao,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
