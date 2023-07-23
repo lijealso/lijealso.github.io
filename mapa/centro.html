@@ -153,7 +153,10 @@
 
         const pCostaNova = L.marker([40.617156, -8.753604], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/re2WHyNfCYEqxTx98" target="_blank">Ver mapa</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Leiria
+
+        const pPedrogaoSul = L.marker([39.914013603678875, -8.954631463185404], { icon: marker }).bindPopup('NOME: PEDROGÃO SUL<br>REGIÃO: CENTRO<br>CONCELHO: LEIRIA<br>CÓDIGO: PTCH3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1oeuJqAnfj2hDYyh8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.914013603678875<br>Longitude: -8.954631463185404').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -241,6 +244,12 @@
 
         const cCostaNova = L.marker([40.617156, -8.753604], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/re2WHyNfCYEqxTx98" target="_blank">Ver mapa</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(ilhavo);
 
+        //  Concelho - Leiria
+
+        const leiria = L.layerGroup();
+
+        const cPedrogaoSul = L.marker([39.914013603678875, -8.954631463185404], { icon: marker }).bindPopup('NOME: PEDROGÃO SUL<br>REGIÃO: CENTRO<br>CONCELHO: LEIRIA<br>CÓDIGO: PTCH3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1oeuJqAnfj2hDYyh8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.914013603678875<br>Longitude: -8.954631463185404').addTo(leiria);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -280,6 +289,7 @@
             'Gois': gois,
             'Gouveia': gouveia,
             'Ílhavo': ilhavo,
+            'Leiria': leiria,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
