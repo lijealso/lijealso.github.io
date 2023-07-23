@@ -224,9 +224,12 @@
 
         const pArmonaRia = L.marker([37.025296699975776, -7.80617081898614], { icon: marker }).bindPopup('NOME: ARMONA-RIA<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCW3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/pzr6FKjcFdGhtAbG7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.025296699975776<br>Longitude: -7.80617081898614').addTo(praias);
 
-        const pFusetaMar = L.marker([37.039203648471556, -7.7545932598697895], { icon: marker }).bindPopup('NOME: FUSETA-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCD3W<br>CATEGORIA: COSTEIRA<br>Referência: a href="https://goo.gl/maps/MQXLTMLSoztKGt7o9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.039203648471556<br>Longitude: -7.7545932598697895').addTo(praias);
+        const pFusetaMar = L.marker([37.039203648471556, -7.7545932598697895], { icon: marker }).bindPopup('NOME: FUSETA-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCD3W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/MQXLTMLSoztKGt7o9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.039203648471556<br>Longitude: -7.7545932598697895').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Portimão
+
+        const pAlvorNascente = L.marker([37.11950845816086, -8.58044991235864], { icon: marker }).bindPopup('NOME: ALVOR-NASCENTE<br>REGIÃO: ALGARVE<br>CONCELHO: PORTIMÃO<br>CÓDIGO: PTCW7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/oHGuyjgecdKPvSyBA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.11950845816086<br>Longitude: -8.58044991235864').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -382,6 +385,12 @@
 
         const cFusetaMar = L.marker([37.039203648471556, -7.7545932598697895], { icon: marker }).bindPopup('NOME: FUSETA-MAR<br>REGIÃO: ALGARVE<br>CONCELHO: OLHÃO<br>CÓDIGO: PTCD3W<br>CATEGORIA: COSTEIRA<br>Referência: a href="https://goo.gl/maps/MQXLTMLSoztKGt7o9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.039203648471556<br>Longitude: -7.7545932598697895').addTo(olhao);
 
+        // Concelho - Portimão
+
+        const portimao = L.layerGroup();
+
+        const cAlvorNascente = L.marker([37.11950845816086, -8.58044991235864], { icon: marker }).bindPopup('NOME: ALVOR-NASCENTE<br>REGIÃO: ALGARVE<br>CONCELHO: PORTIMÃO<br>CÓDIGO: PTCW7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/oHGuyjgecdKPvSyBA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.11950845816086<br>Longitude: -8.58044991235864').addTo(portimao);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -421,6 +430,7 @@
             'Lagos': lagos,
             'Loulé': loule,
             'Olhão': olhao,
+            'Portimão': portimao,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
