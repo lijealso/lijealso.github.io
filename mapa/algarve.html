@@ -198,7 +198,10 @@
 
         const pPortoMos = L.marker([37.08597101524965, -8.687655127257495], { icon: marker }).bindPopup('NOME: PORTO DE MÓS<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOS<br>CÓDIGO: PTCP2X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/FkUcHdt5L9jTeDuj8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.08597101524965<br>Longitude: -8.687655127257495').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Loulé
+
+        const pAlmargem = L.marker([37.05931168963304, -8.083223458378532], { icon: marker }).bindPopup('NOME: ALMARGEM<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCQ2V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/bdhmCVkofTZ1JdT39?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.05931168963304<br>Longitude: -8.083223458378532').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -326,6 +329,12 @@
 
         const cPortoMos = L.marker([37.08597101524965, -8.687655127257495], { icon: marker }).bindPopup('NOME: PORTO DE MÓS<br>REGIÃO: ALGARVE<br>CONCELHO: LAGOS<br>CÓDIGO: PTCP2X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/FkUcHdt5L9jTeDuj8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.08597101524965<br>Longitude: -8.687655127257495').addTo(lagos);
 
+        // Concelho - Loulé
+
+        const loule = L.layerGroup();
+
+        const cAlmargem = L.marker([37.05931168963304, -8.083223458378532], { icon: marker }).bindPopup('NOME: ALMARGEM<br>REGIÃO: ALGARVE<br>CONCELHO: LOULÉ<br>CÓDIGO: PTCQ2V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/bdhmCVkofTZ1JdT39?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.05931168963304<br>Longitude: -8.083223458378532').addTo(loule);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -363,6 +372,7 @@
             'Faro': faro,
             'Lagoa': lagoa,
             'Lagos': lagos,
+            'Loulé': loule,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
