@@ -143,6 +143,18 @@
 
         const pPenedaPegoEscuro = L.marker([40.15438644318071, -8.112026339897055], { icon: marker }).bindPopup('NOME: PENEDA/PEGO ESCURO<br>REGIÃO: CENTRO<br>CONCELHO: GÓIS<br>CÓDIGO: PTCJ3D<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/MGpq6c14LEK8NsdbA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.15438644318071<br>Longitude: -8.112026339897055').addTo(praias);
 
+        // Todas - Gouveia
+
+        const pValedoRossim = L.marker([40.402607368412056, -7.586271141300984], { icon: marker }).bindPopup('NOME: VALE DO ROSSIM<br>REGIÃO: CENTRO<br>CONCELHO: GOUVEIA<br>CÓDIGO: PTCP2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/AWJt8jiqgk17UdJ3A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.402607368412056<br>Longitude: -7.586271141300984').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -211,6 +223,12 @@
 
         const cPenedaPegoEscuro = L.marker([40.15438644318071, -8.112026339897055], { icon: marker }).bindPopup('NOME: PENEDA/PEGO ESCURO<br>REGIÃO: CENTRO<br>CONCELHO: GÓIS<br>CÓDIGO: PTCJ3D<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/MGpq6c14LEK8NsdbA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.15438644318071<br>Longitude: -8.112026339897055').addTo(gois);
 
+        // Concelho - Gouveia
+
+        const gouveia = L.layerGroup();
+
+        const cValedoRossim = L.marker([40.402607368412056, -7.586271141300984], { icon: marker }).bindPopup('NOME: VALE DO ROSSIM<br>REGIÃO: CENTRO<br>CONCELHO: GOUVEIA<br>CÓDIGO: PTCP2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/AWJt8jiqgk17UdJ3A?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.402607368412056<br>Longitude: -7.586271141300984').addTo(gouveia);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -248,6 +266,7 @@
             'Coimbra': coimbra,
             'Figueira da Foz': figueiraFoz,
             'Gois': gois,
+            'Gouveia': gouveia,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
