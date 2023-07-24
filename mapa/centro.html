@@ -197,7 +197,10 @@
 
         const pQuintaBarco = L.marker([40.70845288644478, -8.360935035739335], { icon: marker }).bindPopup('NOME: QUINTA DO BARCO<br>REGIÃO: CENTRO<br>CONCELHO: SEVER DO VOUGA<br>CÓDIGO: PTCJ8T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/JxbUoCiegK62qBGB9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.70845288644478<br>Longitude: -8.360935035739335').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Santa Maria da Feira
+
+        const pMamoa = L.marker([40.929008703408314, -8.467016792312895], { icon: marker }).bindPopup('NOME: MAMOA<br>REGIÃO: CENTRO<br>CONCELHO: STA. MARIA DA FEIRA<br>CÓDIGO: PTCV3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/8fNxn8Vub3oJFr8HA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.929008703408314<br>Longitude: -8.467016792312895').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -345,6 +348,12 @@
 
         const cQuintaBarco = L.marker([40.70845288644478, -8.360935035739335], { icon: marker }).bindPopup('NOME: QUINTA DO BARCO<br>REGIÃO: CENTRO<br>CONCELHO: SEVER DO VOUGA<br>CÓDIGO: PTCJ8T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/JxbUoCiegK62qBGB9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.70845288644478<br>Longitude: -8.360935035739335').addTo(severVouga);
 
+        // Concelho - Santa Maria da Feira
+
+        const santaMariaFeira = L.layerGroup();
+
+        const cMamoa = L.marker([40.929008703408314, -8.467016792312895], { icon: marker }).bindPopup('NOME: MAMOA<br>REGIÃO: CENTRO<br>CONCELHO: STA. MARIA DA FEIRA<br>CÓDIGO: PTCV3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/8fNxn8Vub3oJFr8HA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.929008703408314<br>Longitude: -8.467016792312895').addTo(santaMariaFeira);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -392,6 +401,7 @@
             'Pombal': pombal,
             'Seia': seia,
             'Sever do Vouga': severVouga,
+            'Santa Maria da Feira': santaMariaFeira,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
