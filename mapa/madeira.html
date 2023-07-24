@@ -117,7 +117,10 @@
 
         const pClubeNavalFunchal = L.marker([32.63547, -16.93873], { icon: marker }).bindPopup('NOME: CLUBE NAVAL DO FUNCHAL<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTML8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1RfXCVHtNEdyXg4p-3aGybKkMwrzuUUSX/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.63547<br>Longitude: -16.93873').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Machico
+
+        const pRibeiraNatal = L.marker([32.735, -16.745], { icon: marker }).bindPopup('NOME: RIBEIRA DO NATAL<br>REGIÃO: MADEIRA<br>CONCELHO: MACHICO<br>CÓDIGO: PTMD2C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1_jnJoIw7cBXh1NWoctvvYWo434_g92su/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.735<br>Longitude: -16.745').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -157,6 +160,12 @@
 
         const cClubeNavalFunchal = L.marker([32.63547, -16.93873], { icon: marker }).bindPopup('NOME: CLUBE NAVAL DO FUNCHAL<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTML8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1RfXCVHtNEdyXg4p-3aGybKkMwrzuUUSX/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.63547<br>Longitude: -16.93873').addTo(funchal);
 
+        // Concelho - Machico
+
+        const machico = L.layerGroup();
+
+        const cRibeiraNatal = L.marker([32.735, -16.745], { icon: marker }).bindPopup('NOME: RIBEIRA DO NATAL<br>REGIÃO: MADEIRA<br>CONCELHO: MACHICO<br>CÓDIGO: PTMD2C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1_jnJoIw7cBXh1NWoctvvYWo434_g92su/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.735<br>Longitude: -16.745').addTo(machico);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -191,6 +200,7 @@
             'Calheta': calheta,
             'Câmara de Lobos': camaraLobos,
             'Funchal': funchal,
+            'Machico': machico,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
