@@ -183,7 +183,10 @@
 
         const pVimieiro = L.marker([40.27727913266304, -8.19810380685864], { icon: marker }).bindPopup('NOME: VIMIEIRO<br>REGIÃO: CENTRO<br>CONCELHO: PENACOVA<br>CÓDIGO: PTCJ7U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/zETQTWcY3ABu6Yqt5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.27727913266304<br>Longitude: -8.19810380685864').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Pombal
+
+        const pOssoBaleia = L.marker([40.00762478942815, -8.915106705840756], { icon: marker }).bindPopup('NOME: OSSO DA BALEIA<br>REGIÃO: CENTRO<br>CONCELHO: POMBAL<br>CÓDIGO: PTCT8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/kLV9FcemFEPx7Rxs9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.00762478942815<br>Longitude: -8.915106705840756').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -307,6 +310,12 @@
 
         const cVimieiro = L.marker([40.27727913266304, -8.19810380685864], { icon: marker }).bindPopup('NOME: VIMIEIRO<br>REGIÃO: CENTRO<br>CONCELHO: PENACOVA<br>CÓDIGO: PTCJ7U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/zETQTWcY3ABu6Yqt5?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.27727913266304<br>Longitude: -8.19810380685864').addTo(penacova);
 
+        // Concelho - Pombal
+
+        const pombal = L.layerGroup();
+
+        const cOssoBaleia = L.marker([40.00762478942815, -8.915106705840756], { icon: marker }).bindPopup('NOME: OSSO DA BALEIA<br>REGIÃO: CENTRO<br>CONCELHO: POMBAL<br>CÓDIGO: PTCT8J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/kLV9FcemFEPx7Rxs9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.00762478942815<br>Longitude: -8.915106705840756').addTo(pombal);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -351,6 +360,7 @@
             'Murtosa': murtosa,
             'Ovar': ovar,
             'Penacova': penacova,
+            'Pombal': pombal,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
