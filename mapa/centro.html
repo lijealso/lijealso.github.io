@@ -201,7 +201,10 @@
 
         const pMamoa = L.marker([40.929008703408314, -8.467016792312895], { icon: marker }).bindPopup('NOME: MAMOA<br>REGIÃO: CENTRO<br>CONCELHO: STA. MARIA DA FEIRA<br>CÓDIGO: PTCV3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/8fNxn8Vub3oJFr8HA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.929008703408314<br>Longitude: -8.467016792312895').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vagos
+
+        const pAreao = L.marker([40.52124934342393, -8.782428216661051], { icon: marker }).bindPopup('NOME: AREÃO<br>REGIÃO: CENTRO<br>CONCELHO: VAGOS<br>CÓDIGO: PTCK7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/haWLw1LGD3TVddij9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.52124934342393<br>Longitude: -8.782428216661051').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -354,6 +357,13 @@
 
         const cMamoa = L.marker([40.929008703408314, -8.467016792312895], { icon: marker }).bindPopup('NOME: MAMOA<br>REGIÃO: CENTRO<br>CONCELHO: STA. MARIA DA FEIRA<br>CÓDIGO: PTCV3F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/8fNxn8Vub3oJFr8HA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.929008703408314<br>Longitude: -8.467016792312895').addTo(santaMariaFeira);
 
+        // Concelho - Vagos
+
+        const vagos = L.layerGroup();
+
+        const cAreao = L.marker([40.52124934342393, -8.782428216661051], { icon: marker }).bindPopup('NOME: AREÃO<br>REGIÃO: CENTRO<br>CONCELHO: VAGOS<br>CÓDIGO: PTCK7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/haWLw1LGD3TVddij9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.52124934342393<br>Longitude: -8.782428216661051').addTo(vagos);
+
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -402,6 +412,7 @@
             'Seia': seia,
             'Sever do Vouga': severVouga,
             'Santa Maria da Feira': santaMariaFeira,
+            'Vagos': vagos,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
