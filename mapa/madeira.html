@@ -103,7 +103,10 @@
 
         const pPraiaPorto = L.marker([32.75234, -17.22454], { icon: marker }).bindPopup('NOME: PRAIA DO PORTO<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMK9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1Y-o13t3sYbY6rgm7RgTwnnJHJY5TqTST/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.75234<br>Longitude: -17.22454').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Câmara de Lobos
+
+        const pComplexoBalnearSalinas = L.marker([-32.64588, -16.97321], { icon: marker }).bindPopup('NOME: COMPLEXO BALNEAR DAS SALINAS<br>REGIÃO: MADEIRA<br>CONCELHO: CÂMARA DE LOBOS<br>CÓDIGO: PTMP2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ubPJe8zmAf563yRdqrzz6WUErJ4d0dxT/view" target="_blank">Ver ficheiro</a><br>Latitude: -32.64588<br>Longitude: -16.97321').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -123,6 +126,12 @@
         const cPraiaPortinho = L.marker([32.73492, -17.20859], { icon: marker }).bindPopup('NOME: PRAIA DO PORTINHO<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMH8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1G_awNn6nLBmBMR64A74ktyGwGzvcVePu/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.73492<br>Longitude: -17.20859').addTo(calheta);
 
         const cPraiaPorto = L.marker([32.75234, -17.22454], { icon: marker }).bindPopup('NOME: PRAIA DO PORTO<br>REGIÃO: MADEIRA<br>CONCELHO: CALHETA<br>CÓDIGO: PTMK9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1Y-o13t3sYbY6rgm7RgTwnnJHJY5TqTST/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.75234<br>Longitude: -17.22454').addTo(calheta);
+
+        // Concelho - Câmara de Lobos
+
+        const camaraLobos = L.layerGroup();
+
+        const cComplexoBalnearSalinas = L.marker([-32.64588, -16.97321], { icon: marker }).bindPopup('NOME: COMPLEXO BALNEAR DAS SALINAS<br>REGIÃO: MADEIRA<br>CONCELHO: CÂMARA DE LOBOS<br>CÓDIGO: PTMP2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ubPJe8zmAf563yRdqrzz6WUErJ4d0dxT/view" target="_blank">Ver ficheiro</a><br>Latitude: -32.64588<br>Longitude: -16.97321').addTo(camaraLobos);
 
 
         // Map layers
@@ -157,6 +166,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Calheta': calheta,
+            'Câmara de Lobos': camaraLobos,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
