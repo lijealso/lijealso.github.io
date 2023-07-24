@@ -123,6 +123,15 @@
 
         const pPrainha = L.marker([32.7425, -16.71556], { icon: marker }).bindPopup('NOME: PRAINHA<br>REGIÃO: MADEIRA<br>CONCELHO: MACHICO<br>CÓDIGO: PTMU8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ZGhT4txfS9wcBp6Bxcr1nKOISOO0ueUm/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.7425<br>Longitude: -16.71556').addTo(praias);
 
+        // Todas - Ponta do Sol
+
+        const pAnjosPontaSol = L.marker([32.69057, -17.12048], { icon: marker }).bindPopup('NOME: ANJOS-PONTA DO SOL<br>REGIÃO: MADEIRA<br>CONCELHO: PONTA DO SOL<br>CÓDIGO: PTMQ2F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1nTVP6Ypez1O61NRG5OYWYYAIIg2wLfPx/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.69057<br>Longitude: -17.12048').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -169,6 +178,12 @@
 
         const cPrainha = L.marker([32.7425, -16.71556], { icon: marker }).bindPopup('NOME: PRAINHA<br>REGIÃO: MADEIRA<br>CONCELHO: MACHICO<br>CÓDIGO: PTMU8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ZGhT4txfS9wcBp6Bxcr1nKOISOO0ueUm/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.7425<br>Longitude: -16.71556').addTo(machico);
 
+        // Concelho - Ponta do Sol
+
+        const pontaSol = L.layerGroup();
+
+        const cAnjosPontaSol = L.marker([32.69057, -17.12048], { icon: marker }).bindPopup('NOME: ANJOS-PONTA DO SOL<br>REGIÃO: MADEIRA<br>CONCELHO: PONTA DO SOL<br>CÓDIGO: PTMQ2F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1nTVP6Ypez1O61NRG5OYWYYAIIg2wLfPx/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.69057<br>Longitude: -17.12048').addTo(pontaSol);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -204,6 +219,7 @@
             'Câmara de Lobos': camaraLobos,
             'Funchal': funchal,
             'Machico': machico,
+            'Ponta do Sol': pontaSol,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
