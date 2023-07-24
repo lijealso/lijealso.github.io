@@ -177,7 +177,10 @@
 
         const pTorraoLameiroMarreta = L.marker([40.83060254128829, -8.68897347909148], { icon: marker }).bindPopup('NOME: TORRÃO DO LAMEIRO/MARRETA<br>REGIÃO: CENTRO<br>CONCELHO: OVAR<br>CÓDIGO: PTCJ8K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ghqTfkKjVWW4QgcC8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.83060254128829<br>Longitude: -8.68897347909148').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Penacova
+
+        const pReconquinho = L.marker([40.26684985219301, -8.279065806948676], { icon: marker }).bindPopup('NOME: RECONQUINHO<br>REGIÃO: CENTRO<br>CONCELHO: PENACOVA<br>CÓDIGO: PTCL3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/nuFYExM79A8RWv3CA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.26684985219301<br>Longitude: -8.279065806948676').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -295,6 +298,12 @@
 
         const cTorraoLameiroMarreta = L.marker([40.83060254128829, -8.68897347909148], { icon: marker }).bindPopup('NOME: TORRÃO DO LAMEIRO/MARRETA<br>REGIÃO: CENTRO<br>CONCELHO: OVAR<br>CÓDIGO: PTCJ8K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ghqTfkKjVWW4QgcC8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.83060254128829<br>Longitude: -8.68897347909148').addTo(ovar);
 
+        // Concelho - Penacova
+
+        const penacova = L.layerGroup();
+
+        const cReconquinho = L.marker([40.26684985219301, -8.279065806948676], { icon: marker }).bindPopup('NOME: RECONQUINHO<br>REGIÃO: CENTRO<br>CONCELHO: PENACOVA<br>CÓDIGO: PTCL3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/nuFYExM79A8RWv3CA?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.26684985219301<br>Longitude: -8.279065806948676').addTo(penacova);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -338,6 +347,7 @@
             'Mira': mira,
             'Murtosa': murtosa,
             'Ovar': ovar,
+            'Penacova': penacova,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
