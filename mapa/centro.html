@@ -193,7 +193,10 @@
 
         const pLoriga = L.marker([40.32754269739973, -7.678501891503599], { icon: marker }).bindPopup('NOME: LORIGA<br>REGIÃO: CENTRO<br>CONCELHO: SEIA<br>CÓDIGO: PTCN9K<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/UKYH6DR46v1zvCcT9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.32754269739973<br>Longitude: -7.678501891503599').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Sever do Vouga
+
+        const pQuintaBarco = L.marker([40.70845288644478, -8.360935035739335], { icon: marker }).bindPopup('NOME: QUINTA DO BARCO<br>REGIÃO: CENTRO<br>CONCELHO: SEVER DO VOUGA<br>CÓDIGO: PTCJ8T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/JxbUoCiegK62qBGB9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.70845288644478<br>Longitude: -8.360935035739335').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -336,6 +339,12 @@
 
         const cLoriga = L.marker([40.32754269739973, -7.678501891503599], { icon: marker }).bindPopup('NOME: LORIGA<br>REGIÃO: CENTRO<br>CONCELHO: SEIA<br>CÓDIGO: PTCN9K<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/UKYH6DR46v1zvCcT9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.32754269739973<br>Longitude: -7.678501891503599').addTo(seia);
 
+        // Concelho - Sever do Vouga
+
+        const severVouga = L.layerGroup();
+
+        const cQuintaBarco = L.marker([40.70845288644478, -8.360935035739335], { icon: marker }).bindPopup('NOME: QUINTA DO BARCO<br>REGIÃO: CENTRO<br>CONCELHO: SEVER DO VOUGA<br>CÓDIGO: PTCJ8T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/JxbUoCiegK62qBGB9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 40.70845288644478<br>Longitude: -8.360935035739335').addTo(severVouga);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -382,6 +391,7 @@
             'Penacova': penacova,
             'Pombal': pombal,
             'Seia': seia,
+            'Sever do Vouga': severVouga,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
