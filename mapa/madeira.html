@@ -141,7 +141,10 @@
 
         const pPraiaLaje = L.marker([32.82688, -17.11399], { icon: marker }).bindPopup('NOME: PRAIA DA LAJE<br>REGIÃO: MADEIRA<br>CONCELHO: PORTO MONIZ<br>CÓDIGO: PTMH9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1kKQVlP957TW0JhBYvtzD7lSouGhaXDyV/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.82688<br>Longitude: -17.11399').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Porto Santo
+
+        const pPortoSantoCabecoPonta = L.marker([33.03554, -16.36017], { icon: marker }).bindPopup('NOME: PORTO SANTO-CABEÇO DA PONTA<br>REGIÃO: MADEIRA<br>CONCELHO: PORTO SANTO<br>CÓDIGO: PTMQ7P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1bjIAmZUlUCMMfpR3x4MNSlPXjip0o59S/view" target="_blank">Ver ficheiro</a><br>Latitude: 33.03554<br>Longitude: -16.36017').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -217,6 +220,12 @@
 
         const cPraiaLaje = L.marker([32.82688, -17.11399], { icon: marker }).bindPopup('NOME: PRAIA DA LAJE<br>REGIÃO: MADEIRA<br>CONCELHO: PORTO MONIZ<br>CÓDIGO: PTMH9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1kKQVlP957TW0JhBYvtzD7lSouGhaXDyV/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.82688<br>Longitude: -17.11399').addTo(portoMoniz);
 
+        // Concelho - Porto Santo
+
+        const portoSanto = L.layerGroup();
+
+        const cPortoSantoCabecoPonta = L.marker([33.03554, -16.36017], { icon: marker }).bindPopup('NOME: PORTO SANTO-CABEÇO DA PONTA<br>REGIÃO: MADEIRA<br>CONCELHO: PORTO SANTO<br>CÓDIGO: PTMQ7P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1bjIAmZUlUCMMfpR3x4MNSlPXjip0o59S/view" target="_blank">Ver ficheiro</a><br>Latitude: 33.03554<br>Longitude: -16.36017').addTo(portoSanto);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -254,6 +263,7 @@
             'Machico': machico,
             'Ponta do Sol': pontaSol,
             'Porto Moniz': portoMoniz,
+            'Porto Santo': portoSanto,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
