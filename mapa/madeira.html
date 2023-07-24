@@ -161,7 +161,10 @@
 
         const pRibeiraBrava = L.marker([32.67083, -17.06722], { icon: marker }).bindPopup('NOME: RIBEIRA BRAVA<br>REGIÃO: MADEIRA<br>CONCELHO: RIBEIRA BRAVA<br>CÓDIGO: PTMT3M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1i9JvGSylSVEUlVOBNt9SZdn_2Cr7cUUo/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.67083<br>Longitude: -17.06722').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Santa Cruz
+
+        const pGarajau = L.marker([32.63826, -16.8528], { icon: marker }).bindPopup('NOME: GARAJAU<br>REGIÃO: MADEIRA<br>CONCELHO: SANTA CRUZ<br>CÓDIGO: PTMT7N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/13j9irFJ_cJ2CtLBApUIR_VJOwqpVXlkb/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.63826<br>Longitude: -16.8528').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -253,6 +256,12 @@
 
         const cRibeiraBrava = L.marker([32.67083, -17.06722], { icon: marker }).bindPopup('NOME: RIBEIRA BRAVA<br>REGIÃO: MADEIRA<br>CONCELHO: RIBEIRA BRAVA<br>CÓDIGO: PTMT3M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1i9JvGSylSVEUlVOBNt9SZdn_2Cr7cUUo/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.67083<br>Longitude: -17.06722').addTo(ribeiraBrava);
 
+        // Concelho - Santa Cruz
+
+        const santaCruz = L.layerGroup();
+
+        const cGarajau = L.marker([32.63826, -16.8528], { icon: marker }).bindPopup('NOME: GARAJAU<br>REGIÃO: MADEIRA<br>CONCELHO: SANTA CRUZ<br>CÓDIGO: PTMT7N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/13j9irFJ_cJ2CtLBApUIR_VJOwqpVXlkb/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.63826<br>Longitude: -16.8528').addTo(santaCruz);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -292,6 +301,7 @@
             'Porto Moniz': portoMoniz,
             'Porto Santo': portoSanto,
             'Ribeira Brava': ribeiraBrava,
+            'Santa Cruz': santaCruz,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
