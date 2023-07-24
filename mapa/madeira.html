@@ -169,7 +169,10 @@
 
         const pSaoFernando = L.marker([32.68596, -16.79235], { icon: marker }).bindPopup('NOME: SÃO FERNANDO<br>REGIÃO: MADEIRA<br>CONCELHO: SANTA CRUZ<br>CÓDIGO: PTMJ7X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1medUptC2O7IKPKf4n6bctOL-XjPNm7lx/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.68596<br>Longitude: -16.79235').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Santana
+
+        const pRibeiraFaial = L.marker([32.793, -16.84842], { icon: marker }).bindPopup('NOME: RIBEIRA DO FAIAL<br>REGIÃO: MADEIRA<br>CONCELHO: SANTANA<br>CÓDIGO: PTMK7D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ShRt8IRGiICXHMiFJViQkMXM18PK26-E/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.793<br>Longitude: -16.84842').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -273,6 +276,12 @@
 
         const cSaoFernando = L.marker([32.68596, -16.79235], { icon: marker }).bindPopup('NOME: SÃO FERNANDO<br>REGIÃO: MADEIRA<br>CONCELHO: SANTA CRUZ<br>CÓDIGO: PTMJ7X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1medUptC2O7IKPKf4n6bctOL-XjPNm7lx/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.68596<br>Longitude: -16.79235').addTo(santaCruz);
 
+        // Concelho - Santana
+
+        const santana = L.layerGroup();
+
+        const cRibeiraFaial = L.marker([32.793, -16.84842], { icon: marker }).bindPopup('NOME: RIBEIRA DO FAIAL<br>REGIÃO: MADEIRA<br>CONCELHO: SANTANA<br>CÓDIGO: PTMK7D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1ShRt8IRGiICXHMiFJViQkMXM18PK26-E/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.793<br>Longitude: -16.84842').addTo(santana);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -313,6 +322,7 @@
             'Porto Santo': portoSanto,
             'Ribeira Brava': ribeiraBrava,
             'Santa Cruz': santaCruz,
+            'Santana': santana,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
