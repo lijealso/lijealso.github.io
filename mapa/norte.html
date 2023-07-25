@@ -243,7 +243,10 @@
 
         const pLenta = L.marker([41.956945, -8.746363], { icon: marker }).bindPopup('NOME: LENTA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE CERVEIRA<br>CÓDIGO: PTCF7N<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.956945<br>Longitude: -8.746363').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila Nova de Gaia
+
+        const pSaoFelixMarinha = L.marker([41.032738, -8.646894], { icon: marker }).bindPopup('NOME: S. FÉLIX DA MARINHA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCW7D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.032738<br>Longitude: -8.646894').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -431,6 +434,12 @@
 
         const cLenta = L.marker([41.956945, -8.746363], { icon: marker }).bindPopup('NOME: LENTA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE CERVEIRA<br>CÓDIGO: PTCF7N<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.956945<br>Longitude: -8.746363').addTo(vilaNovaCerveira);
 
+        // Concelho - Vila Nova de Gaia
+
+        const vilaNovaGaia = L.layerGroup();
+
+        const cSaoFelixMarinha = L.marker([41.032738, -8.646894], { icon: marker }).bindPopup('NOME: S. FÉLIX DA MARINHA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCW7D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.032738<br>Longitude: -8.646894').addTo(vilaNovaGaia);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -481,6 +490,7 @@
             'Vieira do Minho': vieiraMinho,
             'Vila do Conde': vilaConde,
             'Vila Nova de Cerveira': vilaNovaCerveira,
+            'Vila Nova de Gaia': vilaNovaGaia,
 
         };
 
