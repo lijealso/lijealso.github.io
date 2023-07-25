@@ -177,7 +177,10 @@
 
         const pSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Porto
+
+        const pHomemLeme = L.marker([41.160674, -8.686164], { icon: marker }).bindPopup('NOME: HOMEM DO LEME<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCQ8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.160674<br>Longitude: -8.686164').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -283,6 +286,12 @@
 
         const cSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(moimentaBeira);
 
+        // Concelho - Porto
+
+        const porto = L.layerGroup();
+
+        const cHomemLeme = L.marker([41.160674, -8.686164], { icon: marker }).bindPopup('NOME: HOMEM DO LEME<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCQ8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.160674<br>Longitude: -8.686164').addTo(porto);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -324,6 +333,7 @@
             'Matosinhos': matosinhos,
             'Mirandela': mirandela,
             'Moimenta da Beira': moimentaBeira,
+            'Porto': porto,
 
         };
 
