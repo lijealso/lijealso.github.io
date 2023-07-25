@@ -139,7 +139,10 @@
 
         const pCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Gondomar
+
+        const pLomba = L.marker([41.06994, -8.41379], { icon: marker }).bindPopup('NOME: LOMBA<br>REGIÃO: NORTE<br>CONCELHO: GONDOMAR<br>CÓDIGO: PTCH3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.06994<br>Longitude: -8.41379').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -194,6 +197,12 @@
 
         const cCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(freixoEspadaCinta);
 
+        // Concelho - Gondomar
+
+        const gondomar = L.layerGroup();
+
+        const cLomba = L.marker([41.06994, -8.41379], { icon: marker }).bindPopup('NOME: LOMBA<br>REGIÃO: NORTE<br>CONCELHO: GONDOMAR<br>CÓDIGO: PTCH3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.06994<br>Longitude: -8.41379').addTo(gondomar);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -230,6 +239,7 @@
             'Esposende': esposende,
             'Fafe': fafe,
             'Freixo de Espada à Cinta': freixoEspadaCinta,
+            'Gondomar': gondomar,
 
         };
 
