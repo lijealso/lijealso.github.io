@@ -207,7 +207,10 @@
 
         const pAlqueirao = L.marker([41.679777, -8.175740], { icon: marker }).bindPopup('NOME: ALQUEIRÃO<br>REGIÃO: NORTE<br>CONCELHO: TERRAS DE BOURO<br>CÓDIGO: PTCE7L<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.679777<br>Longitude: -8.175740').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Viana do Castelo
+
+        const pAfife = L.marker([41.78083, -8.87139], { icon: marker }).bindPopup('NOME: AFIFE<br>REGIÃO: NORTE<br>CONCELHO: VIANA DO CASTELO<br>CÓDIGO: PTCN2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.78083<br>Longitude: -8.87139').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -351,6 +354,12 @@
 
         const cAlqueirao = L.marker([41.679777, -8.175740], { icon: marker }).bindPopup('NOME: ALQUEIRÃO<br>REGIÃO: NORTE<br>CONCELHO: TERRAS DE BOURO<br>CÓDIGO: PTCE7L<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.679777<br>Longitude: -8.175740').addTo(terrasBouro);
 
+        // Concelho - Viana do Castelo
+
+        const vianaCastelo = L.layerGroup();
+
+        const cAfife = L.marker([41.78083, -8.87139], { icon: marker }).bindPopup('NOME: AFIFE<br>REGIÃO: NORTE<br>CONCELHO: VIANA DO CASTELO<br>CÓDIGO: PTCN2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.78083<br>Longitude: -8.87139').addTo(vianaCastelo);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -397,6 +406,7 @@
             'Póvoa de Varzim': povoaVarzim,
             'Sabugal': sabugal,
             'Terras de Bouro': terrasBouro,
+            'Viana do Castelo': vianaCastelo,
 
         };
 
