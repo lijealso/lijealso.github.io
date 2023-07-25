@@ -225,7 +225,10 @@
 
         const pPaco = L.marker([41.75972, -8.87806], { icon: marker }).bindPopup('NOME: PAÇÔ<br>REGIÃO: NORTE<br>CONCELHO: VIANA DO CASTELO<br>CÓDIGO: PTCD3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.75972<br>Longitude: -8.87806').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vieira do Minho
+
+        const pAlbufeiraErmal = L.marker([41.576794, -8.129933], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO ERMAL<br>REGIÃO: NORTE<br>CONCELHO: VIEIRA DO MINHO <br>CÓDIGO: PTCJ9P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.576794<br>Longitude: -8.129933').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -387,6 +390,12 @@
 
         const cPaco = L.marker([41.75972, -8.87806], { icon: marker }).bindPopup('NOME: PAÇÔ<br>REGIÃO: NORTE<br>CONCELHO: VIANA DO CASTELO<br>CÓDIGO: PTCD3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.75972<br>Longitude: -8.87806').addTo(vianaCastelo);
 
+        // Concelho - Vieira do Minho
+
+        const vieiraMinho = L.layerGroup();
+
+        const cAlbufeiraErmal = L.marker([41.576794, -8.129933], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO ERMAL<br>REGIÃO: NORTE<br>CONCELHO: VIEIRA DO MINHO <br>CÓDIGO: PTCJ9P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.576794<br>Longitude: -8.129933').addTo(vieiraMinho);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -434,6 +443,7 @@
             'Sabugal': sabugal,
             'Terras de Bouro': terrasBouro,
             'Viana do Castelo': vianaCastelo,
+            'Vieira do Minho': vieiraMinho,
 
         };
 
