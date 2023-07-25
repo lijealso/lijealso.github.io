@@ -173,7 +173,10 @@
 
         const pParqueDrJoseGama = L.marker([41.488303, -7.187595], { icon: marker }).bindPopup('NOME: PARQUE DR JOSÉ GAMA<br>REGIÃO: NORTE<br>CONCELHO: MIRANDELA<br>CÓDIGO: PTCX3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.488303<br>Longitude: -7.187595').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Moimenta da Beira
+
+        const pSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -274,6 +277,12 @@
 
         const cParqueDrJoseGama = L.marker([41.488303, -7.187595], { icon: marker }).bindPopup('NOME: PARQUE DR JOSÉ GAMA<br>REGIÃO: NORTE<br>CONCELHO: MIRANDELA<br>CÓDIGO: PTCX3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.488303<br>Longitude: -7.187595').addTo(mirandela);
 
+        // Concelho - Moimenta da Beira
+
+        const moimentaBeira = L.layerGroup();
+
+        const cSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(moimentaBeira);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -314,6 +323,7 @@
             'Macedo de Cavaleiros': macedoCavaleiros,
             'Matosinhos': matosinhos,
             'Mirandela': mirandela,
+            'Moimenta da Beira': moimentaBeira,
 
         };
 
