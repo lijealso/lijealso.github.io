@@ -143,6 +143,17 @@
 
         const pLomba = L.marker([41.06994, -8.41379], { icon: marker }).bindPopup('NOME: LOMBA<br>REGIÃO: NORTE<br>CONCELHO: GONDOMAR<br>CÓDIGO: PTCH3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.06994<br>Longitude: -8.41379').addTo(praias);
 
+        // Todas - Macedo de Cavaleiros
+
+        const pFragaPegada = L.marker([41.582309, -6.900224], { icon: marker }).bindPopup('NOME: FRAGA DA PEGADA<br>REGIÃO: NORTE<br>CONCELHO: MACEDO DE CAVALEIROS<br>CÓDIGO: PTCE3K<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.582309<br>Longitude: -6.900224').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -203,6 +214,12 @@
 
         const cLomba = L.marker([41.06994, -8.41379], { icon: marker }).bindPopup('NOME: LOMBA<br>REGIÃO: NORTE<br>CONCELHO: GONDOMAR<br>CÓDIGO: PTCH3T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.06994<br>Longitude: -8.41379').addTo(gondomar);
 
+        // Concelho - Macedo de Cavaleiros
+
+        const macedoCavaleiros = L.layerGroup();
+
+        const cFragaPegada = L.marker([41.582309, -6.900224], { icon: marker }).bindPopup('NOME: FRAGA DA PEGADA<br>REGIÃO: NORTE<br>CONCELHO: MACEDO DE CAVALEIROS<br>CÓDIGO: PTCE3K<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.582309<br>Longitude: -6.900224').addTo(macedoCavaleiros);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -240,6 +257,7 @@
             'Fafe': fafe,
             'Freixo de Espada à Cinta': freixoEspadaCinta,
             'Gondomar': gondomar,
+            'Macedo de Cavaleiros': macedoCavaleiros,
 
         };
 
