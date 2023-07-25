@@ -229,7 +229,10 @@
 
         const pAlbufeiraErmal = L.marker([41.576794, -8.129933], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO ERMAL<br>REGIÃO: NORTE<br>CONCELHO: VIEIRA DO MINHO <br>CÓDIGO: PTCJ9P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.576794<br>Longitude: -8.129933').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila do Conde
+
+        const pVilaConde = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -396,6 +399,12 @@
 
         const cAlbufeiraErmal = L.marker([41.576794, -8.129933], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO ERMAL<br>REGIÃO: NORTE<br>CONCELHO: VIEIRA DO MINHO <br>CÓDIGO: PTCJ9P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.576794<br>Longitude: -8.129933').addTo(vieiraMinho);
 
+        // Concelho - Vila do Conde
+
+        const vilaConde = L.layerGroup();
+
+        const cVilaConde = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(vilaConde);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -444,6 +453,7 @@
             'Terras de Bouro': terrasBouro,
             'Viana do Castelo': vianaCastelo,
             'Vieira do Minho': vieiraMinho,
+            'Vila do Conde': vilaConde,
 
         };
 
