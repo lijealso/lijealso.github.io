@@ -203,7 +203,10 @@
 
         const pLameiraQuadrazais = L.marker([40.31291, -6.98684], { icon: marker }).bindPopup('NOME: LAMEIRA-QUADRAZAIS<br>REGIÃO: NORTE<br>CONCELHO: SABUGAL<br>CÓDIGO: PTCP9X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.31291<br>Longitude: -6.98684').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Terras de Bouro
+
+        const pAlqueirao = L.marker([41.679777, -8.175740], { icon: marker }).bindPopup('NOME: ALQUEIRÃO<br>REGIÃO: NORTE<br>CONCELHO: TERRAS DE BOURO<br>CÓDIGO: PTCE7L<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.679777<br>Longitude: -8.175740').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -342,6 +345,12 @@
 
         const cLameiraQuadrazais = L.marker([40.31291, -6.98684], { icon: marker }).bindPopup('NOME: LAMEIRA-QUADRAZAIS<br>REGIÃO: NORTE<br>CONCELHO: SABUGAL<br>CÓDIGO: PTCP9X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.31291<br>Longitude: -6.98684').addTo(sabugal);
 
+        // Concelho - Terras de Bouro
+
+        const terrasBouro = L.layerGroup();
+
+        const cAlqueirao = L.marker([41.679777, -8.175740], { icon: marker }).bindPopup('NOME: ALQUEIRÃO<br>REGIÃO: NORTE<br>CONCELHO: TERRAS DE BOURO<br>CÓDIGO: PTCE7L<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.679777<br>Longitude: -8.175740').addTo(terrasBouro);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -387,6 +396,7 @@
             'Póvoa de Lanhoso': povoaLanhoso,
             'Póvoa de Varzim': povoaVarzim,
             'Sabugal': sabugal,
+            'Terras de Bouro': terrasBouro,
 
         };
 
