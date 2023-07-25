@@ -117,7 +117,10 @@
 
         const pParamos = L.marker([40.97722, -8.64972], { icon: marker }).bindPopup('NOME: PARAMOS<br>REGIÃO: NORTE<br>CONCELHO: ESPINHO<br>CÓDIGO: PTCP9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPINHO/Paramos_PTCP9C.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 40.97722<br>Longitude: -8.64972').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Esposende
+
+        const pApulia = L.marker([41.483265, -8.778835], { icon: marker }).bindPopup('NOME: APÚLIA<br>REGIÃO: NORTE<br>CONCELHO: ESPOSENDE <br>CÓDIGO: PTCN8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPOSENDE/Apulia_PTCN8H.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.483265<br>Longitude: -8.778835').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
@@ -142,6 +145,12 @@
         const cFrenteAzul = L.marker([41.01194, -8.64694], { icon: marker }).bindPopup('NOME: FRENTE AZUL<br>REGIÃO: NORTE<br>CONCELHO: ESPINHO<br>CÓDIGO: PTCQ2N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPINHO/FrenteAzul_PTCQ2N.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.01194<br>Longitude: -8.64694').addTo(espinho);
 
         const cParamos = L.marker([40.97722, -8.64972], { icon: marker }).bindPopup('NOME: PARAMOS<br>REGIÃO: NORTE<br>CONCELHO: ESPINHO<br>CÓDIGO: PTCP9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPINHO/Paramos_PTCP9C.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 40.97722<br>Longitude: -8.64972').addTo(espinho);
+
+        // Concelho - Esposende
+
+        const esposende = L.layerGroup();
+
+        const cApulia = L.marker([41.483265, -8.778835], { icon: marker }).bindPopup('NOME: APÚLIA<br>REGIÃO: NORTE<br>CONCELHO: ESPOSENDE <br>CÓDIGO: PTCN8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPOSENDE/Apulia_PTCN8H.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.483265<br>Longitude: -8.778835').addTo(esposende);
 
         // Map layers
 
@@ -176,6 +185,7 @@
             'Todas as Praias': praias,
             'Caminha': caminha,
             'Espinho': espinho,
+            'Esposende': esposende,
 
         };
 
