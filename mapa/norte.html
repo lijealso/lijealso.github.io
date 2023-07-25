@@ -185,7 +185,10 @@
 
         const pVerim = L.marker([41.644924, -8.312985], { icon: marker }).bindPopup('NOME: VERIM<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE LANHOSO<br>CÓDIGO: PTCU2F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.644924<br>Longitude: -8.312985').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Póvoa de Varzim
+
+        const pCodixeira = L.marker([41.438891, -8.781475], { icon: marker }).bindPopup('NOME: CODIXEIRA<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE VARZIM<br>CÓDIGO: PTCD9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.438891<br>Longitude: -8.781475').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -301,6 +304,12 @@
 
         const cVerim = L.marker([41.644924, -8.312985], { icon: marker }).bindPopup('NOME: VERIM<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE LANHOSO<br>CÓDIGO: PTCU2F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.644924<br>Longitude: -8.312985').addTo(povoaLanhoso);
 
+        // Concelho - Póvoa de Varzim
+
+        const povoaVarzim = L.layerGroup();
+
+        const cCodixeira = L.marker([41.438891, -8.781475], { icon: marker }).bindPopup('NOME: CODIXEIRA<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE VARZIM<br>CÓDIGO: PTCD9T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.438891<br>Longitude: -8.781475').addTo(povoaVarzim);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -344,6 +353,7 @@
             'Moimenta da Beira': moimentaBeira,
             'Porto': porto,
             'Póvoa de Lanhoso': povoaLanhoso,
+            'Póvoa de Varzim': povoaVarzim,
 
         };
 
