@@ -107,7 +107,10 @@
 
         const pAldeiaMato = L.marker([39.54515, -8.27767], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54515<br>Longitude: -8.27767').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Alcobaça
+
+        const pSaoMartinhoPorto = L.marker([39.510117, -9.1355], { icon: marker }).bindPopup('NOME: S. MARTINHO DO PORTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCT7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.510117<br>Longitude: -9.1355').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -120,6 +123,12 @@
         const abrantes = L.layerGroup();
 
         const cAldeiaMato = L.marker([39.54515, -8.27767], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54515<br>Longitude: -8.27767').addTo(abrantes);
+
+        // Concelho - Alcobaça
+
+        const alcobaca = L.layerGroup();
+
+        const cSaoMartinhoPorto = L.marker([39.510117, -9.1355], { icon: marker }).bindPopup('NOME: S. MARTINHO DO PORTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCT7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.510117<br>Longitude: -9.1355').addTo(alcobaca);
 
         // Map layers
 
@@ -153,6 +162,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Abrantes': abrantes,
+            'Alcobaça': alcobaca,
 
         };
 
