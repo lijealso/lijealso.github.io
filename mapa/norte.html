@@ -231,8 +231,17 @@
 
         // Todas - Vila do Conde
 
-        const pVilaConde = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(praias);
+        const pFrenteUrbanaNorte = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(praias);
 
+        const pFrenteUrbanaSul = L.marker([41.34667, -8.75417], { icon: marker }).bindPopup('NOME: FRENTE URBANA SUL<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE<br>CÓDIGO: PTCU2X<br> CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a<br>Latitude: 41.34667<br>Longitude: -8.75417').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -403,7 +412,9 @@
 
         const vilaConde = L.layerGroup();
 
-        const cVilaConde = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(vilaConde);
+        const cFrenteUrbanaNorte = L.marker([41.35833, -8.75694], { icon: marker }).bindPopup('NOME: FRENTE URBANA NORTE<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCF8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.35833<br>Longitude: -8.75694').addTo(vilaConde);
+
+        const cFrenteUrbanaSul = L.marker([41.34667, -8.75417], { icon: marker }).bindPopup('NOME: FRENTE URBANA SUL<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE<br>CÓDIGO: PTCU2X<br> CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a<br>Latitude: 41.34667<br>Longitude: -8.75417').addTo(vilaConde);
 
         // Map layers
 
