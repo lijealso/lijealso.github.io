@@ -169,7 +169,10 @@
 
         const pQuebrada = L.marker([41.237543, -8.724703], { icon: marker }).bindPopup('NOME: QUEBRADA<br>REGIÃO: NORTE<br>CONCELHO: MATOSINHOS<br>CÓDIGO: PTCE8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.237543<br>Longitude: -8.724703').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Mirandela
+
+        const pParqueDrJoseGama = L.marker([41.488303, -7.187595], { icon: marker }).bindPopup('NOME: PARQUE DR JOSÉ GAMA<br>REGIÃO: NORTE<br>CONCELHO: MIRANDELA<br>CÓDIGO: PTCX3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.488303<br>Longitude: -7.187595').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -265,6 +268,12 @@
 
         const cQuebrada = L.marker([41.237543, -8.724703], { icon: marker }).bindPopup('NOME: QUEBRADA<br>REGIÃO: NORTE<br>CONCELHO: MATOSINHOS<br>CÓDIGO: PTCE8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.237543<br>Longitude: -8.724703').addTo(matosinhos);
 
+        // Concelho - Mirandela
+
+        const mirandela = L.layerGroup();
+
+        const cParqueDrJoseGama = L.marker([41.488303, -7.187595], { icon: marker }).bindPopup('NOME: PARQUE DR JOSÉ GAMA<br>REGIÃO: NORTE<br>CONCELHO: MIRANDELA<br>CÓDIGO: PTCX3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.488303<br>Longitude: -7.187595').addTo(mirandela);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -304,6 +313,7 @@
             'Gondomar': gondomar,
             'Macedo de Cavaleiros': macedoCavaleiros,
             'Matosinhos': matosinhos,
+            'Mirandela': mirandela,
 
         };
 
