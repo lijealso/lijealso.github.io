@@ -199,7 +199,10 @@
 
         const pZonaUrbanaSulI = L.marker([41.385008, -8.773203], { icon: marker }).bindPopup('NOME: ZONA URBANA SUL I<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE VARZIM<br>CÓDIGO: PTCF3X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.385008<br>Longitude: -8.773203').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Sabugal
+
+        const pLameiraQuadrazais = L.marker([40.31291, -6.98684], { icon: marker }).bindPopup('NOME: LAMEIRA-QUADRAZAIS<br>REGIÃO: NORTE<br>CONCELHO: SABUGAL<br>CÓDIGO: PTCP9X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.31291<br>Longitude: -6.98684').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -333,6 +336,12 @@
 
         const cZonaUrbanaSulI = L.marker([41.385008, -8.773203], { icon: marker }).bindPopup('NOME: ZONA URBANA SUL I<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE VARZIM<br>CÓDIGO: PTCF3X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.385008<br>Longitude: -8.773203').addTo(povoaVarzim);
 
+        // Concelho - Sabugal
+
+        const sabugal = L.layerGroup();
+
+        const cLameiraQuadrazais = L.marker([40.31291, -6.98684], { icon: marker }).bindPopup('NOME: LAMEIRA-QUADRAZAIS<br>REGIÃO: NORTE<br>CONCELHO: SABUGAL<br>CÓDIGO: PTCP9X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.31291<br>Longitude: -6.98684').addTo(sabugal);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -377,6 +386,7 @@
             'Porto': porto,
             'Póvoa de Lanhoso': povoaLanhoso,
             'Póvoa de Varzim': povoaVarzim,
+            'Sabugal': sabugal,
 
         };
 
