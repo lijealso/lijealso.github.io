@@ -131,7 +131,10 @@
 
         const pSuaveMar = L.marker([41.54583, -8.79333], { icon: marker }).bindPopup('NOME: SUAVE MAR<br>REGIÃO: NORTE<br>CONCELHO: ESPOSENDE <br>CÓDIGO: PTCX7J<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPOSENDE/SuaveMar_PTCX7J.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.54583<br>Longitude: -8.79333').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Fafe
+
+        const pAlbufeiraQueimadela = L.marker([41.50524, -8.16276], { icon: marker }).bindPopup('NOME: ALBUFEIRA DE QUEIMADELA<br>REGIÃO: NORTE<br>CONCELHO: FAFE<br>CÓDIGO: PTCQ2X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.50524<br>Longitude: -8.16276').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -176,6 +179,12 @@
 
         const cSuaveMar = L.marker([41.54583, -8.79333], { icon: marker }).bindPopup('NOME: SUAVE MAR<br>REGIÃO: NORTE<br>CONCELHO: ESPOSENDE <br>CÓDIGO: PTCX7J<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPOSENDE/SuaveMar_PTCX7J.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.54583<br>Longitude: -8.79333').addTo(esposende);
 
+        // Concelho - Fafe
+
+        const fafe = L.layerGroup();
+
+        const cAlbufeiraQueimadela = L.marker([41.50524, -8.16276], { icon: marker }).bindPopup('NOME: ALBUFEIRA DE QUEIMADELA<br>REGIÃO: NORTE<br>CONCELHO: FAFE<br>CÓDIGO: PTCQ2X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.50524<br>Longitude: -8.16276').addTo(fafe);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -210,6 +219,7 @@
             'Caminha': caminha,
             'Espinho': espinho,
             'Esposende': esposende,
+            'Fafe': fafe,
 
         };
 
