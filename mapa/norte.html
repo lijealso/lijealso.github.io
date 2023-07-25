@@ -267,7 +267,10 @@
 
         const pSaozinha = L.marker([41.0725, -8.65833], { icon: marker }).bindPopup('NOME: SÃOZINHA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCW8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.0725<br>Longitude: -8.65833').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vinhais
+
+        const pPonteRanca = L.marker([41.810721, -6.994019], { icon: marker }).bindPopup('NOME: PONTE DA RANCA<br>REGIÃO: NORTE<br>CONCELHO: VINHAIS<br>CÓDIGO: PTCV3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.810721<br>Longitude: -6.994019').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -482,6 +485,12 @@
 
         const cSaozinha = L.marker([41.0725, -8.65833], { icon: marker }).bindPopup('NOME: SÃOZINHA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCW8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.0725<br>Longitude: -8.65833').addTo(vilaNovaGaia);
 
+        // Concelho - Vinhais
+
+        const vinhais = L.layerGroup();
+
+        const cPonteRanca = L.marker([41.810721, -6.994019], { icon: marker }).bindPopup('NOME: PONTE DA RANCA<br>REGIÃO: NORTE<br>CONCELHO: VINHAIS<br>CÓDIGO: PTCV3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.810721<br>Longitude: -6.994019').addTo(vinhais);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -533,6 +542,7 @@
             'Vila do Conde': vilaConde,
             'Vila Nova de Cerveira': vilaNovaCerveira,
             'Vila Nova de Gaia': vilaNovaGaia,
+            'Vinhais': vinhais,
 
         };
 
