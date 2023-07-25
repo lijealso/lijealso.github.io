@@ -78,7 +78,8 @@
         <li><a href="madeira.html">Madeira</a></li>
         <li><a href="norte.html">Norte</a></li>
         <li><a class="active" href="tejo-oeste.html">Tejo e Oeste</a></li>
-        <li><a href="https://quercus.pt/2023/05/16/no-arranque-da-epoca-balnear-2023-quercus-classifica-393-praias-com-qualidade-de-ouro-menos-47-do-que-no-ano-passado/" target="_blank">Ver artigo</a></li>
+        <li><a href="https://quercus.pt/2023/05/16/no-arranque-da-epoca-balnear-2023-quercus-classifica-393-praias-com-qualidade-de-ouro-menos-47-do-que-no-ano-passado/"
+                target="_blank">Ver artigo</a></li>
     </ul>
 
     <div id='map'></div>
@@ -104,7 +105,8 @@
 
         // Todas - Abrantes
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        const pAldeiaMato = L.marker([39.54515, -8.27767], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54515<br>Longitude: -8.27767').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -116,6 +118,8 @@
         // Concelho - Abrantes
 
         const abrantes = L.layerGroup();
+
+        const cAldeiaMato = L.marker([39.54515, -8.27767], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54515<br>Longitude: -8.27767').addTo(abrantes);
 
         // Map layers
 
