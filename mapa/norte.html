@@ -149,7 +149,10 @@
 
         const pRibeira = L.marker([41.58598, -6.905980], { icon: marker }).bindPopup('NOME: RIBEIRA<br>REGIÃO: NORTE<br>CONCELHO: MACEDO DE CAVALEIROS<br>CÓDIGO: PTCP9W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.58598<br>Longitude: -6.905980').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Matosinhos
+
+        const pAngeirasNorte = L.marker([41.268147, -8.727775], { icon: marker }).bindPopup('NOME: ANGEIRAS NORTE<br><REGIÃO: NORTE<br>CONCELHO: MATOSINHOS<br>CÓDIGO: PTCU9H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.268147<br>Longitude: -8.727775').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -223,6 +226,12 @@
 
         const cRibeira = L.marker([41.58598, -6.905980], { icon: marker }).bindPopup('NOME: RIBEIRA<br>REGIÃO: NORTE<br>CONCELHO: MACEDO DE CAVALEIROS<br>CÓDIGO: PTCP9W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.58598<br>Longitude: -6.905980').addTo(macedoCavaleiros);
 
+        // Concelho - Matosinhos
+
+        const matosinhos = L.layerGroup();
+
+        const cAngeirasNorte = L.marker([41.268147, -8.727775], { icon: marker }).bindPopup('NOME: ANGEIRAS NORTE<br><REGIÃO: NORTE<br>CONCELHO: MATOSINHOS<br>CÓDIGO: PTCU9H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.268147<br>Longitude: -8.727775').addTo(matosinhos);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -261,6 +270,7 @@
             'Freixo de Espada à Cinta': freixoEspadaCinta,
             'Gondomar': gondomar,
             'Macedo de Cavaleiros': macedoCavaleiros,
+            'Matosinhos': matosinhos,
 
         };
 
