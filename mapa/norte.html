@@ -135,7 +135,10 @@
 
         const pAlbufeiraQueimadela = L.marker([41.50524, -8.16276], { icon: marker }).bindPopup('NOME: ALBUFEIRA DE QUEIMADELA<br>REGIÃO: NORTE<br>CONCELHO: FAFE<br>CÓDIGO: PTCQ2X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.50524<br>Longitude: -8.16276').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Freixo de Espada à Cinta
+
+        const pCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -185,6 +188,12 @@
 
         const cAlbufeiraQueimadela = L.marker([41.50524, -8.16276], { icon: marker }).bindPopup('NOME: ALBUFEIRA DE QUEIMADELA<br>REGIÃO: NORTE<br>CONCELHO: FAFE<br>CÓDIGO: PTCQ2X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.50524<br>Longitude: -8.16276').addTo(fafe);
 
+        // Concelho - Freixo de Espada à Cinta
+
+        const freixoEspadaCinta = L.layerGroup();
+
+        const cCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(freixoEspadaCinta);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -220,6 +229,7 @@
             'Espinho': espinho,
             'Esposende': esposende,
             'Fafe': fafe,
+            'Freixo de Espada à Cinta': freixoEspadaCinta,
 
         };
 
