@@ -239,7 +239,10 @@
 
         const pMindelo = L.marker([41.310698, -8.741281], { icon: marker }).bindPopup('NOME: MINDELO<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCV2N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.310698<br>Longitude: -8.741281').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Vila Nova de Cerveira
+
+        const pLenta = L.marker([41.956945, -8.746363], { icon: marker }).bindPopup('NOME: LENTA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE CERVEIRA<br>CÓDIGO: PTCF7N<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.956945<br>Longitude: -8.746363').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -422,6 +425,12 @@
 
         const cMindelo = L.marker([41.310698, -8.741281], { icon: marker }).bindPopup('NOME: MINDELO<br>REGIÃO: NORTE<br>CONCELHO: VILA DO CONDE <br>CÓDIGO: PTCV2N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.310698<br>Longitude: -8.741281').addTo(vilaConde);
 
+        // Concelho - Vila Nova de Cerveira
+
+        const vilaNovaCerveira = L.layerGroup();
+
+        const cLenta = L.marker([41.956945, -8.746363], { icon: marker }).bindPopup('NOME: LENTA<br>REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE CERVEIRA<br>CÓDIGO: PTCF7N<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.956945<br>Longitude: -8.746363').addTo(vilaNovaCerveira);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -471,6 +480,7 @@
             'Viana do Castelo': vianaCastelo,
             'Vieira do Minho': vieiraMinho,
             'Vila do Conde': vilaConde,
+            'Vila Nova de Cerveira': vilaNovaCerveira,
 
         };
 
