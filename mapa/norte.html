@@ -101,7 +101,10 @@
 
         const pForteCao = L.marker([41.80056, -8.87111], { icon: marker }).bindPopup('NOME: FORTE DO CÃO<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCX7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/FortedoCao_PTCX7T.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.80056<br>Longitude: -8.87111').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Espinho
+
+        const pEspinhoRua37 = L.marker([41.00139, -8.6475], { icon: marker }).bindPopup('NOME: ESPINHO-RUA 37<br>REGIÃO: NORTE<br>CONCELHO: ESPINHO<br>CÓDIGO: PTCN3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPINHO/EspinhoRua37_PTCN3K.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.00139<br>Longitude: -8.6475').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -119,6 +122,12 @@
         const cCaminha = L.marker([41.86694, -8.86417], { icon: marker }).bindPopup('NOME: CAMINHA<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCT3X<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/Caminha_PTCT3X.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.86694<br>Longitude: -8.86417').addTo(caminha);
 
         const cForteCao = L.marker([41.80056, -8.87111], { icon: marker }).bindPopup('NOME: FORTE DO CÃO<br>REGIÃO: NORTE<br>CONCELHO: CAMINHA<br>CÓDIGO: PTCX7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/CAMINHA/FortedoCao_PTCX7T.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.80056<br>Longitude: -8.87111').addTo(caminha);
+
+        // Concelho - Espinho
+
+        const espinho = L.layerGroup();
+
+        const cEspinhoRua37 = L.marker([41.00139, -8.6475], { icon: marker }).bindPopup('NOME: ESPINHO-RUA 37<br>REGIÃO: NORTE<br>CONCELHO: ESPINHO<br>CÓDIGO: PTCN3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/sites/default/files/_SNIAMB_A_APA/Comunicacao/Epoca_balnear/PerfisAB/ARH_Norte/PerfisAguasBalneares/ESPINHO/EspinhoRua37_PTCN3K.pdf" target="_blank">Ver ficheiro</a><br>Latitude: 41.00139<br>Longitude: -8.6475').addTo(espinho);
 
 
         // Map layers
@@ -153,6 +162,7 @@
         const overlays = {
             'Todas as Praias': praias,
             'Caminha': caminha,
+            'Espinho': espinho,
 
         };
 
