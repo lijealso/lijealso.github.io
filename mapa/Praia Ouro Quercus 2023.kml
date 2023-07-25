@@ -1664,7 +1664,7 @@
       </Placemark>
       <Placemark>
         <name>DUNAS MAR</name>
-        <description><![CDATA[REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCL7M<br>CATEGORIA: COSTEIRA<br>Referência: https://apambiente.pt/apa/arh-do-norte<br>Latitude: 41.0825<br>Longitude: -8,65694]]></description>
+        <description><![CDATA[REGIÃO: NORTE<br>CONCELHO: VILA NOVA DE GAIA<br>CÓDIGO: PTCL7M<br>CATEGORIA: COSTEIRA<br>Referência: https://apambiente.pt/apa/arh-do-norte<br>Latitude: 41.0825<br>Longitude: -8.65694]]></description>
         <ExtendedData>
           <Data name="REGIÃO">
             <value>NORTE</value>
