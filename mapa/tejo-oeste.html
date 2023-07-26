@@ -171,8 +171,10 @@
 
         const pSesmo = L.marker([39.859756, -7.742589], { icon: marker }).bindPopup('NOME: SESMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASTELO BRANCO<br>CÓDIGO: PTCX9C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.859756<br>Longitude: -7.742589').addTo(praias);
 
+        // Todas - Ferreira do Zêzere
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        const pCastanheiraLagoAzul = L.marker([39.67582, -8.23071], { icon: marker }).bindPopup('NOME: CASTANHEIRA OU LAGO AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FERREIRA DO ZÊZERE<br>CÓDIGO: PTCT7W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.67582<br>Longitude: -8.23071').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -263,6 +265,12 @@
 
         const cSesmo = L.marker([39.859756, -7.742589], { icon: marker }).bindPopup('NOME: SESMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASTELO BRANCO<br>CÓDIGO: PTCX9C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.859756<br>Longitude: -7.742589').addTo(casteloBranco);
 
+        // Concelho - Ferreira do Zêzere
+
+        const ferreiraZezere = L.layerGroup();
+
+        const cCastanheiraLagoAzul = L.marker([39.67582, -8.23071], { icon: marker }).bindPopup('NOME: CASTANHEIRA OU LAGO AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FERREIRA DO ZÊZERE<br>CÓDIGO: PTCT7W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.67582<br>Longitude: -8.23071').addTo(ferreiraZezere);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -301,6 +309,7 @@
             'Caldas da Rainha': caldasRainha,
             'Cascais': cascais,
             'Castelo Branco': casteloBranco,
+            'Ferreira do Zêzere': ferreiraZezere,
 
         };
 
