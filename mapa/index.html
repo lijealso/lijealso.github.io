@@ -221,7 +221,7 @@
 
         const pMaia = L.marker([36.93980050634198, -25.013531587819227], { icon: marker }).bindPopup('NOME: MAIA<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAX3E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/vL4kFGQqgV56Yev78?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.93980050634198<br>Longitude: -25.013531587819227').addTo(praias);
 
-        const pSaoLourenco = L.marker([36.98973252128421, -25.054833911202763], { icon: marker }).bindPopup('NOME: SÃO LOURENÇO<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAU9N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ThuJYFWWNzJjVa4E7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.98973252128421<br>Longitude: -25.054833911202763').addTo(praias);
+        const pSaoLourencoAcores = L.marker([36.98973252128421, -25.054833911202763], { icon: marker }).bindPopup('NOME: SÃO LOURENÇO<br>REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAU9N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/ThuJYFWWNzJjVa4E7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.98973252128421<br>Longitude: -25.054833911202763').addTo(praias);
 
         const pFormosaAcores = L.marker([36.95120477805674, -25.097741793740337], { icon: marker }).bindPopup('REGIÃO: AÇORES<br>CONCELHO: VILA DO PORTO<br>CÓDIGO: PTAH7T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/nbGwTLviibDqvBte9?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 36.95120477805674<br>Longitude: -25.097741793740337').addTo(praias);
 
@@ -315,7 +315,7 @@
 
         const pBelharucas = L.marker([37.090878, -8.183363], { icon: marker }).bindPopup('NOME: BELHARUCAS<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCD9U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/r2hM4qrd4kqySbMD8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.091578150897185<br>Longitude: -8.183170881484925').addTo(praias);
 
-        const pCastelo = L.marker([37.073021, -8.298583], { icon: marker }).bindPopup('NOME: CASTELO<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCL2F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/R36LYotvpkjwU9Vh7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.074686575923074<br>Longitude: -8.298827485914687').addTo(praias);
+        const pCasteloAlgarve = L.marker([37.073021, -8.298583], { icon: marker }).bindPopup('NOME: CASTELO<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCL2F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/R36LYotvpkjwU9Vh7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.074686575923074<br>Longitude: -8.298827485914687').addTo(praias);
 
         const pCoelha = L.marker([37.0738706087476, -8.29390124359718], { icon: marker }).bindPopup('NOME: COELHA<br>REGIÃO: ALGARVE<br>CONCELHO: ALBUFEIRA<br>CÓDIGO: PTCQ8L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/7AEFskzaPAXYvajJ8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 37.0738706087476<br>Longitude: -8.29390124359718').addTo(praias);
 
@@ -884,6 +884,257 @@
 
         const pPonteSoeira = L.marker([41.847341, -6.936386], { icon: marker }).bindPopup('NOME: PONTE SOEIRA<br>REGIÃO: NORTE<br>CONCELHO: VINHAIS<br>CÓDIGO: PTCF9U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.847341<br>Longitude: -6.936386').addTo(praias);
 
+        // Todas as Praias - Tejo e Oeste
+
+        // Todas - Abrantes
+
+        const pAldeiaMato = L.marker([39.54515, -8.27767], { icon: marker }).bindPopup('NOME: ALDEIA DO MATO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ABRANTES<br>CÓDIGO: PTCT9H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54515<br>Longitude: -8.27767').addTo(praias);
+
+        // Todas - Alcobaça
+
+        const pSaoMartinhoPorto = L.marker([39.510117, -9.1355], { icon: marker }).bindPopup('NOME: S. MARTINHO DO PORTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCT7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.510117<br>Longitude: -9.1355').addTo(praias);
+
+        const pAguaMadeiros = L.marker([39.74012, -9.04043], { icon: marker }).bindPopup('NOME: ÁGUA DE MADEIROS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCV9J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.74012<br>Longitude: -9.04043').addTo(praias);
+
+        const pLegua = L.marker([39.65357, -9.069833], { icon: marker }).bindPopup('NOME: LÉGUA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCF2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.65357<br>Longitude: -9.069833').addTo(praias);
+
+        const pPedraOuro = L.marker([39.725967, -9.047167], { icon: marker }).bindPopup('NOME: PEDRA DO OURO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCE3U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.725967<br>Longitude: -9.047167').addTo(praias);
+
+        const pPolvoeira = L.marker([39.716283, -9.0499], { icon: marker }).bindPopup('NOME: POLVOEIRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALCOBAÇA<br>CÓDIGO: PTCP8Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.716283<br>Longitude: -9.0499').addTo(praias);
+
+        // Todas - Almada
+
+        const pBelaVistaNovaVaga = L.marker([38.597391, -9.208429], { icon: marker }).bindPopup('NOME: BELA VISTA/NOVA VAGA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCN2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.601365<br>Longitude: -9.210949').addTo(praias);
+
+        const pCabanaPescador = L.marker([38.609339, -9.214098], { icon: marker }).bindPopup('NOME: CABANA DO PESCADOR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCF3U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.601365<br>Longitude: -9.210949').addTo(praias);
+
+        const pCasteloTejoOeste = L.marker([38.612921, -9.217214], { icon: marker }).bindPopup('NOME: CASTELO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCV2T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.612921<br>Longitude: -9.217214').addTo(praias);
+
+        const pCdsSantoAntonio = L.marker([38.645397, -9.242386], { icon: marker }).bindPopup('NOME: CDS/SANTO ANTÓNIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCK2H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.637241<br>Longitude: -9.235855').addTo(praias);
+
+        const pFonteTelha = L.marker([38.571429, -9.197475], { icon: marker }).bindPopup('NOME: FONTE DA TELHA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCX7L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.571429<br>Longitude: -9.197475').addTo(praias);
+
+        const pInfante = L.marker([38.599977, -9.209499], { icon: marker }).bindPopup('NOME: INFANTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCV7J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.599977<br>Longitude: -9.209499').addTo(praias);
+
+        const pMata = L.marker([38.623885, -9.223502], { icon: marker }).bindPopup('NOME: MATA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCN9J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.623885<br>Longitude: -9.223502').addTo(praias);
+
+        const pMorena = L.marker([38.602952, -9.210816], { icon: marker }).bindPopup('NOME: MORENA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCT9D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.602952<br>Longitude: -9.210816').addTo(praias);
+
+        const pPraiaNovaNovaPraia = L.marker([38.635999, -9.233929], { icon: marker }).bindPopup('NOME: PRAIA NOVA/NOVA PRAIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCX3N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.635999<br>Longitude: -9.233929').addTo(praias);
+
+        const pRainhaAlmada = L.marker([38.616361, -9.218191], { icon: marker }).bindPopup('NOME: RAINHA (ALMADA)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCX3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.616361<br>Longitude: -9.218191').addTo(praias);
+
+        const pRei = L.marker([38.606195, -9.212227], { icon: marker }).bindPopup('NOME: REI<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCH8T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.606195<br>Longitude: -9.212227').addTo(praias);
+
+        const pRiviera = L.marker([38.621017, -9.221392], { icon: marker }).bindPopup('NOME: RIVIERA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCH3V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.621017<br>Longitude: -9.221392').addTo(praias);
+
+        const pSaude = L.marker([38.629667, -9.227882], { icon: marker }).bindPopup('NOME: SAÚDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCF7X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.629667<br>Longitude: -9.227882').addTo(praias);
+
+        const pSereia = L.marker([38.601365, -9.210949], { icon: marker }).bindPopup('NOME: SEREIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCT3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.601365<br>Longitude: -9.210949').addTo(praias);
+
+        const pTarquinioDragaoVermelho = L.marker([38.641028, -9.238330], { icon: marker }).bindPopup('NOME: TARQUÍNIO/DRAGÃO VERMELHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCJ8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.641028<br>Longitude: -9.238330').addTo(praias);
+
+        // Todas - Avis
+
+        const pClubeNauticoAvis = L.marker([39.05668, -7.91341], { icon: marker }).bindPopup('NOME: CLUBE NÁUTICO DE AVIS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: AVIS<br>CÓDIGO: PTCL3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/clube-nautico-de-avis/" target="_blank">Ver informação</a><br>Latitude: 39.05668<br>Longitude: -7.91341').addTo(praias);
+
+        // Todas - Caldas da Raínha
+
+        const pFozArelhoLagoa = L.marker([39.42855, -9.2235], { icon: marker }).bindPopup('NOME: FOZ DO ARELHO-LAGOA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCE7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.42855<br>Longitude: -9.2235').addTo(praias);
+
+        const pPraiaMar = L.marker([39.434583, -9.22895], { icon: marker }).bindPopup('NOME: PRAIA DO MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCH3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.434583<br>Longitude: -9.22895').addTo(praias);
+
+        // Todas - Cascais
+
+        const pCrismina = L.marker([38.726295, -9.476987], { icon: marker }).bindPopup('NOME: CRISMINA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCL8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.726295<br>Longitude: -9.476987').addTo(praias);
+
+        const pGuincho = L.marker([38.730674, -9.474902], { icon: marker }).bindPopup('NOME: GUINCHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCV7Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.730674<br>Longitude: -9.474902').addTo(praias);
+
+        // Todas - Castelo Branco
+
+        const pSesmo = L.marker([39.859756, -7.742589], { icon: marker }).bindPopup('NOME: SESMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASTELO BRANCO<br>CÓDIGO: PTCX9C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.859756<br>Longitude: -7.742589').addTo(praias);
+
+        // Todas - Ferreira do Zêzere
+
+        const pCastanheiraLagoAzul = L.marker([39.67582, -8.23071], { icon: marker }).bindPopup('NOME: CASTANHEIRA OU LAGO AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FERREIRA DO ZÊZERE<br>CÓDIGO: PTCT7W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.67582<br>Longitude: -8.23071').addTo(praias);
+
+        // Todas - Lourinhã
+
+        const pPeralta = L.marker([39.24562, -9.34199], { icon: marker }).bindPopup('NOME: PERALTA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: LOURINHÃ<br>CÓDIGO: PTCH9X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.24562<br>Longitude: -9.34199').addTo(praias);
+
+        const pPortoDinheiro = L.marker([39.21413, -9.3448], { icon: marker }).bindPopup('NOME: PORTO DINHEIRO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: LOURINHÃ<br>CÓDIGO: PTCX2Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.21413<br>Longitude: -9.3448').addTo(praias);
+
+        const pValmitao = L.marker([39.20139, -9.34752], { icon: marker }).bindPopup('NOME: VALMITÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: LOURINHÃ<br>CÓDIGO: PTCK9L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.20139<br>Longitude: -9.34752').addTo(praias);
+
+        // Todas - Mação
+
+        const pCardigos = L.marker([39.708122261376744, -8.013815838346057], { icon: marker }).bindPopup('NOME: CARDIGOS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAÇÃO<br>CÓDIGO: PTCE7T<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://goo.gl/maps/7wSRoWjMWs9bAvMN7?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.708122261376744<br>Longitude: -8.013815838346057').addTo(praias);
+
+        const pCarvoeiroMacao = L.marker([39.63021, -7.92298], { icon: marker }).bindPopup('NOME: CARVOEIRO (MAÇÃO)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAÇÃO<br>CÓDIGO: PTCV8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.63021<br>Longitude: -7.92298').addTo(praias);
+
+        // Todas - Mafra
+
+        const pAlgodio = L.marker([38.96700, -9.42027], { icon: marker }).bindPopup('NOME: ALGODIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCW8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.96700<br>Longitude: -9.42027').addTo(praias);
+
+        const pBaleia = L.marker([38.95616, -9.41616], { icon: marker }).bindPopup('NOME: BALEIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCX3T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.95616<br>Longitude: -9.41616').addTo(praias);
+
+        const pCoxos = L.marker([39.00442, -9.425843], { icon: marker }).bindPopup('NOME: COXOS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCL8W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.00442<br>Longitude: -9.425843').addTo(praias);
+
+        const pFozLizandroMar = L.marker([38.9424, -9.41646], { icon: marker }).bindPopup('NOME: FOZ DO LIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCF7H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.9424<br>Longitude: -9.41646').addTo(praias);
+
+        const pPortoCalada = L.marker([39.03274, -9.419], { icon: marker }).bindPopup('NOME: PORTO DA CALADA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCJ2H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.03274<br>Longitude: -9.419').addTo(praias);
+
+        const pRibeiraIlhas = L.marker([38.98746, -9.41962], { icon: marker }).bindPopup('NOME: RIBEIRA DE ILHAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCT3D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.98746<br>Longitude: -9.41962').addTo(praias);
+
+        const pSaoLourencoTejoOeste = L.marker([39.01207, -9.42202], { icon: marker }).bindPopup('NOME: S. LOURENÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCP7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.01207<br>Longitude: -9.42202').addTo(praias);
+
+        // Todas - Marinha Grande
+
+        const pPedrasNegras = L.marker([39.781250, -9.021541], { icon: marker }).bindPopup('NOME: PEDRAS NEGRAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCH2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.781250<br>Longitude: -9.021541').addTo(praias);
+
+        const pPraiaVelha = L.marker([39.771533, -9.028233], { icon: marker }).bindPopup('NOME: PRAIA VELHA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCF8H<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.771533<br>Longitude: -9.028233').addTo(praias);
+
+        const pSaoPedroMoel = L.marker([39.755739, -9.032453], { icon: marker }).bindPopup('NOME: S. PEDRO DE MOEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCQ9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.755739<br>Longitude: -9.032453').addTo(praias);
+
+        // Todas - Nazaré
+
+        const pNazare = L.marker([39.601583, -9.075483], { icon: marker }).bindPopup('NOME: NAZARÉ<br>REGIÃO: TEJO E OESTE<br>CONCELHO: NAZARÉ<br>CÓDIGO: PTCX9F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.601583<br>Longitude: -9.075483').addTo(praias);
+
+        const pSalgado = L.marker([39.548083, -9.11192], { icon: marker }).bindPopup('NOME: SALGADO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: NAZARÉ<br>CÓDIGO: PTCP7Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.548083<br>Longitude: -9.11192').addTo(praias);
+
+        // Todas - Óbidos
+
+        const pBomSucesso = L.marker([39.42537, -9.23518], { icon: marker }).bindPopup('NOME: BOM SUCESSO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ÓBIDOS<br>CÓDIGO: PTCJ2C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.42537<br>Longitude: -9.23518').addTo(praias);
+
+        const pPraiaDelRei = L.marker([39.40045, -9.27762], { icon: marker }).bindPopup('NOME: PRAIA DÉL REI<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ÓBIDOS<br>CÓDIGO: PTCX9Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.40045<br>Longitude: -9.27762').addTo(praias);
+
+        const pReiCortico = L.marker([39.4207, -9.24705], { icon: marker }).bindPopup('NOME: REI DO CORTIÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ÓBIDOS<br>CÓDIGO: PTCV8M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.4207<br>Longitude: -9.24705').addTo(praias);
+
+        // Todas - Oleiros
+
+        const pAlvaro = L.marker([39.977490000, -7.961630000], { icon: marker }).bindPopup('NOME: ÁLVARO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCW8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/%C3%A1lvaro?language=en" target="_blank">Ver informação</a><br>Latitude: 39.977490000<br>Longitude: -7.961630000').addTo(praias);
+
+        const pCambas = L.marker([40.013062, -7.846772], { icon: marker }).bindPopup('NOME: CAMBAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCP3U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.013062<br>Longitude: -7.846772').addTo(praias);
+
+        const pAcudePinto = L.marker([39.921425, -7.891949], { icon: marker }).bindPopup('NOME: AÇUDE DO PINTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCE2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.921425<br>Longitude: -7.891949').addTo(praias);
+
+        // Todas - Ourém
+
+        const pAgroal = L.marker([39.679186, -8.43631], { icon: marker }).bindPopup('NOME: AGROAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OURÉM<br>CÓDIGO: PTCD8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.679186<br>Longitude: -8.43631').addTo(praias);
+
+        // Todas - Pampilhosa da Serra
+
+        const pSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(praias);
+
+        // Todas - Pedrógão Grande
+
+        const pCabril = L.marker([39.92241, -8.13308], { icon: marker }).bindPopup('NOME: CABRIL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PEDRÓGÃO GRANDE<br>CÓDIGO: PTCE2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.92241<br>Longitude: -8.13308').addTo(praias);
+
+        // Todas - Penamacor
+
+        const pAlbufeiraMeimoa = L.marker([40.2669, -7.142691], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA MEIMÔA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENAMACOR<br>CÓDIGO: PTCT8H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.2669<br>Longitude: -7.142691').addTo(praias);
+
+        // Todas - Peniche
+
+        const pBalealNorte = L.marker([39.3738, -9.337133], { icon: marker }).bindPopup('NOME: BALEAL NORTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCW2T<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.3738<br>Longitude: -9.337133').addTo(praias);
+
+        const pBalealSul = L.marker([39.3714, -9.339017], { icon: marker }).bindPopup('NOME: BALEAL SUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCF8L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.3714<br>Longitude: -9.339017').addTo(praias);
+
+        const pBalealCampismo = L.marker([39.367680, -9.339272], { icon: marker }).bindPopup('NOME: BALEAL-CAMPISMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCD7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.367680<br>Longitude: -9.339272').addTo(praias);
+
+        const pConsolacao = L.marker([39.326958, -9.35977], { icon: marker }).bindPopup('NOME: CONSOLAÇÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCP2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.326958<br>Longitude: -9.35977').addTo(praias);
+
+        const pConsolacaoNorte = L.marker([39.330720, -9.359027], { icon: marker }).bindPopup('NOME: CONSOLAÇÃO NORTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCW2D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.330720<br>Longitude: -9.359027').addTo(praias);
+
+        const pCovaAlfarroba = L.marker([39.360156, -9.362772], { icon: marker }).bindPopup('NOME: COVA DA ALFARROBA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCE2C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.360156<br>Longitude: -9.362772').addTo(praias);
+
+        const pGamboa = L.marker([39.36465, -9.372467], { icon: marker }).bindPopup('NOME: GAMBOA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCV7M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.36465<br>Longitude: -9.372467').addTo(praias);
+
+        const pMedaoSupertubos = L.marker([39.345355, -9.364405], { icon: marker }).bindPopup('NOME: MEDÃO-SUPERTUBOS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCF2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.345355<br>Longitude: -9.364405').addTo(praias);
+
+        const pPenicheCima = L.marker([39.361906, -9.368827], { icon: marker }).bindPopup('NOME: PENICHE DE CIMA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCN3U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.361906<br>Longitude: -9.368827').addTo(praias);
+
+        const pPortoAreiaSul = L.marker([39.3535, -9.388783], { icon: marker }).bindPopup('NOME: PORTO DA AREIA SUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCD3U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.3535<br>Longitude: -9.388783').addTo(praias);
+
+        const pSaoBernardino = L.marker([39.311252, -9.346897], { icon: marker }).bindPopup('NOME: S. BERNARDINO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCF8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.311252<br>Longitude: -9.346897').addTo(praias);
+
+        // Todas - Proença-a-Nova
+
+        const pMalhadal = L.marker([39.79703, -7.95148], { icon: marker }).bindPopup('NOME: MALHADAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCQ8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.79703<br>Longitude: -7.95148').addTo(praias);
+
+        const pFroia = L.marker([39.78677, -7.836], { icon: marker }).bindPopup('NOME: FRÓIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCH3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.78677<br>Longitude: -7.836').addTo(praias);
+
+        // Todas - Sertã
+
+        const pRibeiraGrande = L.marker([39.8073, -8.09634], { icon: marker }).bindPopup('NOME: RIBEIRA GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SERTÃ<br>CÓDIGO: PTCX2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.8073<br>Longitude: -8.09634').addTo(praias);
+
+        // Todas - Sesimbra
+
+        const pBicas = L.marker([38.463601, -9.193531], { icon: marker }).bindPopup('NOME: BICAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCH8C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.463601<br>Longitude: -9.193531').addTo(praias);
+
+        const pLagoaAlbufeiraMar = L.marker([38.506473, -9.183371], { icon: marker }).bindPopup('NOME: LAGOA DE ALBUFEIRA-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCD9J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.506473<br>Longitude: -9.183371').addTo(praias);
+
+        const pMoinhoBaixoMeco = L.marker([38.488844, -9.183920], { icon: marker }).bindPopup('NOME: MOÍNHO DE BAIXO-MECO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCN7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.488844<br>Longitude: -9.183920').addTo(praias);
+
+        // Todas - Sintra
+
+        const pMacas = L.marker([38.82576, -9.4705], { icon: marker }).bindPopup('NOME: MAÇAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.82576<br>Longitude: -9.4705').addTo(praias);
+
+        const pAdraga = L.marker([38.80352, -9.48569], { icon: marker }).bindPopup('NOME: ADRAGA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT9U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.80352<br>Longitude: -9.48569').addTo(praias);
+
+        const pGrande = L.marker([38.81335, -9.47964], { icon: marker }).bindPopup('NOME: GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCX2W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.81335<br>Longitude: -9.47964').addTo(praias);
+
+        const pMagoito = L.marker([38.86361, -9.44957], { icon: marker }).bindPopup('NOME: MAGOITO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCW3L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.86361<br>Longitude: -9.44957').addTo(praias);
+
+        const pSaoJuliao = L.marker([38.93213, -9.42016], { icon: marker }).bindPopup('NOME: S. JULIÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCE9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.93213<br>Longitude: -9.42016').addTo(praias);
+
+        // Todas - Tomar
+
+        const pAlverangel = L.marker([39.54871, -8.3018], { icon: marker }).bindPopup('NOME: ALVERANGEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCN7Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54871<br>Longitude: -8.3018').addTo(praias);
+
+        const pMontes = L.marker([39.63019, -8.25261], { icon: marker }).bindPopup('NOME: MONTES<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCX7N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.63019<br>Longitude: -8.25261').addTo(praias);
+
+        const pVilaNovaSerra = L.marker([39.57487, -8.26617], { icon: marker }).bindPopup('NOME: VILA NOVA-SERRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCF3C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.57487<br>Longitude: -8.26617').addTo(praias);
+
+        // Todas - Torres Vedras
+
+        const pFozSizandroMar = L.marker([39.1037, -9.40125], { icon: marker }).bindPopup('NOME: FOZ DO SIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.1037<br>Longitude: -9.40125').addTo(praias);
+
+        const pAmanhaSantaCruz = L.marker([39.148839, -9.372485], { icon: marker }).bindPopup('NOME: AMANHÃ (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH3C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.148839<br>Longitude: -9.372485').addTo(praias);
+
+        const pAzul = L.marker([39.174491, -9.358557], { icon: marker }).bindPopup('NOME: AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCD2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.174491<br>Longitude: -9.358557').addTo(praias);
+
+        const pCentroSantaCruz = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: CENTRO (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCJ2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(praias);
+
+        const pFisicaSantaCruz = L.marker([39.138681, -9.380082], { icon: marker }).bindPopup('NOME: FÍSICA (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCQ3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.138681<br>Longitude: -9.380082').addTo(praias);
+
+        const pFormosa = L.marker([39.131775, -9.385694], { icon: marker }).bindPopup('NOME: FORMOSA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCX7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.131775<br>Longitude: -9.385694').addTo(praias);
+
+        const pMiranteSantaCruz = L.marker([39.142101, -9.377132], { icon: marker }).bindPopup('NOME: MIRANTE (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCL8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.142101<br>Longitude: -9.377132').addTo(praias);
+
+        const pNavio = L.marker([39.146134, -9.374100], { icon: marker }).bindPopup('NOME: NAVIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCT8K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.146134<br>Longitude: -9.374100').addTo(praias);
+
+        const pPisaoSantaCruz = L.marker([39.140361, -9.378498], { icon: marker }).bindPopup('NOME: PISÃO (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW9X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.140361<br>Longitude: -9.378498').addTo(praias);
+
+        const pPortoNovo = L.marker([39.177834, -9.356848], { icon: marker }).bindPopup('NOME: PORTO NOVO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCT8Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.177834<br>Longitude: -9.356848').addTo(praias);
+
+        const pSantaHelena = L.marker([39.134972, -9.383132], { icon: marker }).bindPopup('NOME: SANTA HELENA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCK9V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.134972<br>Longitude: -9.383132').addTo(praias);
+
+        const pSantaRitaNorte = L.marker([39.171886, -9.358525], { icon: marker }).bindPopup('NOME: SANTA RITA-NORTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCP2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.171886<br>Longitude: -9.358525').addTo(praias);
+
+        const pSantaRitaSul = L.marker([39.168858, -9.360553], { icon: marker }).bindPopup('NOME: SANTA RITA-SUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.168858<br>Longitude: -9.360553').addTo(praias);
+
+        // Todas - Vila de Rei
+
+        const pBostelim = L.marker([39.72358, -8.10796], { icon: marker }).bindPopup('NOME: BOSTELIM<br>REGIÃO: TEJO E OESTE<br>CONCELHO: VILA DE REI<br>CÓDIGO: PTCJ9W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.72358<br>Longitude: -8.10796').addTo(praias);
+
+        const pPegoCancelas = L.marker([39.7349, -8.05812], { icon: marker }).bindPopup('NOME: PEGO DAS CANCELAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: VILA DE REI<br>CÓDIGO: PTCE2Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.7349<br>Longitude: -8.05812').addTo(praias);
+
+        const pPenedoFurado = L.marker([39.62571, -8.16262], { icon: marker }).bindPopup('NOME: PENEDO FURADO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: VILA DE REI<br>CÓDIGO: PTCN3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.62571<br>Longitude: -8.16262').addTo(praias);
+
+        const pFernandaires = L.marker([39.73435, -8.20929], { icon: marker }).bindPopup('NOME: FERNANDAIRES<br>REGIÃO: TEJO E OESTE<br>CONCELHO: VILA DE REI<br>CÓDIGO: PTCE2L<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.73435<br>Longitude: -8.20929').addTo(praias);
+
+        const pZaboeira = L.marker([39.70436, -8.22268], { icon: marker }).bindPopup('NOME: ZABOEIRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: VILA DE REI<br>CÓDIGO: PTCU7P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.70436<br>Longitude: -8.22268').addTo(praias);
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
