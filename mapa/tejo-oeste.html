@@ -155,6 +155,19 @@
 
         const pClubeNauticoAvis = L.marker([39.05668, -7.91341], { icon: marker }).bindPopup('NOME: CLUBE NÁUTICO DE AVIS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: AVIS<br>CÓDIGO: PTCL3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/clube-nautico-de-avis/" target="_blank">Ver informação</a><br>Latitude: 39.05668<br>Longitude: -7.91341').addTo(praias);
 
+        // Todas - Caldas da Raínha
+
+        const pFozArelhoLagoa = L.marker([39.42855, -9.2235], { icon: marker }).bindPopup('NOME: FOZ DO ARELHO-LAGOA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCE7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.42855<br>Longitude: -9.2235').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -219,6 +232,12 @@
 
         const cClubeNauticoAvis = L.marker([39.05668, -7.91341], { icon: marker }).bindPopup('NOME: CLUBE NÁUTICO DE AVIS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: AVIS<br>CÓDIGO: PTCL3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/clube-nautico-de-avis/" target="_blank">Ver informação</a><br>Latitude: 39.05668<br>Longitude: -7.91341').addTo(avis);
 
+        // Concelho - Caldas da Raínha
+
+        const caldasRainha = L.layerGroup();
+
+        const cFozArelhoLagoa = L.marker([39.42855, -9.2235], { icon: marker }).bindPopup('NOME: FOZ DO ARELHO-LAGOA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCE7K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.42855<br>Longitude: -9.2235').addTo(caldasRainha);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -254,6 +273,7 @@
             'Alcobaça': alcobaca,
             'Almada': almada,
             'Avis': avis,
+            'Caldas da Raínha': caldasRainha,
 
         };
 
