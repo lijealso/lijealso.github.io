@@ -235,6 +235,18 @@
 
         const pAcudePinto = L.marker([39.921425, -7.891949], { icon: marker }).bindPopup('NOME: AÇUDE DO PINTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCE2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.921425<br>Longitude: -7.891949').addTo(praias);
 
+        // Todas - Ourém
+
+        const pAgroal = L.marker([39.679186, -8.43631], { icon: marker }).bindPopup('REGIÃO: TEJO E OESTE<br>CONCELHO: OURÉM<br>CÓDIGO: PTCD8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.679186<br>Longitude: -8.43631').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -401,6 +413,12 @@
 
         const cAcudePinto = L.marker([39.921425, -7.891949], { icon: marker }).bindPopup('NOME: AÇUDE DO PINTO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCE2N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.921425<br>Longitude: -7.891949').addTo(oleiros);
 
+        // Concelho - Ourém
+
+        const ourem = L.layerGroup();
+
+        const cAgroal = L.marker([39.679186, -8.43631], { icon: marker }).bindPopup('REGIÃO: TEJO E OESTE<br>CONCELHO: OURÉM<br>CÓDIGO: PTCD8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.679186<br>Longitude: -8.43631').addTo(ourem);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -447,6 +465,7 @@
             'Nazaré': nazare,
             'Óbidos': obidos,
             'Oleiros': oleiros,
+            'Ourém': ourem,
 
         };
 
