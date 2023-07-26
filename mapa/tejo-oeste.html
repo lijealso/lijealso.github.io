@@ -167,7 +167,11 @@
 
         const pGuincho = L.marker([38.730674, -9.474902], { icon: marker }).bindPopup('NOME: GUINCHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCV7Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.730674<br>Longitude: -9.474902').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Castelo Branco
+
+        const pSesmo = L.marker([40.00758, -7.66117], { icon: marker }).bindPopup('NOME: SESMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASTELO BRANCO<br>CÓDIGO: PTCX9C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.00758<br>Longitude: -7.66117').addTo(praias);
+
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -253,6 +257,12 @@
 
         const cGuincho = L.marker([38.730674, -9.474902], { icon: marker }).bindPopup('NOME: GUINCHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCV7Q<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.730674<br>Longitude: -9.474902').addTo(cascais);
 
+        // Concelho - Castelo Branco
+
+        const casteloBranco = L.layerGroup();
+
+        const cSesmo = L.marker([40.00758, -7.66117], { icon: marker }).bindPopup('NOME: SESMO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASTELO BRANCO<br>CÓDIGO: PTCX9C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.00758<br>Longitude: -7.66117').addTo(casteloBranco);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -290,6 +300,7 @@
             'Avis': avis,
             'Caldas da Rainha': caldasRainha,
             'Cascais': cascais,
+            'Castelo Branco': casteloBranco,
 
         };
 
