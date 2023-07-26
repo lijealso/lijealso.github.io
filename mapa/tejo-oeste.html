@@ -275,6 +275,18 @@
 
         const pSaoBernardino = L.marker([39.311252, -9.346897], { icon: marker }).bindPopup('NOME: S. BERNARDINO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCF8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.311252<br>Longitude: -9.346897').addTo(praias);
 
+        // Todas - Proença-a-Nova
+
+        const pMalhadal = L.marker([39.79703, -7.95148], { icon: marker }).bindPopup('NOME: MALHADAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCQ8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.79703<br>Longitude: -7.95148').addTo(praias);
+
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -495,6 +507,12 @@
 
         const cSaoBernardino = L.marker([39.311252, -9.346897], { icon: marker }).bindPopup('NOME: S. BERNARDINO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENICHE<br>CÓDIGO: PTCF8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.311252<br>Longitude: -9.346897').addTo(peniche);
 
+        // Concelho - Proença-a-Nova
+
+        const proencaNova = L.layerGroup();
+
+        const cMalhadal = L.marker([39.79703, -7.95148], { icon: marker }).bindPopup('NOME: MALHADAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCQ8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.79703<br>Longitude: -7.95148').addTo(proencaNova);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -546,6 +564,7 @@
             'Pedrógão Grande': pedrogaoGrande,
             'Penamacor': penamacor,
             'Peniche': peniche,
+            'Proença-a-Nova': proencaNova,
 
         };
 
