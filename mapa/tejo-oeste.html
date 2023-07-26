@@ -151,7 +151,10 @@
 
         const pTarquinioDragaoVermelho = L.marker([38.641028, -9.238330], { icon: marker }).bindPopup('NOME: TARQUÍNIO/DRAGÃO VERMELHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCJ8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.641028<br>Longitude: -9.238330').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Avis
+
+        const pClubeNauticoAvis = L.marker([39.05668, -7.91341], { icon: marker }).bindPopup('NOME: CLUBE NÁUTICO DE AVIS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: AVIS<br>CÓDIGO: PTCL3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/clube-nautico-de-avis/" target="_blank">Ver informação</a><br>Latitude: 39.05668<br>Longitude: -7.91341').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
 
         // Praias por concelho
@@ -210,6 +213,12 @@
 
         const cTarquinioDragaoVermelho = L.marker([38.641028, -9.238330], { icon: marker }).bindPopup('NOME: TARQUÍNIO/DRAGÃO VERMELHO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ALMADA<br>CÓDIGO: PTCJ8N<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.641028<br>Longitude: -9.238330').addTo(almada);
 
+        // Concelho - Avis
+
+        const avis = L.layerGroup();
+
+        const cClubeNauticoAvis = L.marker([39.05668, -7.91341], { icon: marker }).bindPopup('NOME: CLUBE NÁUTICO DE AVIS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: AVIS<br>CÓDIGO: PTCL3X<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://bandeiraazul.abae.pt/local-galardoado/clube-nautico-de-avis/" target="_blank">Ver informação</a><br>Latitude: 39.05668<br>Longitude: -7.91341').addTo(avis);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -244,6 +253,7 @@
             'Abrantes': abrantes,
             'Alcobaça': alcobaca,
             'Almada': almada,
+            'Avis': avis,
 
         };
 
