@@ -293,7 +293,10 @@
 
         const pMoinhoBaixoMeco = L.marker([38.488844, -9.183920], { icon: marker }).bindPopup('NOME: MOÍNHO DE BAIXO-MECO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCN7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.488844<br>Longitude: -9.183920').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Sintra
+
+        const pMacas = L.marker([38.82576, -9.4705], { icon: marker }).bindPopup('NOME: MAÇAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.82576<br>Longitude: -9.4705').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -540,6 +543,12 @@
 
         const cMoinhoBaixoMeco = L.marker([38.488844, -9.183920], { icon: marker }).bindPopup('NOME: MOÍNHO DE BAIXO-MECO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCN7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.488844<br>Longitude: -9.183371').addTo(sesimbra);
 
+        // Concelho - Sintra
+
+        const sintra = L.layerGroup();
+
+        const cMacas = L.marker([38.82576, -9.4705], { icon: marker }).bindPopup('NOME: MAÇAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.82576<br>Longitude: -9.4705').addTo(sintra);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -594,7 +603,7 @@
             'Proença-a-Nova': proencaNova,
             'Sertã': serta,
             'Sesimbra': sesimbra,
-
+            'Sintra': sintra,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
