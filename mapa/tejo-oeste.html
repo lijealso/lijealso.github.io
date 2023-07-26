@@ -281,7 +281,10 @@
 
         const pFroia = L.marker([39.78677, -7.836], { icon: marker }).bindPopup('NOME: FRÓIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCH3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.78677<br>Longitude: -7.836').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Sertã
+
+        const pRibeiraGrande = L.marker([39.8073, -8.09634], { icon: marker }).bindPopup('NOME: RIBEIRA GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SERTÃ<br>CÓDIGO: PTCX2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.8073<br>Longitude: -8.09634').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -516,6 +519,12 @@
 
         const cFroia = L.marker([39.78677, -7.836], { icon: marker }).bindPopup('NOME: FRÓIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCH3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.78677<br>Longitude: -7.836').addTo(proencaNova);
 
+        // Concelho - Sertã
+
+        const serta = L.layerGroup();
+
+        const cRibeiraGrande = L.marker([39.8073, -8.09634], { icon: marker }).bindPopup('NOME: RIBEIRA GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SERTÃ<br>CÓDIGO: PTCX2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.8073<br>Longitude: -8.09634').addTo(serta);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -568,6 +577,7 @@
             'Penamacor': penamacor,
             'Peniche': peniche,
             'Proença-a-Nova': proencaNova,
+            'Sertã': serta,
 
         };
 
