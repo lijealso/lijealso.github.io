@@ -305,8 +305,10 @@
 
         const pSaoJuliao = L.marker([38.93213, -9.42016], { icon: marker }).bindPopup('NOME: S. JULIÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCE9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.93213<br>Longitude: -9.42016').addTo(praias);
 
+        // Todas - Tomar
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        const pAlverangel = L.marker([39.54871, -8.3018], { icon: marker }).bindPopup('NOME: ALVERANGEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCN7Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54871<br>Longitude: -8.3018').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -568,6 +570,12 @@
 
         const cSaoJuliao = L.marker([38.93213, -9.42016], { icon: marker }).bindPopup('NOME: S. JULIÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCE9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.93213<br>Longitude: -9.42016').addTo(sintra);
 
+        // Concelho - Tomar
+
+        const tomar = L.layerGroup();
+
+        const cAlverangel = L.marker([39.54871, -8.3018], { icon: marker }).bindPopup('NOME: ALVERANGEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCN7Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.54871<br>Longitude: -8.3018').addTo(tomar);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -623,6 +631,7 @@
             'Sertã': serta,
             'Sesimbra': sesimbra,
             'Sintra': sintra,
+            'Tomar': tomar,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
