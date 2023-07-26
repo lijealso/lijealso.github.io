@@ -313,7 +313,10 @@
 
         const pVilaNovaSerra = L.marker([39.57487, -8.26617], { icon: marker }).bindPopup('NOME: VILA NOVA-SERRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCF3C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.57487<br>Longitude: -8.26617').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Torres Vedras
+
+        const pFozSizandroMar = L.marker([39.1037, -9.40125], { icon: marker }).bindPopup('NOME: FOZ DO SIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.1037<br>Longitude: -9.40125').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -582,6 +585,12 @@
 
         const cVilaNovaSerra = L.marker([39.57487, -8.26617], { icon: marker }).bindPopup('NOME: VILA NOVA-SERRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCF3C<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.57487<br>Longitude: -8.26617').addTo(tomar);
 
+        // Concelho - Torres Vedras
+
+        const torresVedras = L.layerGroup();
+
+        const cFozSizandroMar = L.marker([39.1037, -9.40125], { icon: marker }).bindPopup('NOME: FOZ DO SIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.1037<br>Longitude: -9.40125').addTo(torresVedras);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -638,6 +647,7 @@
             'Sesimbra': sesimbra,
             'Sintra': sintra,
             'Tomar': tomar,
+            'Torres Vedras': torresVedras,
         };
 
         const layerControl = L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
