@@ -243,7 +243,10 @@
 
         const pSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Pedrógão Grande
+
+        const pCabril = L.marker([39.92241, -8.13308], { icon: marker }).bindPopup('NOME: CABRIL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PEDRÓGÃO GRANDE<br>CÓDIGO: PTCE2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.92241<br>Longitude: -8.13308').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -428,6 +431,12 @@
 
         const cSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(pampilhosaSerra);
 
+        // Concelho - Pedrógão Grande
+
+        const pedrogaoGrande = L.layerGroup();
+
+        const cCabril = L.marker([39.92241, -8.13308], { icon: marker }).bindPopup('NOME: CABRIL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PEDRÓGÃO GRANDE<br>CÓDIGO: PTCE2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.92241<br>Longitude: -8.13308').addTo(pedrogaoGrande);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -476,6 +485,7 @@
             'Oleiros': oleiros,
             'Ourém': ourem,
             'Pampilhosa da Serra': pampilhosaSerra,
+            'Pedrógão Grande': pedrogaoGrande,
 
         };
 
