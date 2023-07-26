@@ -213,7 +213,10 @@
 
         const pSaoPedroMoel = L.marker([39.755739, -9.032453], { icon: marker }).bindPopup('NOME: S. PEDRO DE MOEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCQ9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.755739<br>Longitude: -9.032453').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Nazaré
+
+        const pNazare = L.marker([39.601583, -9.075483], { icon: marker }).bindPopup('NOME: NAZARÉ<br>REGIÃO: TEJO E OESTE<br>CONCELHO: NAZARÉ<br>CÓDIGO: PTCX9F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.601583<br>Longitude: -9.075483').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -359,6 +362,12 @@
 
         const cSaoPedroMoel = L.marker([39.755739, -9.032453], { icon: marker }).bindPopup('NOME: S. PEDRO DE MOEL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCQ9K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.755739<br>Longitude: -9.032453').addTo(marinhaGrande);
 
+        // Concelho - Nazaré
+
+        const nazare = L.layerGroup();
+
+        const cNazare = L.marker([39.601583, -9.075483], { icon: marker }).bindPopup('NOME: NAZARÉ<br>REGIÃO: TEJO E OESTE<br>CONCELHO: NAZARÉ<br>CÓDIGO: PTCX9F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.601583<br>Longitude: -9.075483').addTo(nazare);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -402,6 +411,7 @@
             'Mação': macao,
             'Mafra': mafra,
             'Marinha Grande': marinhaGrande,
+            'Nazaré': nazare,
 
         };
 
