@@ -247,7 +247,10 @@
 
         const pCabril = L.marker([39.92241, -8.13308], { icon: marker }).bindPopup('NOME: CABRIL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PEDRÓGÃO GRANDE<br>CÓDIGO: PTCE2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.92241<br>Longitude: -8.13308').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Penamacor
+
+        const pAlbufeiraMeimoa = L.marker([40.2669, -7.142691], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA MEIMÔA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENAMACOR<br>CÓDIGO: PTCT8H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.2669<br>Longitude: -7.142691').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -437,6 +440,12 @@
 
         const cCabril = L.marker([39.92241, -8.13308], { icon: marker }).bindPopup('NOME: CABRIL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PEDRÓGÃO GRANDE<br>CÓDIGO: PTCE2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.92241<br>Longitude: -8.13308').addTo(pedrogaoGrande);
 
+        // Concelho - Penamacor
+
+        const penamacor = L.layerGroup();
+
+        const cAlbufeiraMeimoa = L.marker([40.2669, -7.142691], { icon: marker }).bindPopup('NOME: ALBUFEIRA DA MEIMÔA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PENAMACOR<br>CÓDIGO: PTCT8H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.2669<br>Longitude: -7.142691').addTo(penamacor);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -486,6 +495,7 @@
             'Ourém': ourem,
             'Pampilhosa da Serra': pampilhosaSerra,
             'Pedrógão Grande': pedrogaoGrande,
+            'Penamacor': penamacor,
 
         };
 
