@@ -161,7 +161,10 @@
 
         const pPraiaMar = L.marker([39.434583, -9.22895], { icon: marker }).bindPopup('NOME: PRAIA DO MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCH3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.434583<br>Longitude: -9.22895').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Cascais
+
+        const pCrismina = L.marker([38.726295, 38.726295], { icon: marker }).bindPopup('NOME: CRISMINA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCL8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.726295<br>Longitude: -9,476987').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -241,6 +244,12 @@
 
         const cPraiaMar = L.marker([39.434583, -9.22895], { icon: marker }).bindPopup('NOME: PRAIA DO MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CALDAS DA RAINHA<br>CÓDIGO: PTCH3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.434583<br>Longitude: -9.22895').addTo(caldasRainha);
 
+        // Concelho - Cascais
+
+        const cascais = L.layerGroup();
+
+        const cCrismina = L.marker([38.726295, 38.726295], { icon: marker }).bindPopup('NOME: CRISMINA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: CASCAIS<br>CÓDIGO: PTCL8D<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.726295<br>Longitude: -9,476987').addTo(cascais);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -277,6 +286,7 @@
             'Almada': almada,
             'Avis': avis,
             'Caldas da Raínha': caldasRainha,
+            'Cascais': cascais,
 
         };
 
