@@ -189,7 +189,10 @@
 
         const pCarvoeiroMacao = L.marker([39.63021, -7.92298], { icon: marker }).bindPopup('NOME: CARVOEIRO (MAÇÃO)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAÇÃO<br>CÓDIGO: PTCV8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.63021<br>Longitude: -7.92298').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Mafra
+
+        const pAlgodio = L.marker([38.96700, -9.42027], { icon: marker }).bindPopup('NOME: ALGODIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCW8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.96700<br>Longitude: -9.42027').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -308,6 +311,12 @@
 
         const cCarvoeiroMacao = L.marker([39.63021, -7.92298], { icon: marker }).bindPopup('NOME: CARVOEIRO (MAÇÃO)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAÇÃO<br>CÓDIGO: PTCV8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.63021<br>Longitude: -7.92298').addTo(macao);
 
+        // Concelho - Mafra
+
+        const mafra = L.layerGroup();
+
+        const cAlgodio = L.marker([38.96700, -9.42027], { icon: marker }).bindPopup('NOME: ALGODIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCW8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.96700<br>Longitude: -9.42027').addTo(mafra);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -349,6 +358,7 @@
             'Ferreira do Zêzere': ferreiraZezere,
             'Lourinhã': lourinha,
             'Mação': macao,
+            'Mafra': mafra,
 
         };
 
