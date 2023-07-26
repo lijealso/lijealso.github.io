@@ -285,7 +285,10 @@
 
         const pRibeiraGrande = L.marker([39.8073, -8.09634], { icon: marker }).bindPopup('NOME: RIBEIRA GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SERTÃ<br>CÓDIGO: PTCX2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.8073<br>Longitude: -8.09634').addTo(praias);
 
-        // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
+        // Todas - Sesimbra
+
+        const pBicas = L.marker([38.463601, -9.193531], { icon: marker }).bindPopup('NOME: BICAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCH8C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.463601<br>Longitude: -9.193531').addTo(praias);
+
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
         // const nome = L.marker([], { icon: marker }).bindPopup('').addTo(praias);
@@ -525,6 +528,12 @@
 
         const cRibeiraGrande = L.marker([39.8073, -8.09634], { icon: marker }).bindPopup('NOME: RIBEIRA GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SERTÃ<br>CÓDIGO: PTCX2U<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.8073<br>Longitude: -8.09634').addTo(serta);
 
+        // Concelho - Sesimbra
+
+        const sesimbra = L.layerGroup();
+
+        const cBicas = L.marker([38.463601, -9.193531], { icon: marker }).bindPopup('NOME: BICAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCH8C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 38.463601<br>Longitude: -9.193531').addTo(sesimbra);
+
         // Map layers
 
         const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -578,6 +587,7 @@
             'Peniche': peniche,
             'Proença-a-Nova': proencaNova,
             'Sertã': serta,
+            'Sesimbra': sesimbra,
 
         };
 
