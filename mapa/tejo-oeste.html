@@ -178,6 +178,10 @@
 
         const pCastanheiraLagoAzul = L.marker([39.67582, -8.23071], { icon: marker }).bindPopup('NOME: CASTANHEIRA OU LAGO AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FERREIRA DO ZÊZERE<br>CÓDIGO: PTCT7W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.67582<br>Longitude: -8.23071').addTo(praias);
 
+        // Todas - Figueiró dos Vinhos
+
+        const pFragasSaoSimao = L.marker([39.915920000, -8.317020000], { icon: marker }).bindPopup('NOME: FRAGAS DE SÃO SIMÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FIGUEIRÓ DOS VINHOS<br>CÓDIGO: PTCK7V<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/fragas-de-s-sim%C3%A3o?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 39.915920000<br>Longitude: -8.317020000').addTo(praias);
+
         // Todas - Lourinhã
 
         const pPeralta = L.marker([39.24562, -9.34199], { icon: marker }).bindPopup('NOME: PERALTA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: LOURINHÃ<br>CÓDIGO: PTCH9X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.24562<br>Longitude: -9.34199').addTo(praias);
@@ -394,6 +398,12 @@
 
         const cCastanheiraLagoAzul = L.marker([39.67582, -8.23071], { icon: marker }).bindPopup('NOME: CASTANHEIRA OU LAGO AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FERREIRA DO ZÊZERE<br>CÓDIGO: PTCT7W<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.67582<br>Longitude: -8.23071').addTo(ferreiraZezere);
 
+        // Concelho - Figueiró dos Vinhos
+
+        const figueiroVinhos = L.layerGroup();
+
+        const cFragasSaoSimao = L.marker([39.915920000, -8.317020000], { icon: marker }).bindPopup('NOME: FRAGAS DE SÃO SIMÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: FIGUEIRÓ DOS VINHOS<br>CÓDIGO: PTCK7V<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/fragas-de-s-sim%C3%A3o?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 39.915920000<br>Longitude: -8.317020000').addTo(figueiroVinhos);
+
         // Concelho - Lourinhã
 
         const lourinha = L.layerGroup();
@@ -583,6 +593,7 @@
             'Cascais': cascais,
             'Castelo Branco': casteloBranco,
             'Ferreira do Zêzere': ferreiraZezere,
+            'Figueiró dos Vinhos': figueiroVinhos,
             'Lourinhã': lourinha,
             'Mação': macao,
             'Mafra': mafra,
