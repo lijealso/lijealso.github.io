@@ -192,6 +192,10 @@
 
         // Retirada 1
 
+        const pFoz = L.marker([41.149996, -8.67667], { icon: marker }).bindPopup('NOME: FOZ<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCV3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/foz/" target="_blank">Ver mapa</a><br>Latitude: 41.149996<br>Longitude: -8.67667').addTo(praias);
+
+        const pGondarem = L.marker([41.157641, -8.683046], { icon: marker }).bindPopup('NOME: GONDARÉM<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCQ9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/gondarem/" target="_blank">Ver mapa</a><br>Latitude: 41.157641<br>Longitude: -8.683046').addTo(praias);
+
         // Todas - Póvoa de Lanhoso
 
         const pVerim = L.marker([41.644924, -8.312985], { icon: marker }).bindPopup('NOME: VERIM<br>REGIÃO: NORTE<br>CONCELHO: PÓVOA DE LANHOSO<br>CÓDIGO: PTCU2F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.644924<br>Longitude: -8.312985').addTo(praias);
@@ -380,6 +384,12 @@
 
         // Retirada 1
 
+        const porto = L.layerGroup();
+
+        const cFoz = L.marker([41.149996, -8.67667], { icon: marker }).bindPopup('NOME: FOZ<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCV3J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/foz/" target="_blank">Ver mapa</a><br>Latitude: 41.149996<br>Longitude: -8.67667').addTo(porto);
+
+        const cGondarem = L.marker([41.157641, -8.683046], { icon: marker }).bindPopup('NOME: GONDARÉM<br>REGIÃO: NORTE<br>CONCELHO: PORTO<br>CÓDIGO: PTCQ9P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/gondarem/" target="_blank">Ver mapa</a><br>Latitude: 41.157641<br>Longitude: -8.683046').addTo(porto);
+
         // Concelho - Póvoa de Lanhoso
 
         const povoaLanhoso = L.layerGroup();
@@ -516,6 +526,7 @@
             'Matosinhos': matosinhos,
             'Mirandela': mirandela,
             'Moimenta da Beira': moimentaBeira,
+            'Porto': porto,
             'Póvoa de Lanhoso': povoaLanhoso,
             'Póvoa de Varzim': povoaVarzim,
             'Sabugal': sabugal,
