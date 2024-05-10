@@ -240,6 +240,14 @@
 
         const pReiCortico = L.marker([39.4207, -9.24705], { icon: marker }).bindPopup('NOME: REI DO CORTIÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ÓBIDOS<br>CÓDIGO: PTCV8M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.4207<br>Longitude: -9.24705').addTo(praias);
 
+        // Todas - Oeiras
+
+        const pCaxias = L.marker([38.698703, -9.279237], { icon: marker }).bindPopup('NOME: CAXIAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCQ9L<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/caxias/" target="_blank">Ver mapa</a><br>Latitude: <br>Longitude: -9.279237').addTo(praias);
+
+        const pPacoArcos = L.marker([38.69043, -9.29674], { icon: marker }).bindPopup('NOME: PAÇO DE ARCOS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCE8W<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/paco-darcos/" target="_blank">Ver mapa</a><br>Latitude: 38.69043<br>Longitude: -9.29674').addTo(praias);
+
+        const pTorre = L.marker([38.675978, -9.322951], { icon: marker }).bindPopup('NOME: TORRE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCE9T<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/torre/" target="_blank">Ver mapa</a><br>Latitude: 38.675978<br>Longitude: -9.322951').addTo(praias);
+
         // Todas - Oleiros
 
         const pAlvaro = L.marker([39.977490000, -7.961630000], { icon: marker }).bindPopup('NOME: ÁLVARO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OLEIROS<br>CÓDIGO: PTCW8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/%C3%A1lvaro?language=en" target="_blank">Ver informação</a><br>Latitude: 39.977490000<br>Longitude: -7.961630000').addTo(praias);
@@ -488,6 +496,16 @@
 
         const cReiCortico = L.marker([39.4207, -9.24705], { icon: marker }).bindPopup('NOME: REI DO CORTIÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: ÓBIDOS<br>CÓDIGO: PTCV8M<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.4207<br>Longitude: -9.24705').addTo(obidos);
 
+        // Concelho - Oeiras
+
+        const oeiras = L.layerGroup();
+
+        const cCaxias = L.marker([38.698703, -9.279237], { icon: marker }).bindPopup('NOME: CAXIAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCQ9L<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/caxias/" target="_blank">Ver mapa</a><br>Latitude: <br>Longitude: -9.279237').addTo(oeiras);
+
+        const cPacoArcos = L.marker([38.69043,-9.29674], { icon: marker }).bindPopup('NOME: PAÇO DE ARCOS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCE8W<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/paco-darcos/" target="_blank">Ver mapa</a><br>Latitude: 38.69043<br>Longitude: -9.29674').addTo(oeiras);
+
+        const cTorre = L.marker([38.675978, -9.322951], { icon: marker }).bindPopup('NOME: TORRE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OEIRAS<br>CÓDIGO: PTCE9T<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://bandeiraazul.abaae.pt/local-galardoado/torre/" target="_blank">Ver mapa</a><br>Latitude: 38.675978<br>Longitude: -9.322951').addTo(oeiras);
+
         // Concelho - Oleiros
 
         const oleiros = L.layerGroup();
@@ -626,6 +644,7 @@
             'Marinha Grande': marinhaGrande,
             'Nazaré': nazare,
             'Óbidos': obidos,
+            'Oeiras': oeiras,
             'Oleiros': oleiros,
             'Pampilhosa da Serra': pampilhosaSerra,
             'Penamacor': penamacor,
