@@ -214,6 +214,10 @@
 
         const pSaoLourenco = L.marker([39.01207, -9.42202], { icon: marker }).bindPopup('NOME: S. LOURENÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCP7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.01207<br>Longitude: -9.42202').addTo(praias);
 
+        // Todas - Manteigas
+
+        const pRelvaReboleira = L.marker([40.412000000, -7.467180000], { icon: marker }).bindPopup('NOME: RELVA DA REBOLEIRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MANTEIGAS<br>CÓDIGO: PTCV2Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/relva-da-reboleira?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 40.412000000<br>Longitude: -7.467180000').addTo(praias);
+
         // Todas - Marinha Grande
 
         const pPedrasNegras = L.marker([39.781250, -9.021541], { icon: marker }).bindPopup('NOME: PEDRAS NEGRAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MARINHA GRANDE <br>CÓDIGO: PTCH2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.781250<br>Longitude: -9.021541').addTo(praias);
@@ -450,6 +454,12 @@
 
         const cSaoLourenco = L.marker([39.01207, -9.42202], { icon: marker }).bindPopup('NOME: S. LOURENÇO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MAFRA<br>CÓDIGO: PTCP7C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.01207<br>Longitude: -9.42202').addTo(mafra);
 
+        // Concelho - Manteigas
+
+        const manteigas = L.layerGroup();
+
+        const cRelvaReboleira = L.marker([40.412000000, -7.467180000], { icon: marker }).bindPopup('NOME: RELVA DA REBOLEIRA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: MANTEIGAS<br>CÓDIGO: PTCV2Q<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/relva-da-reboleira?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 40.412000000<br>Longitude: -7.467180000').addTo(manteigas);
+
         // Concelho - Marinha Grande
 
         const marinhaGrande = L.layerGroup();
@@ -612,6 +622,7 @@
             'Lourinhã': lourinha,
             'Mação': macao,
             'Mafra': mafra,
+            'Manteigas': manteigas,
             'Marinha Grande': marinhaGrande,
             'Nazaré': nazare,
             'Óbidos': obidos,
