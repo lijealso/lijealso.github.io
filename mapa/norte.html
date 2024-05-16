@@ -134,7 +134,7 @@
 
         // Todas - Freixo de Espada à Cinta
 
-        // Retirada 1
+        const pCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(praias);
 
         // Todas - Gondomar
 
@@ -184,7 +184,7 @@
 
         // Todas - Moimenta da Beira
 
-        // Retirada 1
+        const pAlbufeiraVilar = L.marker([40.963880000, -7.543720000], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO VILAR<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCK3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/albufeira-do-vilar?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 40.963880000<br>Longitude: -7.543720000').addTo(praias);
 
         const pSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(praias);
 
@@ -334,9 +334,9 @@
 
         // Concelho - Freixo de Espada à Cinta
 
-        // const freixoEspadaCinta = L.layerGroup();
+        const freixoEspadaCinta = L.layerGroup();
 
-        // Retirada 1
+        const cCongida = L.marker([41.076552, -6.778650], { icon: marker }).bindPopup('NOME: CONGIDA<br>REGIÃO: NORTE<br>CONCELHO: FREIXO DE ESPADA À CINTA<br>CÓDIGO: PTCW3P<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 41.076552<br>Longitude: -6.778650').addTo(freixoEspadaCinta);
 
         // Concelho - Gondomar
 
@@ -394,9 +394,9 @@
 
         // Concelho - Moimenta da Beira
 
-        // const moimentaBeira = L.layerGroup();
+        const moimentaBeira = L.layerGroup();
 
-        // Retirada 1
+        const cAlbufeiraVilar = L.marker([40.963880000, -7.543720000], { icon: marker }).bindPopup('NOME: ALBUFEIRA DO VILAR<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCK3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/albufeira-do-vilar?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 40.963880000<br>Longitude: -7.543720000').addTo(moimentaBeira);
 
         const cSegoes = L.marker([40.86259, -7.6816], { icon: marker }).bindPopup('NOME: SEGÕES<br>REGIÃO: NORTE<br>CONCELHO: MOIMENTA DA BEIRA<br>CÓDIGO: PTCP9F<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-norte" target="_blank">Ver informação</a><br>Latitude: 40.86259<br>Longitude: -7.6816').addTo(moimentaBeira);
 
@@ -560,10 +560,12 @@
             'Caminha': caminha,
             'Espinho': espinho,
             'Esposende': esposende,
+            'Freixo de Espada à Cinta': freixoEspadaCinta,
             'Gondomar': gondomar,
             'Macedo de Cavaleiros': macedoCavaleiros,
             'Matosinhos': matosinhos,
             'Mirandela': mirandela,
+            'Moimenta da Beira': moimentaBeira,
             'Porto': porto,
             'Póvoa de Lanhoso': povoaLanhoso,
             'Póvoa de Varzim': povoaVarzim,
