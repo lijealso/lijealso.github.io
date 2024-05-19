@@ -164,6 +164,10 @@
 
         // Retiradas 2
 
+        const pBarra = L.marker([40.62943407566259, -8.749775792472592], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver info</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(praias);
+
+        const pCostaNova = L.marker([40.618582445504146, -8.753065966005176], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver info</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(praias);
+
         // Todas - Leiria
 
         const pPedrogaoSul = L.marker([39.914013603678875, -8.954631463185404], { icon: marker }).bindPopup('NOME: PEDROGÃO SUL<br>REGIÃO: CENTRO<br>CONCELHO: LEIRIA<br>CÓDIGO: PTCH3P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/1oeuJqAnfj2hDYyh8?coh=178573&entry=tt" target="_blank">Ver mapa</a><br>Latitude: 39.914013603678875<br>Longitude: -8.954631463185404').addTo(praias);
@@ -326,6 +330,12 @@
 
         // Retiradas 2
 
+        const ilhavo = L.layerGroup();
+
+        const cBarra = L.marker([40.62943407566259, -8.749775792472592], { icon: marker }).bindPopup('NOME: BARRA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCV8J<br>CATEGORIA: TRANSIÇÃO<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver info</a><br>Latitude: 40.62943407566259<br>Longitude: -8.749775792472592').addTo(ilhavo);
+
+        const cCostaNova = L.marker([40.618582445504146, -8.753065966005176], { icon: marker }).bindPopup('NOME: COSTA NOVA<br>REGIÃO: CENTRO<br>CONCELHO: ÍLHAVO<br>CÓDIGO: PTCT8F<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://goo.gl/maps/sx1WoTGec6WEPni8A?coh=178573&entry=tt" target="_blank">Ver info</a><br>Latitude: 40.618582445504146<br>Longitude: -8.753065966005176').addTo(ilhavo);
+
         //  Concelho - Leiria
 
         const leiria = L.layerGroup();
@@ -475,6 +485,7 @@
             'Gois': gois,
             'Gouveia': gouveia,
             'Guarda': guarda,
+            'Ílhavo': ilhavo,
             'Leiria': leiria,
             'Mira': mira,
             'Montemor-o-Velho': montemorVelho,
