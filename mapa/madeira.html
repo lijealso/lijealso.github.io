@@ -116,6 +116,8 @@
 
         // Todas - Funchal
 
+        const pAreeiro = L.marker([32.642500000, -16.958890000], { icon: marker }).bindPopup('NOME: AREEIRO<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTMT2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/areeiro?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 32.642500000<br>Longitude: -16.958890000').addTo(praias);
+
         const pBarreirinha = L.marker([32.646390000, -16.897220000], { icon: marker }).bindPopup('NOME: BARREIRINHA<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTMT7L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/barreirinha?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 32.646390000<br>Longitude: -16.897220000').addTo(praias);
 
         const pClubeNavalFunchal = L.marker([32.63547, -16.93873], { icon: marker }).bindPopup('NOME: CLUBE NAVAL DO FUNCHAL<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTML8V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://drive.google.com/file/d/1RfXCVHtNEdyXg4p-3aGybKkMwrzuUUSX/view" target="_blank">Ver ficheiro</a><br>Latitude: 32.63547<br>Longitude: -16.93873').addTo(praias);
@@ -195,6 +197,8 @@
         // Concelho - Funchal
 
         const funchal = L.layerGroup();
+
+        const cAreeiro = L.marker([32.642500000, -16.958890000], { icon: marker }).bindPopup('NOME: AREEIRO<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTMT2U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/areeiro?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 32.642500000<br>Longitude: -16.958890000').addTo(funchal);
 
         const cBarreirinha = L.marker([32.646390000, -16.897220000], { icon: marker }).bindPopup('NOME: BARREIRINHA<br>REGIÃO: MADEIRA<br>CONCELHO: FUNCHAL<br>CÓDIGO: PTMT7L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/barreirinha?language=pt-pt" target="_blank">Ver mapa</a><br>Latitude: 32.646390000<br>Longitude: -16.897220000').addTo(funchal);
 
