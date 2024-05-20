@@ -268,6 +268,8 @@
 
         // Retirada 1
 
+        const pAgroal = L.marker([39.679186, -8.43631], { icon: marker }).bindPopup('NOME: AGROAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OURÉM<br>CÓDIGO: PTCD8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/agroal?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 39.679186<br>Longitude: -8.43631').addTo(praias);
+
         // Todas - Pampilhosa da Serra
 
         const pSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(praias);
@@ -536,6 +538,10 @@
 
         // Retirada 1
 
+        const ourem = L.layerGroup();
+
+        const cAgroal = L.marker([39.679186, -8.43631], { icon: marker }).bindPopup('NOME: AGROAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: OURÉM<br>CÓDIGO: PTCD8N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/agroal?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 39.679186<br>Longitude: -8.43631').addTo(ourem);
+
         // Concelho - Pampilhosa da Serra
 
         const pampilhosaSerra = L.layerGroup();
@@ -663,6 +669,7 @@
             'Óbidos': obidos,
             'Oeiras': oeiras,
             'Oleiros': oleiros,
+            'Ourém': ourem,
             'Pampilhosa da Serra': pampilhosaSerra,
             'Penamacor': penamacor,
             'Peniche': peniche,
