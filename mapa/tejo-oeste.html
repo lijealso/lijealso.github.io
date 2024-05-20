@@ -272,6 +272,8 @@
 
         // Todas - Pampilhosa da Serra
 
+        const pPessegueiro = L.marker([40.05219, -8.02389], { icon: marker }).bindPopup('NOME: PESSEGUEIRO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCQ3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/pessegueiro?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 40.05219<br>Longitude: -8.02389').addTo(praias);
+
         const pSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(praias);
 
         // Todas - Pedrógão Grande
@@ -545,6 +547,8 @@
         // Concelho - Pampilhosa da Serra
 
         const pampilhosaSerra = L.layerGroup();
+
+        const cPessegueiro = L.marker([40.05219, -8.02389], { icon: marker }).bindPopup('NOME: PESSEGUEIRO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCQ3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/pessegueiro?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 40.05219<br>Longitude: -8.02389').addTo(pampilhosaSerra);
 
         const cSantaLuzia = L.marker([40.09111, -7.85322], { icon: marker }).bindPopup('NOME: SANTA LUZIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PAMPILHOSA DA SERRA<br>CÓDIGO: PTCD3H<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 40.09111<br>Longitude: -7.85322').addTo(pampilhosaSerra);
 
