@@ -306,6 +306,8 @@
 
         // Todas - Proença-a-Nova
 
+        const pFroia = L.marker([39.78677, -7.836], { icon: marker }).bindPopup('NOME: FRÓIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCH3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/froia?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 39.78677<br>Longitude: -7.836').addTo(praias);
+
         const pMalhadal = L.marker([39.79703, -7.95148], { icon: marker }).bindPopup('NOME: MALHADAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCQ8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.79703<br>Longitude: -7.95148').addTo(praias);
 
         // Todas - Sertã
@@ -595,6 +597,8 @@
         // Concelho - Proença-a-Nova
 
         const proencaNova = L.layerGroup();
+
+        const cFroia = L.marker([39.78677, -7.836], { icon: marker }).bindPopup('NOME: FRÓIA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCH3E<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://rmsl.apambiente.pt/content/froia?language=pt-pt" target="_blank">Ver info</a><br>Latitude: 39.78677<br>Longitude: -7.836').addTo(proencaNova);
 
         const cMalhadal = L.marker([39.79703, -7.95148], { icon: marker }).bindPopup('NOME: MALHADAL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: PROENÇA-A-NOVA<br>CÓDIGO: PTCQ8M<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.79703<br>Longitude: -7.95148').addTo(proencaNova);
 
