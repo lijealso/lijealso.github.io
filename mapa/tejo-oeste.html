@@ -330,6 +330,16 @@
 
         // Retiradas 5
 
+        const pAdraga = L.marker([38.80352, -9.48569], { icon: marker }).bindPopup('NOME: ADRAGA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT9U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/adraga" target="_blank">Ver info</a><br>Latitude: 38.80352<br>Longitude: -9.48569').addTo(praias);
+
+        const pGrandeSintra = L.marker([38.81335, -9.47964], { icon: marker }).bindPopup('NOME: GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCX2W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/grande" target="_blank">Ver info</a><br>Latitude: 38.81335<br>Longitude: -9.47964').addTo(praias);
+
+        const pMacas = L.marker([38.82576, -9.4705], { icon: marker }).bindPopup('NOME: MAÇÃS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/ma%C3%A7%C3%A3s" target="_blank">Ver info</a><br>Latitude: 38.82576<br>Longitude: -9.4705').addTo(praias);
+
+        const pMagoito = L.marker([38.86361, -9.44957], { icon: marker }).bindPopup('NOME: MAGOITO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCW3L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/magoito" target="_blank">Ver info</a><br>Latitude: 38.86361<br>Longitude: -9.44957').addTo(praias);
+
+        const pSaoJuliao = L.marker([38.93213, -9.42016], { icon: marker }).bindPopup('NOME: SÃO JULIÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCE9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/s-juli%C3%A3o" target="_blank">Ver info</a><br>Latitude: 38.93213<br>Longitude: -9.42016').addTo(praias);
+
         // Todas - Tomar
 
         const pMontes = L.marker([39.63019, -8.25261], { icon: marker }).bindPopup('NOME: MONTES<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TOMAR<br>CÓDIGO: PTCX7N<br>CATEGORIA: INTERIOR<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.63019<br>Longitude: -8.25261').addTo(praias);
@@ -634,6 +644,18 @@
 
         // Retiradas 5
 
+        const sintra = L.layerGroup();
+
+        const cAdraga = L.marker([38.80352, -9.48569], { icon: marker }).bindPopup('NOME: ADRAGA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT9U<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/adraga" target="_blank">Ver info</a><br>Latitude: 38.80352<br>Longitude: -9.48569').addTo(sintra);
+
+        const cGrandeSintra = L.marker([38.81335, -9.47964], { icon: marker }).bindPopup('NOME: GRANDE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCX2W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/grande" target="_blank">Ver info</a><br>Latitude: 38.81335<br>Longitude: -9.47964').addTo(sintra);
+
+        const cMacas = L.marker([38.82576, -9.4705], { icon: marker }).bindPopup('NOME: MAÇÃS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCT2J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/ma%C3%A7%C3%A3s" target="_blank">Ver info</a><br>Latitude: 38.82576<br>Longitude: -9.4705').addTo(sintra);
+
+        const cMagoito = L.marker([38.86361, -9.44957], { icon: marker }).bindPopup('NOME: MAGOITO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCW3L<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/magoito" target="_blank">Ver info</a><br>Latitude: 38.86361<br>Longitude: -9.44957').addTo(sintra);
+
+        const cSaoJuliao = L.marker([38.93213, -9.42016], { icon: marker }).bindPopup('NOME: SÃO JULIÃO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SINTRA<br>CÓDIGO: PTCE9W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/s-juli%C3%A3o" target="_blank">Ver info</a><br>Latitude: 38.93213<br>Longitude: -9.42016').addTo(sintra);
+
         // Concelho - Tomar
 
         const tomar = L.layerGroup();
@@ -719,6 +741,7 @@
             'Proença-a-Nova': proencaNova,
             'Sertã': serta,
             'Sesimbra': sesimbra,
+            'Sintra': sintra,
             'Tomar': tomar,
             'Torres Vedras': torresVedras,
             'Vila de Rei': vilaRei,
