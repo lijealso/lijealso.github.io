@@ -348,6 +348,10 @@
 
         // Todas - Torres Vedras
 
+        const pAzul = L.marker([39.174491, -9.358557], { icon: marker }).bindPopup('NOME: AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCD2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/azul" target="_blank">Ver info</a><br>Latitude: 39.174491<br>Longitude: -9.358557').addTo(praias);
+
+        const pFormosaTorresVedras = L.marker([39.13178, -9.38569], { icon: marker }).bindPopup('NOME: FORMOSA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCX7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/formosa" target="_blank">Ver info</a><br>Latitude: 39.13178<br>Longitude: -9.38569').addTo(praias);
+
         const pFozSizandroMar = L.marker([39.1037, -9.40125], { icon: marker }).bindPopup('NOME: FOZ DO SIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.1037<br>Longitude: -9.40125').addTo(praias);
 
         const pAmanhaSantaCruz = L.marker([39.148839, -9.372485], { icon: marker }).bindPopup('NOME: AMANHÃ (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH3C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.148839<br>Longitude: -9.372485').addTo(praias);
@@ -357,6 +361,14 @@
         const pFisicaSantaCruz = L.marker([39.138681, -9.380082], { icon: marker }).bindPopup('NOME: FÍSICA (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCQ3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.138681<br>Longitude: -9.380082').addTo(praias);
 
         const pMiranteSantaCruz = L.marker([39.142101, -9.377132], { icon: marker }).bindPopup('NOME: MIRANTE (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCL8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.142101<br>Longitude: -9.377132').addTo(praias);
+
+        const pNavio = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: NAVIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCT8K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/navio" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(praias);
+
+        const pPisaoSantaCruz = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: PISÃO (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW9X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/pis%C3%A3o-santa-cruz" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(praias);
+
+        const pSantaHelena = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: SANTA HELENA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCK9V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/santa-helena" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(praias);
+
+        const pSantaRitaNorte = L.marker([39.174491, -9.358557], { icon: marker }).bindPopup('NOME: SANTA RITA-NORTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCP2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/santa-rita-norte" target="_blank">Ver info</a><br>Latitude: 39.174491<br>Longitude: -9.358557').addTo(praias);
 
         const pSantaRitaSul = L.marker([39.168858, -9.360553], { icon: marker }).bindPopup('NOME: SANTA RITA-SUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.168858<br>Longitude: -9.360553').addTo(praias);
 
@@ -670,6 +682,10 @@
 
         const torresVedras = L.layerGroup();
 
+        const cAzul = L.marker([39.174491, -9.358557], { icon: marker }).bindPopup('NOME: AZUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCD2P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/azul" target="_blank">Ver info</a><br>Latitude: 39.174491<br>Longitude: -9.358557').addTo(torresVedras);
+        
+        const cFormosaTorresVedras = L.marker([39.13178, -9.38569], { icon: marker }).bindPopup('NOME: FORMOSA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCX7W<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/formosa" target="_blank">Ver info</a><br>Latitude: 39.13178<br>Longitude: -9.38569').addTo(torresVedras);
+
         const cFozSizandroMar = L.marker([39.1037, -9.40125], { icon: marker }).bindPopup('NOME: FOZ DO SIZANDRO-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH9C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.1037<br>Longitude: -9.40125').addTo(torresVedras);
 
         const cAmanhaSantaCruz = L.marker([39.148839, -9.372485], { icon: marker }).bindPopup('NOME: AMANHÃ (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCH3C<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.148839<br>Longitude: -9.372485').addTo(torresVedras);
@@ -679,6 +695,14 @@
         const cFisicaSantaCruz = L.marker([39.138681, -9.380082], { icon: marker }).bindPopup('NOME: FÍSICA (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCQ3K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.138681<br>Longitude: -9.380082').addTo(torresVedras);
 
         const cMiranteSantaCruz = L.marker([39.142101, -9.377132], { icon: marker }).bindPopup('NOME: MIRANTE (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCL8P<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.142101<br>Longitude: -9.377132').addTo(torresVedras);
+
+        const cNavio = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: NAVIO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCT8K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/navio" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(torresVedras);
+
+        const cPisaoSantaCruz = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: PISÃO (SANTA CRUZ)<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW9X<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/pis%C3%A3o-santa-cruz" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(torresVedras);
+
+        const cSantaHelena = L.marker([39.137862, -9.382426], { icon: marker }).bindPopup('NOME: SANTA HELENA<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCK9V<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/santa-helena" target="_blank">Ver info</a><br>Latitude: 39.137862<br>Longitude: -9.382426').addTo(torresVedras);
+
+        const cSantaRitaNorte = L.marker([39.174491, -9.358557], { icon: marker }).bindPopup('NOME: SANTA RITA-NORTE<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCP2E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/santa-rita-norte" target="_blank">Ver info</a><br>Latitude: 39.174491<br>Longitude: -9.358557').addTo(torresVedras);
 
         const cSantaRitaSul = L.marker([39.168858, -9.360553], { icon: marker }).bindPopup('NOME: SANTA RITA-SUL<br>REGIÃO: TEJO E OESTE<br>CONCELHO: TORRES VEDRAS<br>CÓDIGO: PTCW2K<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://apambiente.pt/apa/arh-do-tejo-e-oeste" target="_blank">Ver informação</a><br>Latitude: 39.168858<br>Longitude: -9.360553').addTo(torresVedras);
 
