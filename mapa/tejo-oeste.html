@@ -320,6 +320,12 @@
 
         // Retiradas 3
 
+        const pBicas = L.marker([38.463601, -9.193531], { icon: marker }).bindPopup('NOME: BICAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCH8C <br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/bicas" target="_blank">Ver info</a><br>Latitude: 38.463601<br>Longitude: -9.193531').addTo(praias);
+
+        const pLagoaAlbufeiraMar = L.marker([38.506473, -9.183371], { icon: marker }).bindPopup('NOME: LAGOA DE ALBUFEIRA-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCD9J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/lagoa-de-albufeira-mar" target="_blank">Ver info</a><br>Latitude: 38.506473<br>Longitude: -9.183371').addTo(praias);
+
+        const pMoinhoBaixoMeco = L.marker([38.2939092, -9.1101890], { icon: marker }).bindPopup('NOME: MOÍNHO DE BAIXO-MECO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCN7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/moinho-de-baixo-meco" target="_blank">Ver info</a><br>Latitude: 38.2939092<br>Longitude: -9.1101890').addTo(praias);
+
         // Todas - Sintra
 
         // Retiradas 5
@@ -616,6 +622,14 @@
 
         // Retiradas 3
 
+        const sesimbra = L.layerGroup();
+
+        const cBicas = L.marker([38.463601, -9.193531], { icon: marker }).bindPopup('NOME: BICAS<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCH8C <br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/bicas" target="_blank">Ver info</a><br>Latitude: 38.463601<br>Longitude: -9.193531').addTo(sesimbra);
+
+        const cLagoaAlbufeiraMar = L.marker([38.506473, -9.183371], { icon: marker }).bindPopup('NOME: LAGOA DE ALBUFEIRA-MAR<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCD9J<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/lagoa-de-albufeira-mar" target="_blank">Ver info</a><br>Latitude: 38.506473<br>Longitude: -9.183371').addTo(sesimbra);
+
+        const cMoinhoBaixoMeco = L.marker([38.2939092, -9.1101890], { icon: marker }).bindPopup('NOME: MOÍNHO DE BAIXO-MECO<br>REGIÃO: TEJO E OESTE<br>CONCELHO: SESIMBRA<br>CÓDIGO: PTCN7E<br>CATEGORIA: COSTEIRA<br>Referência: <a href="https://rmsl.apambiente.pt/content/moinho-de-baixo-meco" target="_blank">Ver info</a><br>Latitude: 38.2939092<br>Longitude: -9.1101890').addTo(sesimbra);
+
         // Concelho - Sintra
 
         // Retiradas 5
@@ -704,6 +718,7 @@
             'Peniche': peniche,
             'Proença-a-Nova': proencaNova,
             'Sertã': serta,
+            'Sesimbra': sesimbra,
             'Tomar': tomar,
             'Torres Vedras': torresVedras,
             'Vila de Rei': vilaRei,
