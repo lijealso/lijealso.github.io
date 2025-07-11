@@ -1241,7 +1241,7 @@
   {
     "taxon_id": "78451",
     "scientific_name": "Persicaria capitata",
-    "region": ["Az"],
+    "region": ["Az", "Ma"],
     "common_name": "polígono-de-jardim",
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178183105/square.jpg"
   },
@@ -1293,13 +1293,6 @@
     "region": ["Az"],
     "common_name": "Sempre-noiva",
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61530524/square.jpeg"
-  },
-  {
-    "taxon_id": "78451",
-    "scientific_name": "Polygonum capitatum",
-    "region": ["Ma"],
-    "common_name": "Polígono-de-jardim",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178183105/square.jpg"
   },
   {
     "taxon_id": "56166",
