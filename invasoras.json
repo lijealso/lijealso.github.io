@@ -1,1416 +1,1535 @@
 [
   {
-    "scientific_name": "Abutilon sonneratianum",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "578912",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62588493/medium.jpeg"
+    "scientific_name": "Abutilon sonneratianum",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62588493/square.jpeg"
   },
   {
-    "scientific_name": "Abutilon theophrasti",
-    "region": "Lu",
-    "common_name": "folhas-de-veludo",
     "taxon_id": "60214",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219718400/medium.jpeg"
+    "scientific_name": "Abutilon theophrasti",
+    "region": ["Lu", "Ma"],
+    "common_name": "Folhas-de-veludo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219718400/square.jpeg"
   },
   {
-    "scientific_name": "Acacia cyclops",
-    "region": "Lu",
-    "common_name": "Acácia",
     "taxon_id": "75249",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193326994/medium.jpeg"
-  },
-  {
-    "scientific_name": "Acacia dealbata",
-    "region": "Lu",
-    "common_name": "Mimosa",
-    "taxon_id": "53343",
-    "image_url": "https://static.inaturalist.org/photos/217847341/medium.jpg"
-  },
-  {
-    "scientific_name": "Acacia karroo",
-    "region": "Lu",
-    "common_name": "espinheiro-karro",
-    "taxon_id": "502780",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15408476/medium.jpg"
-  },
-  {
-    "scientific_name": "Acacia longifolia",
-    "region": "Lu",
-    "common_name": "acácia-de-espigas",
-    "taxon_id": "63379",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52176937/medium.jpeg"
-  },
-  {
-    "scientific_name": "Acacia mearnsii",
-    "region": "Lu",
-    "common_name": "Acácia-negra",
-    "taxon_id": "75250",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28449724/medium.jpg"
-  },
-  {
-    "scientific_name": "Acacia melanoxylon",
-    "region": "Lu",
-    "common_name": "acácia-austrália",
-    "taxon_id": "53344",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5363/medium.jpg"
-  },
-  {
-    "scientific_name": "Acacia pycnantha",
-    "region": "Lu",
+    "scientific_name": "Acacia cyclops",
+    "region": ["Lu", "Ma"],
     "common_name": "Acácia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193326994/square.jpeg"
+  },
+  {
+    "taxon_id": "53343",
+    "scientific_name": "Acacia dealbata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Mimosa",
+    "image_url": "https://static.inaturalist.org/photos/217847341/square.jpg"
+  },
+  {
+    "taxon_id": "181076",
+    "scientific_name": "Acacia elata",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40514937/square.jpeg"
+  },
+  {
+    "taxon_id": "502780",
+    "scientific_name": "Acacia karroo",
+    "region": ["Lu"],
+    "common_name": "Espinheiro-karro",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15408476/square.jpg"
+  },
+  {
+    "taxon_id": "63379",
+    "scientific_name": "Acacia longifolia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Acácia-de-espigas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52176937/square.jpeg"
+  },
+  {
+    "taxon_id": "75250",
+    "scientific_name": "Acacia mearnsii",
+    "region": ["Lu", "Ma"],
+    "common_name": "Acácia-negra",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28449724/square.jpg"
+  },
+  {
+    "taxon_id": "53344",
+    "scientific_name": "Acacia melanoxylon",
+    "region": ["Lu", "Ma"],
+    "common_name": "Acácia-austrália",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5363/square.jpg"
+  },
+  {
     "taxon_id": "75253",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149332117/medium.jpeg"
+    "scientific_name": "Acacia pycnantha",
+    "region": ["Lu"],
+    "common_name": "Acácia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149332117/square.jpeg"
   },
   {
-    "scientific_name": "Acacia retinodes",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "57040",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98210/medium.jpg"
+    "scientific_name": "Acacia retinodes",
+    "region": ["Lu"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98210/square.jpg"
   },
   {
-    "scientific_name": "Acacia saligna",
-    "region": "Lu",
-    "common_name": "Acácia-salina",
     "taxon_id": "75255",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122896987/medium.jpeg"
+    "scientific_name": "Acacia saligna",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Acácia-salina",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122896987/square.jpeg"
   },
   {
-    "scientific_name": "Acanthus mollis",
-    "region": "Ma",
-    "common_name": "Acanto",
+    "taxon_id": "57037",
+    "scientific_name": "Acacia verticillata",
+    "region": ["Ma"],
+    "common_name": "Acácia-de-folhas-verticiladas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10828267/square.jpg"
+  },
+  {
     "taxon_id": "70045",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30038/medium.jpg"
+    "scientific_name": "Acanthus mollis",
+    "region": ["Ma"],
+    "common_name": "Acanto",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30038/square.jpg"
   },
   {
-    "scientific_name": "Acer negundo",
-    "region": "Lu",
-    "common_name": "Bordo-negundo",
     "taxon_id": "47726",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229714369/medium.jpg"
+    "scientific_name": "Acer negundo",
+    "region": ["Lu", "Ma"],
+    "common_name": "Bordo-negundo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229714369/square.jpg"
   },
   {
+    "taxon_id": "119791",
     "scientific_name": "Acer pseudoplatanus",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "1466281",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270771593/medium.jpg"
+    "region": ["Az", "Ma"],
+    "common_name": "Padreiro",
+    "image_url": "https://static.inaturalist.org/photos/72573830/square.jpg"
   },
   {
-    "scientific_name": "Adiantum hispidulum",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "158020",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126781397/medium.jpeg"
+    "scientific_name": "Adiantum hispidulum",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126781397/square.jpeg"
   },
   {
-    "scientific_name": "Adiantum raddianum",
-    "region": "Ma",
-    "common_name": "Avenca",
     "taxon_id": "158023",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4106073/medium.JPG"
+    "scientific_name": "Adiantum raddianum",
+    "region": ["Ma"],
+    "common_name": "Avenca",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4106073/square.JPG"
   },
   {
+    "taxon_id": "57838",
     "scientific_name": "Agapanthus praecox ssp. orientalis",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/12504/square.jpg"
   },
   {
-    "scientific_name": "Agave americana",
-    "region": "Lu",
-    "common_name": "Piteira",
     "taxon_id": "64103",
-    "image_url": "https://static.inaturalist.org/photos/333174371/medium.jpg"
+    "scientific_name": "Agave americana",
+    "region": ["Lu", "Ma"],
+    "common_name": "Piteira",
+    "image_url": "https://static.inaturalist.org/photos/333174371/square.jpg"
   },
   {
-    "scientific_name": "Ageratina adenophora",
-    "region": "Lu",
-    "common_name": "Abundância",
     "taxon_id": "64114",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12846182/medium.jpg"
+    "scientific_name": "Ageratina adenophora",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Abundância",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12846182/square.jpg"
   },
   {
-    "scientific_name": "Ageratina riparia",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "158112",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5446769/medium.jpg"
+    "scientific_name": "Ageratina riparia",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5446769/square.jpg"
   },
   {
-    "scientific_name": "Albizzia lophanta",
-    "region": "Lu",
-    "common_name": "Albízia",
-    "taxon_id": "139851",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449236431/medium.jpeg"
-  },
-  {
-    "scientific_name": "Albizzia julibrissin",
-    "region": "Lu",
-    "common_name": "Acácia-de-constantinopla",
     "taxon_id": "47443",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146757188/medium.jpg"
+    "scientific_name": "Albizzia julibrissin",
+    "region": ["Lu", "Ma"],
+    "common_name": "Acácia-de-constantinopla",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146757188/square.jpg"
   },
   {
-    "scientific_name": "Ailanthus altissima",
-    "region": "Lu",
-    "common_name": "Espanta-lobos",
     "taxon_id": "57278",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255301394/medium.jpeg"
+    "scientific_name": "Ailanthus altissima",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Espanta-lobos",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255301394/square.jpeg"
   },
   {
-    "scientific_name": "Aloe arborescens",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "81518",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221831309/medium.jpeg"
+    "scientific_name": "Aloe arborescens",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221831309/square.jpeg"
   },
   {
-    "scientific_name": "Alternanthera philoxeroides",
-    "region": "Lu",
-    "common_name": "Erva-de-jacaré",
     "taxon_id": "75386",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8552798/medium.jpg"
+    "scientific_name": "Alternanthera philoxeroides",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-de-jacaré",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8552798/square.jpg"
   },
   {
-    "scientific_name": "Alternanthera caracasana",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "75385",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53344433/medium.jpg"
+    "scientific_name": "Alternanthera caracasana",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53344433/square.jpg"
   },
   {
+    "taxon_id": "158232",
     "scientific_name": "Alternanthera nodiflora",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "1413429",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327796871/medium.jpeg"
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335897180/square.jpg"
   },
   {
-    "scientific_name": "Alternanthera pungens",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "158231",
-    "image_url": "https://static.inaturalist.org/photos/10150109/medium.jpg"
+    "scientific_name": "Alternanthera pungens",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/10150109/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus albus",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "57893",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4644324/medium.jpg"
+    "scientific_name": "Amaranthus albus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4644324/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus blitoides",
-    "region": "Lu",
-    "common_name": "bredo",
     "taxon_id": "58774",
-    "image_url": "https://static.inaturalist.org/photos/2479833/medium.jpg"
+    "scientific_name": "Amaranthus blitoides",
+    "region": ["Lu", "Ma"],
+    "common_name": "Bredo",
+    "image_url": "https://static.inaturalist.org/photos/2479833/square.jpg"
   },
   {
+    "taxon_id": "79570",
     "scientific_name": "Amaranthus blitum ssp. emarginatus",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/2713635/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus caudatus",
-    "region": "Lu",
-    "common_name": "Rabo-de-gato",
     "taxon_id": "75392",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519462/medium.jpeg"
+    "scientific_name": "Amaranthus caudatus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Rabo-de-gato",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519462/square.jpeg"
   },
   {
-    "scientific_name": "Amaranthus cruentus",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "52328",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328941860/medium.jpg"
+    "scientific_name": "Amaranthus cruentus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328941860/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus deflexus",
-    "region": "Lu",
-    "common_name": "caruru-rasteiro",
     "taxon_id": "75393",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70458/medium.JPG"
+    "scientific_name": "Amaranthus deflexus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Caruru-rasteiro",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70458/square.JPG"
   },
   {
+    "taxon_id": "52328",
     "scientific_name": "Amaranthus hybridus",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "1409842",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112758204/medium.jpeg"
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328941860/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus hypochondriacus",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "75396",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519431/medium.jpg"
-  },
-  {
-    "scientific_name": "Amaranthus muricatus",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "158249",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137320024/medium.jpg"
-  },
-  {
-    "scientific_name": "Amaranthus powellii",
-    "region": "Lu",
-    "common_name": "bredo-bicudo",
     "taxon_id": "75398",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8954268/medium.jpeg"
+    "scientific_name": "Amaranthus hypochondriacus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Bredo-bicudo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8954268/square.jpeg"
   },
   {
-    "scientific_name": "Amaranthus retroflexus",
-    "region": "Lu",
-    "common_name": "desconhecido",
+    "taxon_id": "158249",
+    "scientific_name": "Amaranthus muricatus",
+    "region": ["Ma"],
+    "common_name": "",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137320024/square.jpg"
+  },
+  {
+    "taxon_id": "52328",
+    "scientific_name": "Amaranthus paniculatus",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328941860/square.jpg"
+  },
+  {
+    "taxon_id": "75398",
+    "scientific_name": "Amaranthus powellii",
+    "region": ["Lu", "Ma"],
+    "common_name": "Bredo-bicudo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8954268/square.jpeg"
+  },
+  {
     "taxon_id": "58776",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160360789/medium.jpg"
+    "scientific_name": "Amaranthus retroflexus",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160360789/square.jpg"
   },
   {
-    "scientific_name": "Amaranthus viridis",
-    "region": "Lu",
-    "common_name": "Caruru-de-mancha",
     "taxon_id": "75401",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243125755/medium.jpg"
+    "scientific_name": "Amaranthus viridis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Caruru-de-mancha",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243125755/square.jpg"
   },
   {
+    "taxon_id": "170476",
     "scientific_name": "Amaranthus x ozanonii",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/221143410/square.jpeg"
   },
   {
-    "scientific_name": "Amaryllis belladonna",
-    "region": "Ma",
-    "common_name": "Beladona-bastarda",
     "taxon_id": "61827",
-    "image_url": "https://static.inaturalist.org/photos/87015510/medium.jpg"
+    "scientific_name": "Amaryllis belladonna",
+    "region": ["Ma"],
+    "common_name": "Beladona-bastarda",
+    "image_url": "https://static.inaturalist.org/photos/87015510/square.jpg"
   },
   {
-    "scientific_name": "Aptenia cordifolia",
-    "region": "Ma",
-    "common_name": "rosinha-do-sol",
+    "taxon_id": "75457",
+    "scientific_name": "Anredera cordifolia",
+    "region": ["Az"],
+    "common_name": "Parra-da-Madeira",
+    "image_url": "https://static.inaturalist.org/photos/39165812/square.jpg"
+  },
+  {
     "taxon_id": "589815",
-    "image_url": "https://static.inaturalist.org/photos/62755218/medium.jpeg"
+    "scientific_name": "Aptenia cordifolia",
+    "region": ["Az", "Ma"],
+    "common_name": "Rosinha-do-sol",
+    "image_url": "https://static.inaturalist.org/photos/62755218/square.jpeg"
   },
   {
-    "scientific_name": "Araujia sericifera",
-    "region": "Lu",
-    "common_name": "Sumaúma-bastarda",
     "taxon_id": "75499",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302385/medium.jpg"
+    "scientific_name": "Araujia sericifera",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sumaúma-bastarda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302385/square.jpg"
   },
   {
-    "scientific_name": "Arctotheca calendula",
-    "region": "Lu",
-    "common_name": "Erva-gorda",
     "taxon_id": "56024",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52626380/medium.jpeg"
+    "scientific_name": "Arctotheca calendula",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-gorda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52626380/square.jpeg"
   },
   {
-    "scientific_name": "Arundo donax",
-    "region": "Lu",
-    "common_name": "Cana",
     "taxon_id": "64017",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9554061/medium.jpg"
+    "scientific_name": "Arundo donax",
+    "region": ["Lu", "Ma"],
+    "common_name": "Cana",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9554061/square.jpg"
   },
   {
-    "scientific_name": "Asclepias curassavica",
-    "region": "Lu",
-    "common_name": "oficial-de-sala",
     "taxon_id": "75602",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133647238/medium.jpeg"
+    "scientific_name": "Asclepias curassavica",
+    "region": ["Lu", "Ma"],
+    "common_name": "Oficial-de-sala",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133647238/square.jpeg"
   },
   {
-    "scientific_name": "Asclepias syriaca",
-    "region": "Lu",
-    "common_name": "algodão-bravo",
     "taxon_id": "47911",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99923276/medium.jpg"
+    "scientific_name": "Asclepias syriaca",
+    "region": ["Lu", "Ma"],
+    "common_name": "Algodão-bravo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99923276/square.jpg"
   },
   {
-    "scientific_name": "Asparagus asparagoides",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "64107",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6772533/medium.jpeg"
+    "scientific_name": "Asparagus asparagoides",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6772533/square.jpeg"
   },
   {
-    "scientific_name": "Aster squamatus",
-    "region": "Lu",
-    "common_name": "mata-jornaleiros",
     "taxon_id": "169489",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29425040/medium.jpeg"
+    "scientific_name": "Aster squamatus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Mata-jornaleiros",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29425040/square.jpeg"
   },
   {
-    "scientific_name": "Atriplex rosea",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "58121",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94982699/medium.jpg"
+    "scientific_name": "Atriplex rosea",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94982699/square.jpg"
   },
   {
-    "scientific_name": "Atriplex semibaccata",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "60177",
-    "image_url": "https://static.inaturalist.org/photos/475172/medium.jpg"
+    "scientific_name": "Atriplex semibaccata",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/475172/square.jpg"
   },
   {
-    "scientific_name": "Azolla filiculoides",
-    "region": "Lu",
-    "common_name": "azola",
     "taxon_id": "58754",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228231241/medium.jpg"
+    "scientific_name": "Azolla filiculoides",
+    "region": ["Lu", "Ma"],
+    "common_name": "azola",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228231241/square.jpg"
   },
   {
-    "scientific_name": "Baccharis halimifolia",
-    "region": "Lu",
-    "common_name": "desconhecido",
     "taxon_id": "84813",
-    "image_url": "https://static.inaturalist.org/photos/56150639/medium.jpg"
+    "scientific_name": "Baccharis halimifolia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/56150639/square.jpg"
   },
   {
-    "scientific_name": "Baccharis spicata",
-    "region": "Lu",
-    "common_name": "vassoura-de-folha-estreita",
     "taxon_id": "544767",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70961509/medium.jpg"
+    "scientific_name": "Baccharis spicata",
+    "region": ["Lu", "Ma"],
+    "common_name": "vassoura-de-folha-estreita",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70961509/square.jpg"
   },
   {
-    "scientific_name": "Bidens aurea",
-    "region": "Lu",
-    "common_name": "Chá-de-Marrocos",
     "taxon_id": "159235",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158387683/medium.jpeg"
+    "scientific_name": "Bidens aurea",
+    "region": ["Lu", "Ma"],
+    "common_name": "Chá-de-Marrocos",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158387683/square.jpeg"
   },
   {
-    "scientific_name": "Bidens frondosa",
-    "region": "Lu",
-    "common_name": "Erva-rapa",
     "taxon_id": "51712",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261001118/medium.jpeg"
+    "scientific_name": "Bidens frondosa",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-rapa",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261001118/square.jpeg"
   },
   {
+    "taxon_id": "1095846",
     "scientific_name": "Bidens pilosa",
-    "region": "Lu",
-    "common_name": "Picão-preto",
-    "taxon_id": "50203",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33340799/medium.jpeg"
-  },
-  {
-    "scientific_name": "Brachiaria mutica",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "170076",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57852953/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cabomba caroliniana",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "75921",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275479080/medium.jpg"
-  },
-  {
-    "scientific_name": "Cardiospermum grandiflorum",
-    "region": "Ma",
-    "common_name": "Corriola-de-balões",
-    "taxon_id": "159852",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190929314/medium.jpeg"
-  },
-  {
-    "scientific_name": "Carpobrotus acinaciformis",
-    "region": "Lu",
-    "common_name": "Chorão",
-    "taxon_id": "129759",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237449983/medium.jpg"
-  },
-  {
-    "scientific_name": "Carpobrotus edulis",
-    "region": "Lu",
-    "common_name": "Chorão-das-praias",
-    "taxon_id": "49322",
-    "image_url": "https://static.inaturalist.org/photos/190037591/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cenchrus ciliaris",
-    "region": "Ma",
-    "common_name": "Capim-buffel",
-    "taxon_id": "199408",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396535986/medium.jpg"
-  },
-  {
-    "scientific_name": "Centranthus ruber",
-    "region": "Ma",
-    "common_name": "Alfinetes",
-    "taxon_id": "57283",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524544102/medium.jpg"
-  },
-  {
-    "scientific_name": "Chasmanthe aethiopica",
-    "region": "Ma",
-    "common_name": "Espadanas",
-    "taxon_id": "361348",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36564567/medium.jpeg"
-  },
-  {
-    "scientific_name": "Chrysanthemum coronarium",
-    "region": "Ma",
-    "common_name": "Malmequer",
-    "taxon_id": "59904",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14080027/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cirsium vulgare",
-    "region": "Ma",
-    "common_name": "Cardo-roxo",
-    "taxon_id": "52989",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306770747/medium.jpeg"
-  },
-  {
-    "scientific_name": "Colocasia esculenta",
-    "region": "Ma",
-    "common_name": "Inhame",
-    "taxon_id": "122835",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20295281/medium.jpeg"
-  },
-  {
-    "scientific_name": "Commelina diffusa",
-    "region": "Ma",
-    "common_name": "Trapoeraba",
-    "taxon_id": "160818",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181975349/medium.jpeg"
-  },
-  {
-    "scientific_name": "Conyza bonariensis",
-    "region": "Lu",
-    "common_name": "Avoadinha-peluda",
-    "taxon_id": "76904",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164220863/medium.jpg"
-  },
-  {
-    "scientific_name": "Conyza canadensis",
-    "region": "Lu",
-    "common_name": "Avoadinha",
-    "taxon_id": "76907",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220777535/medium.jpg"
-  },
-  {
-    "scientific_name": "Conyza sumatrensis",
-    "region": "Lu",
-    "common_name": "Avoadinha-marfim",
-    "taxon_id": "76943",
-    "image_url": "https://static.inaturalist.org/photos/62142563/medium.jpg"
-  },
-  {
-    "scientific_name": "Coronopus didymus",
-    "region": "Ma",
-    "common_name": "Mastruz",
-    "taxon_id": "60987",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207927754/medium.jpg"
-  },
-  {
-    "scientific_name": "Cortaderia selloana",
-    "region": "Lu",
-    "common_name": "Erva-das-pampas",
-    "taxon_id": "64240",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173109660/medium.jpg"
-  },
-  {
-    "scientific_name": "Cotula australis",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "53025",
-    "image_url": "https://static.inaturalist.org/photos/267738443/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cotula coronopifolia",
-    "region": "Lu",
-    "common_name": "Botões-de-latão",
-    "taxon_id": "58812",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115578937/medium.jpg"
-  },
-  {
-    "scientific_name": "Crassula ovata",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "76465",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126892897/medium.jpeg"
-  },
-  {
-    "scientific_name": "Crassula multicava",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "76464",
-    "image_url": "https://static.inaturalist.org/photos/1227478/medium."
-  },
-  {
-    "scientific_name": "Crinum bulbispermum",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "161125",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77086652/medium.jpeg"
-  },
-  {
-    "scientific_name": "Crocosmia x crocosmiiflora",
-    "region": "Ma",
-    "common_name": "Crocósmia",
-    "taxon_id": "181465",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43084170/medium.jpg"
-  },
-  {
-    "scientific_name": "Cyperus rotundus",
-    "region": "Lu",
-    "common_name": "Tiririca",
-    "taxon_id": "76593",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60471939/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cyrtomium falcatum",
-    "region": "Ma",
-    "common_name": "feto-azevinho",
-    "taxon_id": "76595",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385933115/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cytisus scoparius",
-    "region": "Ma",
-    "common_name": "Giesta",
-    "taxon_id": "48538",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39060163/medium.jpeg"
-  },
-  {
-    "scientific_name": "Cytisus striatus",
-    "region": "Ma",
-    "common_name": "Maia-negra",
-    "taxon_id": "76598",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289278019/medium.jpeg"
-  },
-  {
-    "scientific_name": "Datura innoxia",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "161639",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325514308/medium.jpeg"
-  },
-  {
-    "scientific_name": "Datura stramonium",
-    "region": "Lu",
-    "common_name": "Figueira-do-inferno",
-    "taxon_id": "55854",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158790852/medium.jpeg"
-  },
-  {
-    "scientific_name": "Delairea odorata",
-    "region": "Ma",
-    "common_name": "Erva-de-são-tiago",
-    "taxon_id": "53208",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176027345/medium.jpeg"
-  },
-  {
-    "scientific_name": "Doodia caudata",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "401378",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359729808/medium.jpg"
-  },
-  {
-    "scientific_name": "Duchesnea indica",
-    "region": "Ma",
-    "common_name": "morango-indiano",
-    "taxon_id": "243824",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8835174/medium.jpg"
-  },
-  {
-    "scientific_name": "Egeria densa",
-    "region": "Lu",
-    "common_name": "Egéria",
-    "taxon_id": "1555600",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55527815/medium.jpeg"
-  },
-  {
-    "scientific_name": "Eichhornia crassipes",
-    "region": "Lu",
-    "common_name": "Jacinto-d'água",
-    "taxon_id": "962637",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107997/medium.jpeg"
-  },
-  {
-    "scientific_name": "Elodea canadensis",
-    "region": "Lu",
-    "common_name": "Elódea",
-    "taxon_id": "76793",
-    "image_url": "https://static.inaturalist.org/photos/113225954/medium.jpg"
-  },
-  {
-    "scientific_name": "Elodea nuttallii",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "57623",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12266/medium.jpg"
-  },
-  {
-    "scientific_name": "Erigeron karvinskianus",
-    "region": "Lu",
-    "common_name": "Vitadínia-das-floristas",
-    "taxon_id": "76923",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94408/medium.jpg"
-  },
-  {
-    "scientific_name": "Eryngium pandanifolium",
-    "region": "Lu",
-    "common_name": "Piteirão",
-    "taxon_id": "326751",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29189116/medium.jpeg"
-  },
-  {
-    "scientific_name": "Eschscholzia californica",
-    "region": "Ma",
-    "common_name": "Papoula-da-Califórnia",
-    "taxon_id": "48225",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67227218/medium.jpg"
-  },
-  {
-    "scientific_name": "Fallopia baldschuanica",
-    "region": "Lu",
-    "common_name": "Cordão-prateado",
-    "taxon_id": "77128",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28315035/medium.jpg"
-  },
-  {
-    "scientific_name": "Fallopia japonica",
-    "region": "Lu",
-    "common_name": "Sanguinária-do-japão",
-    "taxon_id": "914922",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509584890/medium.jpg"
-  },
-  {
-    "scientific_name": "Fallopia sachalinensis",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "593040",
-    "image_url": "https://static.inaturalist.org/photos/92299908/medium.jpg"
-  },
-  {
-    "scientific_name": "Fallopia x bohemica",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "850784",
-    "image_url": "https://static.inaturalist.org/photos/9849330/medium.jpg"
-  },
-  {
-    "scientific_name": "Fuschia arborescens",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
-  },
-  {
-    "scientific_name": "Fuschia magellanica",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "163112",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45778546/medium.jpg"
-  },
-  {
-    "scientific_name": "Galinsoga parviflora",
-    "region": "Lu",
-    "common_name": "Erva-da-moda",
-    "taxon_id": "48178",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388596749/medium.jpg"
-  },
-  {
-    "scientific_name": "Galinsoga quadriradiata",
-    "region": "Ma",
+    "region": ["Lu", "Ma"],
     "common_name": "Picão-branco",
-    "taxon_id": "56170",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254366860/medium.jpg"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86500140/square.jpeg"
   },
   {
-    "scientific_name": "Gleditsia triacanthos",
-    "region": "Lu",
-    "common_name": "Espinheiro-da-Virgínia",
-    "taxon_id": "54797",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193347238/medium.jpeg"
+    "taxon_id": "170076",
+    "scientific_name": "Brachiaria mutica",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57852953/square.jpeg"
   },
   {
-    "scientific_name": "Gomphocarpus fruticosus",
-    "region": "Lu",
-    "common_name": "Algodão-bastardo",
-    "taxon_id": "52351",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57953892/medium.jpeg"
+    "taxon_id": "75921",
+    "scientific_name": "Cabomba caroliniana",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275479080/square.jpg"
   },
   {
-    "scientific_name": "Gunnera tinctoria",
-    "region": "Lu",
-    "common_name": "Gigante",
-    "taxon_id": "77310",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125734/medium.jpg"
+    "taxon_id": "159852",
+    "scientific_name": "Cardiospermum grandiflorum",
+    "region": ["Ma"],
+    "common_name": "Corriola-de-balões",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190929314/square.jpeg"
   },
   {
-    "scientific_name": "Hakea salicifolia",
-    "region": "Lu",
-    "common_name": "Háquea-folhas-de-salgueiro",
-    "taxon_id": "363485",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1029440/medium.jpg"
+    "taxon_id": "129759",
+    "scientific_name": "Carpobrotus acinaciformis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Chorão",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237449983/square.jpg"
   },
   {
-    "scientific_name": "Hakea sericea",
-    "region": "Lu",
-    "common_name": "Háquea-picante",
-    "taxon_id": "321137",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370377/medium.jpg"
+    "taxon_id": "49322",
+    "scientific_name": "Carpobrotus edulis",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Chorão-das-praias",
+    "image_url": "https://static.inaturalist.org/photos/190037591/square.jpeg"
   },
   {
-    "scientific_name": "Hedychium gardnerianum",
-    "region": "Lu",
-    "common_name": "Conteira",
-    "taxon_id": "52495",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61310433/medium.jpg"
+    "taxon_id": "48208",
+    "scientific_name": "Clethra arborea",
+    "region": ["Az"],
+    "common_name": "Folhadeiro",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501328045/square.jpg"
   },
   {
-    "scientific_name": "Helichrysum foetidum",
-    "region": "Ma",
-    "common_name": "Perpétuas-Fétidas",
-    "taxon_id": "163638",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31091390/medium.jpg"
+    "taxon_id": "199408",
+    "scientific_name": "Cenchrus ciliaris",
+    "region": ["Ma"],
+    "common_name": "Capim-buffel",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396535986/square.jpg"
   },
   {
-    "scientific_name": "Heracleum mantegazzianum",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "1557658",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260155592/medium.jpeg"
+    "taxon_id": "57283",
+    "scientific_name": "Centranthus ruber",
+    "region": ["Ma"],
+    "common_name": "Alfinetes",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524544102/square.jpg"
   },
   {
-    "scientific_name": "Heracleum persicum",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "516305",
-    "image_url": "https://static.inaturalist.org/photos/47272758/medium.jpg"
+    "taxon_id": "361348",
+    "scientific_name": "Chasmanthe aethiopica",
+    "region": ["Ma"],
+    "common_name": "Espadanas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36564567/square.jpeg"
   },
   {
-    "scientific_name": "Heracleum sosnowskyi",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "499936",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86251892/medium.jpg"
+    "taxon_id": "59904",
+    "scientific_name": "Chrysanthemum coronarium",
+    "region": ["Ma"],
+    "common_name": "Malmequer",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14080027/square.jpeg"
   },
   {
-    "scientific_name": "Holcus lanatus",
-    "region": "Ma",
-    "common_name": "Erva-lanar",
-    "taxon_id": "52793",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79932683/medium.jpeg"
+    "taxon_id": "52989",
+    "scientific_name": "Cirsium vulgare",
+    "region": ["Ma"],
+    "common_name": "Cardo-roxo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306770747/square.jpeg"
   },
   {
-    "scientific_name": "Hydrangea macrophylla",
-    "region": "Ma",
-    "common_name": "Hidrângea",
-    "taxon_id": "122034",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45518546/medium.jpg"
+    "taxon_id": "160818",
+    "scientific_name": "Commelina diffusa",
+    "region": ["Ma"],
+    "common_name": "Trapoeraba",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181975349/square.jpeg"
   },
   {
-    "scientific_name": "Hydrilla verticillata",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "77468",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308709379/medium.jpg"
+    "taxon_id": "52998",
+    "scientific_name": "Conium maculatum",
+    "region": ["Az"],
+    "common_name": "Cicuta",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18903781/square.jpg"
   },
   {
-    "scientific_name": "Hydrocotyle ranunculoides",
-    "region": "Lu",
-    "common_name": "Chapéu-de-sapo",
-    "taxon_id": "60951",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204681991/medium.jpeg"
+    "taxon_id": "76904",
+    "scientific_name": "Conyza bonariensis",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Avoadinha-peluda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164220863/square.jpg"
   },
   {
-    "scientific_name": "Impatiens glandulifera",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "47892",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1204644/medium."
+    "taxon_id": "76907",
+    "scientific_name": "Conyza canadensis",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Avoadinha",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220777535/square.jpg"
   },
   {
-    "scientific_name": "Ipomoea acuminata",
-    "region": "Lu",
-    "common_name": "bons-dias",
-    "taxon_id": "77496",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117352227/medium.jpg"
+    "taxon_id": "76943",
+    "scientific_name": "Conyza sumatrensis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Avoadinha-marfim",
+    "image_url": "https://static.inaturalist.org/photos/62142563/square.jpg"
   },
   {
-    "scientific_name": "Ipomea purpurea",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
-  },
-  {
-    "scientific_name": "Isatis tinctoria",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "77509",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7456120/medium.jpeg"
-  },
-  {
-    "scientific_name": "Kalanchoe daigremontiana",
-    "region": "Ma",
-    "common_name": "Mãe-de-milhares-manchada",
-    "taxon_id": "164327",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159760909/medium.jpeg"
-  },
-  {
-    "scientific_name": "Kalanchoe delagonensis",
-    "region": "Ma",
-    "common_name": "Flor-da-abissínia",
-    "taxon_id": "164328",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4476647/medium.jpg"
-  },
-  {
-    "scientific_name": "Kalanchoe fedtschenkoi",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "164329",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277375566/medium.jpeg"
-  },
-  {
-    "scientific_name": "Kalanchoe pinnata",
-    "region": "Ma",
-    "common_name": "Saião",
-    "taxon_id": "164333",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342176977/medium.jpg"
-  },
-  {
-    "scientific_name": "Lagarosiphon major",
-    "region": "Lu",
-    "common_name": "Elódea-africana",
-    "taxon_id": "208800",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196959645/medium.jpeg"
-  },
-  {
-    "scientific_name": "Lantana camara",
-    "region": "Lu",
-    "common_name": "Lantana",
-    "taxon_id": "50333",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57353024/medium.jpg"
-  },
-  {
-    "scientific_name": "Lepidium didymum",
-    "region": "Ma",
-    "common_name": "Mastruz",
     "taxon_id": "60987",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207927754/medium.jpg"
+    "scientific_name": "Coronopus didymus",
+    "region": ["Ma"],
+    "common_name": "Mastruz",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207927754/square.jpg"
   },
   {
-    "scientific_name": "Leptospermum scoparium",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "54699",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57833486/medium.jpg"
+    "taxon_id": "64240",
+    "scientific_name": "Cortaderia selloana",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-das-pampas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173109660/square.jpg"
   },
   {
-    "scientific_name": "Leucaena leucocephala",
-    "region": "Ma",
-    "common_name": "Leucena",
-    "taxon_id": "47447",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173810076/medium.jpeg"
+    "taxon_id": "53025",
+    "scientific_name": "Cotula australis",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/267738443/square.jpeg"
   },
   {
-    "scientific_name": "Leycesteria formosa",
-    "region": "Ma",
-    "common_name": "Madressilva-dos-Himalaias",
-    "taxon_id": "127412",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684530/medium.jpg"
+    "taxon_id": "58812",
+    "scientific_name": "Cotula coronopifolia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Botões-de-latão",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115578937/square.jpg"
   },
   {
-    "scientific_name": "Lonicera japonica",
-    "region": "Lu",
-    "common_name": "Madressilva-dos-jardins",
-    "taxon_id": "77835",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107908735/medium.jpg"
+    "taxon_id": "76465",
+    "scientific_name": "Crassula ovata",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126892897/square.jpeg"
   },
   {
-    "scientific_name": "Ludwigia grandiflora",
-    "region": "Lu",
-    "common_name": "Luísinha-de-Flores-Grandes",
-    "taxon_id": "77840",
-    "image_url": "https://static.inaturalist.org/photos/92504524/medium.jpg"
+    "taxon_id": "76464",
+    "scientific_name": "Crassula multicava",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/1227478/square."
   },
   {
-    "scientific_name": "Ludwigia peploides",
-    "region": "Lu",
-    "common_name": "Ludevígia-rastejante",
-    "taxon_id": "60220",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298083972/medium.jpg"
+    "taxon_id": "161125",
+    "scientific_name": "Crinum bulbispermum",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77086652/square.jpeg"
   },
   {
-    "scientific_name": "Ludwigia uruguayensis",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "70020",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252927564/medium.jpeg"
+    "taxon_id": "181465",
+    "scientific_name": "Crocosmia x crocosmiiflora",
+    "region": ["Ma"],
+    "common_name": "Crocósmia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43084170/square.jpg"
   },
   {
-    "scientific_name": "Lycopersicon esculentum",
-    "region": "Ma",
-    "common_name": "Tomate",
-    "taxon_id": "51737",
-    "image_url": "https://static.inaturalist.org/photos/114403335/medium.jpeg"
+    "taxon_id": "76593",
+    "scientific_name": "Cyperus rotundus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Tiririca",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60471939/square.jpeg"
   },
   {
-    "scientific_name": "Lysichiton americanus",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "48537",
-    "image_url": "https://static.inaturalist.org/photos/107900/medium.jpg"
+    "taxon_id": "76595",
+    "scientific_name": "Cyrtomium falcatum",
+    "region": ["Ma"],
+    "common_name": "Feto-azevinho",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385933115/square.jpeg"
   },
   {
-    "scientific_name": "Malephora crocea",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "77946",
-    "image_url": "https://static.inaturalist.org/photos/2772966/medium.jpg"
+    "taxon_id": "48538",
+    "scientific_name": "Cytisus scoparius",
+    "region": ["Ma"],
+    "common_name": "Giesta",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39060163/square.jpeg"
   },
   {
-    "scientific_name": "Melinis repens",
-    "region": "Ma",
-    "common_name": "Capim-favorito",
-    "taxon_id": "77987",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117783839/medium.jpeg"
+    "taxon_id": "76598",
+    "scientific_name": "Cytisus striatus",
+    "region": ["Ma"],
+    "common_name": "Maia-negra",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289278019/square.jpeg"
   },
   {
-    "scientific_name": "Malvastrum coromandelianum",
-    "region": "Ma",
-    "common_name": "Guanxuma-branca",
-    "taxon_id": "165115",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132720729/medium.jpeg"
+    "taxon_id": "161639",
+    "scientific_name": "Datura innoxia",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325514308/square.jpeg"
   },
   {
-    "scientific_name": "Microstegium vimineum",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "116710",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185783395/medium.jpeg"
+    "taxon_id": "55854",
+    "scientific_name": "Datura stramonium",
+    "region": ["Lu", "Ma"],
+    "common_name": "Figueira-do-inferno",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158790852/square.jpeg"
   },
   {
-    "scientific_name": "Myriophyllum aquaticum",
-    "region": "Lu",
-    "common_name": "Pinheirinha",
-    "taxon_id": "60202",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97979212/medium.jpeg"
-  },
-  {
-    "scientific_name": "Myriophyllum heterophyllum",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "165603",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2178532/medium.jpg"
-  },
-  {
-    "scientific_name": "Nicotiana glauca",
-    "region": "Lu",
-    "common_name": "Charuteira",
-    "taxon_id": "58334",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438871248/medium.jpg"
-  },
-  {
-    "scientific_name": "Nymphaea mexicana",
-    "region": "Lu",
-    "common_name": "Ninfeia-amarela",
-    "taxon_id": "78236",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38810128/medium.jpg"
-  },
-  {
-    "scientific_name": "Opuntia elata",
-    "region": "Lu",
-    "common_name": "Arumbeva",
-    "taxon_id": "363583",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19520852/medium.jpeg"
-  },
-  {
-    "scientific_name": "Opuntia maxima",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "558401",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457460307/medium.jpeg"
-  },
-  {
-    "scientific_name": "Opuntia subulata",
-    "region": "Lu",
-    "common_name": "Agulha-de-eva",
-    "taxon_id": "320052",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157990245/medium.jpg"
-  },
-  {
-    "scientific_name": "Opuntia tuna",
-    "region": "Ma",
-    "common_name": "Ataiba",
-    "taxon_id": "472135",
-    "image_url": "https://static.inaturalist.org/photos/41826113/medium.jpeg"
-  },
-  {
-    "scientific_name": "Oxalis corniculata",
-    "region": "Ma",
-    "common_name": "Erva-azeda",
-    "taxon_id": "53168",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264603683/medium.jpg"
-  },
-  {
-    "scientific_name": "Oxalis pes-caprae",
-    "region": "Lu",
-    "common_name": "Azeda",
-    "taxon_id": "53169",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454705867/medium.jpg"
-  },
-  {
-    "scientific_name": "Oxalis purpurea",
-    "region": "Lu",
-    "common_name": "Azeda",
-    "taxon_id": "78301",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19221575/medium.jpg"
-  },
-  {
-    "scientific_name": "Paraserianthes lophantha",
-    "region": "Ma",
-    "common_name": "Albízia",
-    "taxon_id": "139851",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449236431/medium.jpeg"
-  },
-  {
-    "scientific_name": "Parthenium hysterophorus",
-    "region": "Lu",
-    "common_name": "Losna-branca",
-    "taxon_id": "126424",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255503211/medium.jpeg"
-  },
-  {
-    "scientific_name": "Paspalum paspalodes",
-    "region": "Lu",
-    "common_name": "Grama-de-joanopólis",
-    "taxon_id": "60297",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122809539/medium.jpg"
-  },
-  {
-    "scientific_name": "Paspalum vaginatum",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "78357",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23900947/medium.jpeg"
-  },
-  {
-    "scientific_name": "Passiflora tripartita var. mollissima",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "780854",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28545761/medium.jpg"
-  },
-  {
-    "scientific_name": "Paulownia tomentosa",
-    "region": "Lu",
-    "common_name": "Quiri",
-    "taxon_id": "119792",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3449085/medium.jpg"
-  },
-  {
-    "scientific_name": "Pelargonium inquinans",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "78377",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37562746/medium.jpeg"
-  },
-  {
-    "scientific_name": "Pennisetum purpureum",
-    "region": "Ma",
-    "common_name": "Anapiê",
-    "taxon_id": "370562",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109071014/medium.jpeg"
-  },
-  {
-    "scientific_name": "Pennisetum setaceum",
-    "region": "Lu",
-    "common_name": "Pennisetum",
-    "taxon_id": "430581",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6748173/medium.jpg"
-  },
-  {
-    "scientific_name": "Pennisetum villosum",
-    "region": "Lu",
-    "common_name": "Plumas-de-seda",
-    "taxon_id": "430578",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1742834/medium.jpg"
-  },
-  {
-    "scientific_name": "Persicaria perfoliata",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "131249",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54317382/medium.jpg"
-  },
-  {
-    "scientific_name": "Petroselinum crispum",
-    "region": "Ma",
-    "common_name": "Salsa",
-    "taxon_id": "78465",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9083364/medium.jpeg"
-  },
-  {
-    "scientific_name": "Physalis peruviana",
-    "region": "Ma",
-    "common_name": "Tomate-de-Capucho",
-    "taxon_id": "51988",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12025454/medium.jpg"
-  },
-  {
-    "scientific_name": "Phytolacca americana",
-    "region": "Lu",
-    "common_name": "Tintureira",
-    "taxon_id": "48599",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164206478/medium.jpeg"
-  },
-  {
-    "scientific_name": "Pistia stratiotes",
-    "region": "Lu",
-    "common_name": "Alface-d’água",
-    "taxon_id": "78589",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309359974/medium.jpeg"
-  },
-  {
-    "scientific_name": "Pittosporum undulatum",
-    "region": "Lu",
-    "common_name": "Árvore-do-incenso",
-    "taxon_id": "51594",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46938687/medium.jpeg"
-  },
-  {
-    "scientific_name": "Podranea ricasoliana",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "167116",
-    "image_url": "https://static.inaturalist.org/photos/152851862/medium.jpg"
-  },
-  {
-    "scientific_name": "Polygonum capitatum",
-    "region": "Ma",
-    "common_name": "polígono-de-jardim",
-    "taxon_id": "78451",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178183105/medium.jpg"
-  },
-  {
-    "scientific_name": "Pueraria lobata",
-    "region": "Lu",
-    "common_name": "Kudzu",
-    "taxon_id": "62666",
-    "image_url": "https://static.inaturalist.org/photos/48784867/medium.jpg"
-  },
-  {
-    "scientific_name": "Psidium cattleyanum",
-    "region": "Ma",
-    "common_name": "Araçá-rosa",
-    "taxon_id": "278242",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5942589/medium.jpg"
-  },
-  {
-    "scientific_name": "Rhus coriaria",
-    "region": "Ma",
-    "common_name": "Sumagre",
-    "taxon_id": "122987",
-    "image_url": "https://static.inaturalist.org/photos/17256811/medium.jpg"
-  },
-  {
-    "scientific_name": "Ricinus communis",
-    "region": "Lu",
-    "common_name": "Rícino",
-    "taxon_id": "56739",
-    "image_url": "https://static.inaturalist.org/photos/61079958/medium.jpeg"
-  },
-  {
-    "scientific_name": "Robinia pseudoacacia",
-    "region": "Lu",
-    "common_name": "Robínia",
-    "taxon_id": "56088",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257842284/medium.jpeg"
-  },
-  {
-    "scientific_name": "Sagittaria latifolia",
-    "region": "Lu",
-    "common_name": "Batata-de-índio",
-    "taxon_id": "48070",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89848802/medium.jpg"
-  },
-  {
-    "scientific_name": "Salpichroa origanifolia",
-    "region": "Ma",
-    "common_name": "Orelha-de-cordeiro",
-    "taxon_id": "78954",
-    "image_url": "https://static.inaturalist.org/photos/22305064/medium.jpeg"
-  },
-  {
-    "scientific_name": "Salvinia molesta",
-    "region": "Lu",
-    "common_name": "Salvínia",
-    "taxon_id": "78976",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39028206/medium.jpeg"
-  },
-  {
-    "scientific_name": "Senecio bicolor ssp. cinerea",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
-  },
-  {
-    "scientific_name": "Senecio inaequidens",
-    "region": "Lu",
-    "common_name": "desconhecido",
-    "taxon_id": "55607",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44550290/medium.jpg"
-  },
-  {
-    "scientific_name": "Senecio mikanioides",
-    "region": "Ma",
-    "common_name": "Erva-de-são-tiago",
     "taxon_id": "53208",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176027345/medium.jpeg"
+    "scientific_name": "Delairea odorata",
+    "region": ["Az", "Ma"],
+    "common_name": "Erva-de-são-tiago",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176027345/square.jpeg"
   },
   {
-    "scientific_name": "Senecio petasites",
-    "region": "Ma",
-    "common_name": "gerânio-da-califórnia",
+    "taxon_id": "401378",
+    "scientific_name": "Doodia caudata",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359729808/square.jpg"
+  },
+  {
+    "taxon_id": "60107",
+    "scientific_name": "Drosanthemum floribundum",
+    "region": ["Az"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/14795745/square.jpg"
+  },
+  {
+    "taxon_id": "243824",
+    "scientific_name": "Duchesnea indica",
+    "region": ["Ma"],
+    "common_name": "Morango-indiano",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8835174/square.jpg"
+  },
+  {
+    "taxon_id": "1555600",
+    "scientific_name": "Egeria densa",
+    "region": ["Lu", "Ma"],
+    "common_name": "Egéria",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55527815/square.jpeg"
+  },
+  {
+    "taxon_id": "962637",
+    "scientific_name": "Eichhornia crassipes",
+    "region": ["Lu", "Ma"],
+    "common_name": "Jacinto-de-água",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107997/square.jpeg"
+  },
+  {
+    "taxon_id": "76793",
+    "scientific_name": "Elodea canadensis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Elódea",
+    "image_url": "https://static.inaturalist.org/photos/113225954/square.jpg"
+  },
+  {
+    "taxon_id": "57623",
+    "scientific_name": "Elodea nuttallii",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12266/square.jpg"
+  },
+  {
+    "taxon_id": "76923",
+    "scientific_name": "Erigeron karvinskianus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Vitadínia-das-floristas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94408/square.jpg"
+  },
+  {
+    "taxon_id": "326751",
+    "scientific_name": "Eryngium pandanifolium",
+    "region": ["Lu", "Ma"],
+    "common_name": "Piteirão",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29189116/square.jpeg"
+  },
+  {
+    "taxon_id": "48225",
+    "scientific_name": "Eschscholzia californica",
+    "region": ["Ma"],
+    "common_name": "Papoula-da-Califórnia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67227218/square.jpg"
+  },
+  {
+    "taxon_id": "77128",
+    "scientific_name": "Fallopia baldschuanica",
+    "region": ["Lu", "Ma"],
+    "common_name": "Cordão-prateado",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28315035/square.jpg"
+  },
+  {
+    "taxon_id": "914922",
+    "scientific_name": "Reynoutria japonica",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sanguinária-do-japão",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509584890/square.jpg"
+  },
+  {
+    "taxon_id": "593040",
+    "scientific_name": "Fallopia sachalinensis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/92299908/square.jpg"
+  },
+  {
+    "taxon_id": "273843",
+    "scientific_name": "Fuchsia arborescens",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64217773/square.jpg"
+  },
+  {
+    "taxon_id": "163112",
+    "scientific_name": "Fuchsia magellanica",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45778546/square.jpg"
+  },
+  {
+    "taxon_id": "850784",
+    "scientific_name": "Reynoutria x bohemica",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/9849330/square.jpg"
+  },
+  {
+    "taxon_id": "48178",
+    "scientific_name": "Galinsoga parviflora",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-da-moda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388596749/square.jpg"
+  },
+  {
+    "taxon_id": "56170",
+    "scientific_name": "Galinsoga quadriradiata",
+    "region": ["Ma"],
+    "common_name": "Picão-branco",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254366860/square.jpg"
+  },
+  {
+    "taxon_id": "54797",
+    "scientific_name": "Gleditsia triacanthos",
+    "region": ["Lu", "Ma"],
+    "common_name": "Espinheiro-da-Virgínia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193347238/square.jpeg"
+  },
+  {
+    "taxon_id": "281273",
+    "scientific_name": "Gomphocarpus fruticosus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Paina-de-seda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119163222/square.jpg"
+  },
+  {
+    "taxon_id": "77310",
+    "scientific_name": "Gunnera tinctoria",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Gigante",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125734/square.jpg"
+  },
+  {
+    "taxon_id": "363485",
+    "scientific_name": "Hakea salicifolia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Háquea-folhas-de-salgueiro",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1029440/square.jpg"
+  },
+  {
+    "taxon_id": "321137",
+    "scientific_name": "Hakea sericea",
+    "region": ["Lu", "Ma"],
+    "common_name": "Háquea-picante",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370377/square.jpg"
+  },
+  {
+    "taxon_id": "52495",
+    "scientific_name": "Hedychium gardnerianum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Conteira",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61310433/square.jpg"
+  },
+  {
+    "taxon_id": "122970",
+    "scientific_name": "Helianthus tuberosus",
+    "region": ["Az"],
+    "common_name": "alcachofra-girassol",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47843108/square.jpg"
+  },
+  {
+    "taxon_id": "163638",
+    "scientific_name": "Helichrysum foetidum",
+    "region": ["Ma"],
+    "common_name": "Perpétuas-fétidas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31091390/square.jpg"
+  },
+  {
+    "taxon_id": "130228",
+    "scientific_name": "Heracleum mantegazzianum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139805841/square.jpg"
+  },
+  {
+    "taxon_id": "516305",
+    "scientific_name": "Heracleum persicum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/47272758/square.jpg"
+  },
+  {
+    "taxon_id": "499936",
+    "scientific_name": "Heracleum sosnowskyi",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86251892/square.jpg"
+  },
+  {
+    "taxon_id": "52793",
+    "scientific_name": "Holcus lanatus",
+    "region": ["Ma"],
+    "common_name": "Erva-lanar",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79932683/square.jpeg"
+  },
+  {
+    "taxon_id": "122034",
+    "scientific_name": "Hydrangea macrophylla",
+    "region": ["Ma"],
+    "common_name": "Hidrângea",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45518546/square.jpg"
+  },
+  {
+    "taxon_id": "77468",
+    "scientific_name": "Hydrilla verticillata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308709379/square.jpg"
+  },
+  {
+    "taxon_id": "60951",
+    "scientific_name": "Hydrocotyle ranunculoides",
+    "region": ["Lu", "Ma"],
+    "common_name": "Chapéu-de-sapo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204681991/square.jpeg"
+  },
+  {
+    "taxon_id": "47892",
+    "scientific_name": "Impatiens glandulifera",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1204644/square."
+  },
+  {
+    "taxon_id": "77496",
+    "scientific_name": "Ipomoea acuminata",
+    "region": ["Ma"],
+    "common_name": "Bons-dias",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117352227/square.jpg"
+  },
+  {
+    "taxon_id": "77496",
+    "scientific_name": "Ipomoea indica",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Bons-dias",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117352227/square.jpg"
+  },
+  {
+    "taxon_id": "52344",
+    "scientific_name": "Ipomoea purpurea",
+    "region": ["Ma"],
+    "common_name": "Glória-da-manhã",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153113494/square.jpg"
+  },
+  {
+    "taxon_id": "77509",
+    "scientific_name": "Isatis tinctoria",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7456120/square.jpeg"
+  },
+  {
+    "taxon_id": "357682",
+    "scientific_name": "Jacobaea maritima",
+    "region": ["Ma"],
+    "common_name": "Senécio",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153641253/square.jpg"
+  },
+  {
+    "taxon_id": "518424",
+    "scientific_name": "Kalanchoe daigremontiana",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117767170/square.jpeg"
+  },
+  {
+    "taxon_id": "164328",
+    "scientific_name": "Kalanchoe delagoensis",
+    "region": ["Ma"],
+    "common_name": "Flor-da-abissínia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4476647/square.jpg"
+  },
+  {
+    "taxon_id": "164329",
+    "scientific_name": "Kalanchoe fedtschenkoi",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277375566/square.jpeg"
+  },
+  {
+    "taxon_id": "164333",
+    "scientific_name": "Kalanchoe pinnata",
+    "region": ["Ma"],
+    "common_name": "Saião",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342176977/square.jpg"
+  },
+  {
+    "taxon_id": "208800",
+    "scientific_name": "Lagarosiphon major",
+    "region": ["Lu"],
+    "common_name": "Elódea-africana",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196959645/square.jpeg"
+  },
+  {
+    "taxon_id": "208800",
+    "scientific_name": "Lagarosiphon major",
+    "region": ["Ma"],
+    "common_name": "Elódea-africana",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196959645/square.jpeg"
+  },
+  {
+    "taxon_id": "50333",
+    "scientific_name": "Lantana camara",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Lantana",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57353024/square.jpg"
+  },
+  {
+    "taxon_id": "60987",
+    "scientific_name": "Lepidium didymum",
+    "region": ["Ma"],
+    "common_name": "Mastruz",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207927754/square.jpg"
+  },
+  {
+    "taxon_id": "54699",
+    "scientific_name": "Leptospermum scoparium",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57833486/square.jpg"
+  },
+  {
+    "taxon_id": "47447",
+    "scientific_name": "Leucaena leucocephala",
+    "region": ["Ma"],
+    "common_name": "Leucena",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173810076/square.jpeg"
+  },
+  {
+    "taxon_id": "127412",
+    "scientific_name": "Leycesteria formosa",
+    "region": ["Az", "Ma"],
+    "common_name": "Madressilva-dos-Himalaias",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684530/square.jpg"
+  },
+  {
+    "taxon_id": "77835",
+    "scientific_name": "Lonicera japonica",
+    "region": ["Lu", "Ma"],
+    "common_name": "Madressilva-dos-jardins",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107908735/square.jpg"
+  },
+  {
+    "taxon_id": "70020",
+    "scientific_name": "Ludwigia grandiflora",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252927564/square.jpeg"
+  },
+  {
+    "taxon_id": "60220",
+    "scientific_name": "Ludwigia peploides",
+    "region": ["Lu", "Ma"],
+    "common_name": "Ludevígia-rastejante",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298083972/square.jpg"
+  },
+  {
+    "taxon_id": "70020",
+    "scientific_name": "Ludwigia uruguayensis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252927564/square.jpeg"
+  },
+  {
+    "taxon_id": "48537",
+    "scientific_name": "Lysichiton americanus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/107900/square.jpg"
+  },
+  {
+    "taxon_id": "77946",
+    "scientific_name": "Malephora crocea",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/2772966/square.jpg"
+  },
+  {
+    "taxon_id": "165292",
+    "scientific_name": "Melinis minutiflora",
+    "region": ["Ma"],
+    "common_name": "Capim-gordura",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62422971/square.jpg"
+  },
+  {
+    "taxon_id": "77987",
+    "scientific_name": "Melinis repens",
+    "region": ["Ma"],
+    "common_name": "Capim-favorito",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117783839/square.jpeg"
+  },
+  {
+    "taxon_id": "165115",
+    "scientific_name": "Malvastrum coromandelianum",
+    "region": ["Ma"],
+    "common_name": "Guanxuma-branca",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132720729/square.jpeg"
+  },
+  {
+    "taxon_id": "77993",
+    "scientific_name": "Mentha suaveolens",
+    "region": ["Az"],
+    "common_name": "Mentastro",
+    "image_url": "https://static.inaturalist.org/photos/22266687/square.jpeg"
+  },
+  {
+    "taxon_id": "116710",
+    "scientific_name": "Microstegium vimineum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185783395/square.jpeg"
+  },
+  {
+    "taxon_id": "60202",
+    "scientific_name": "Myriophyllum aquaticum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Pinheirinha",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97979212/square.jpeg"
+  },
+  {
+    "taxon_id": "165603",
+    "scientific_name": "Myriophyllum heterophyllum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2178532/square.jpg"
+  },
+  {
+    "taxon_id": "48233",
+    "scientific_name": "Nephrolepis cordifolia",
+    "region": ["Az"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260680022/square.jpeg"
+  },
+  {
+    "taxon_id": "58334",
+    "scientific_name": "Nicotiana glauca",
+    "region": ["Lu", "Ma"],
+    "common_name": "Charuteira",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438871248/square.jpg"
+  },
+  {
+    "taxon_id": "78236",
+    "scientific_name": "Nymphaea mexicana",
+    "region": ["Lu", "Ma"],
+    "common_name": "Ninfeia-amarela",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38810128/square.jpg"
+  },
+  {
+    "taxon_id": "274370",
+    "scientific_name": "Opuntia dillenii",
+    "region": ["Az"],
+    "common_name": "Opúncia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64002244/square.jpeg"
+  },
+  {
+    "taxon_id": "363583",
+    "scientific_name": "Opuntia elata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Arumbeva",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19520852/square.jpeg"
+  },
+  {
+    "taxon_id": "64119",
+    "scientific_name": "Opuntia ficus-indica",
+    "region": ["Ma"],
+    "common_name": "Figueira-da-índia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31571734/square.jpeg"
+  },
+  {
+    "taxon_id": "558401",
+    "scientific_name": "Opuntia maxima",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457460307/square.jpeg"
+  },
+  {
+    "taxon_id": "472135",
+    "scientific_name": "Opuntia tuna",
+    "region": ["Ma"],
+    "common_name": "Ataiba",
+    "image_url": "https://static.inaturalist.org/photos/41826113/square.jpeg"
+  },
+  {
+    "taxon_id": "320052",
+    "scientific_name": "Austrocylindropuntia subulata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Agulha-de-eva",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157990245/square.jpg"
+  },
+  {
+    "taxon_id": "53168",
+    "scientific_name": "Oxalis corniculata",
+    "region": ["Ma"],
+    "common_name": "Erva-azeda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264603683/square.jpg"
+  },
+  {
+    "taxon_id": "53169",
+    "scientific_name": "Oxalis pes-caprae",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Azeda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454705867/square.jpg"
+  },
+  {
+    "taxon_id": "53168",
+    "scientific_name": "Oxalis purpurea",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-azeda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264603683/square.jpg"
+  },
+  {
+    "taxon_id": "139851",
+    "scientific_name": "Paraserianthes lophantha",
+    "region": ["Lu", "Ma"],
+    "common_name": "Albízia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449236431/square.jpeg"
+  },
+  {
+    "taxon_id": "126424",
+    "scientific_name": "Parthenium hysterophorus",
+    "region": ["Lu", "Ma"],
+    "common_name": "Losna-branca",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255503211/square.jpeg"
+  },
+  {
+    "taxon_id": "60297",
+    "scientific_name": "Paspalum paspalodes",
+    "region": ["Lu", "Ma"],
+    "common_name": "Grama-de-joanópolis",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122809539/square.jpg"
+  },
+  {
+    "taxon_id": "78357",
+    "scientific_name": "Paspalum vaginatum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23900947/square.jpeg"
+  },
+  {
+    "taxon_id": "133171",
+    "scientific_name": "Passiflora tripartita var. mollissima",
+    "region": ["Ma"],
+    "common_name": "Maracujá-banana",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39029480/square.jpg"
+  },
+  {
+    "taxon_id": "119792",
+    "scientific_name": "Paulownia tomentosa",
+    "region": ["Lu", "Ma"],
+    "common_name": "Quiri",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3449085/square.jpg"
+  },
+  {
+    "taxon_id": "181543",
+    "scientific_name": "Pelargonium inquinans",
+    "region": ["Ma"],
+    "common_name": "Gerânio",
+    "image_url": "https://static.inaturalist.org/photos/106838084/square.jpg"
+  },
+  {
+    "taxon_id": "370562",
+    "scientific_name": "Pennisetum purpureum",
+    "region": ["Ma"],
+    "common_name": "Anapiê",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109071014/square.jpeg"
+  },
+  {
+    "taxon_id": "430581",
+    "scientific_name": "Pennisetum setaceum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Pennisetum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6748173/square.jpg"
+  },
+  {
+    "taxon_id": "430578",
+    "scientific_name": "Pennisetum villosum",
+    "region": ["Lu", "Ma"],
+    "common_name": "Plumas-de-seda",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1742834/square.jpg"
+  },
+  {
+    "taxon_id": "78451",
+    "scientific_name": "Persicaria capitata",
+    "region": ["Az"],
+    "common_name": "polígono-de-jardim",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178183105/square.jpg"
+  },
+  {
+    "taxon_id": "63886",
+    "scientific_name": "Persicaria lapathifolia",
+    "region": ["Az"],
+    "common_name": "Erva-pessegueira",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157824424/square.jpg"
+  },
+  {
+    "taxon_id": "131249",
+    "scientific_name": "Persicaria perfoliata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54317382/square.jpg"
+  },
+  {
+    "taxon_id": "48599",
+    "scientific_name": "Phytolacca americana",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Tintureira",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164206478/square.jpeg"
+  },
+  {
+    "taxon_id": "78589",
+    "scientific_name": "Pistia stratiotes",
+    "region": ["Lu", "Ma"],
+    "common_name": "Alface-de-água",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309359974/square.jpeg"
+  },
+  {
+    "taxon_id": "51594",
+    "scientific_name": "Pittosporum undulatum",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Árvore-do-incenso",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46938687/square.jpeg"
+  },
+  {
+    "taxon_id": "167116",
+    "scientific_name": "Podranea ricasoliana",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/152851862/square.jpg"
+  },
+  {
+    "taxon_id": "78678",
+    "scientific_name": "Polygonum aviculare",
+    "region": ["Az"],
+    "common_name": "Sempre-noiva",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61530524/square.jpeg"
+  },
+  {
+    "taxon_id": "78451",
+    "scientific_name": "Polygonum capitatum",
+    "region": ["Ma"],
+    "common_name": "Polígono-de-jardim",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178183105/square.jpg"
+  },
+  {
+    "taxon_id": "56166",
+    "scientific_name": "Polygonum persicaria",
+    "region": ["Az"],
+    "common_name": "Polegar-de-moça",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30061970/square.jpg"
+  },
+  {
+    "taxon_id": "1424438",
+    "scientific_name": "Pueraria montana var. lobata",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/350793853/square.jpeg"
+  },
+  {
+    "taxon_id": "122987",
+    "scientific_name": "Rhus coriaria",
+    "region": ["Ma"],
+    "common_name": "Sumagre",
+    "image_url": "https://static.inaturalist.org/photos/17256811/square.jpg"
+  },
+  {
+    "taxon_id": "56739",
+    "scientific_name": "Ricinus communis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Rícino",
+    "image_url": "https://static.inaturalist.org/photos/61079958/square.jpeg"
+  },
+  {
+    "taxon_id": "56088",
+    "scientific_name": "Robinia pseudoacacia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Robínia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257842284/square.jpeg"
+  },
+  {
     "taxon_id": "345097",
-    "image_url": "https://static.inaturalist.org/photos/1271527/medium."
+    "scientific_name": "Roldana petasitis",
+    "region": ["Ma"],
+    "common_name": "Gerânio-da-califórnia",
+    "image_url": "https://static.inaturalist.org/photos/1271527/square."
   },
   {
-    "scientific_name": "Setaria verticillata",
-    "region": "Ma",
-    "common_name": "Milhã-verticilada",
+    "taxon_id": "78895",
+    "scientific_name": "Rubus ulmifolius",
+    "region": ["Az"],
+    "common_name": "Silva-ulmeira",
+    "image_url": "https://static.inaturalist.org/photos/149874224/square.jpeg"
+  },
+  {
+    "taxon_id": "48070",
+    "scientific_name": "Sagittaria latifolia",
+    "region": ["Lu", "Ma"],
+    "common_name": "Batata-de-índio",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89848802/square.jpg"
+  },
+  {
+    "taxon_id": "78954",
+    "scientific_name": "Salpichroa origanifolia",
+    "region": ["Az", "Ma"],
+    "common_name": "Orelha-de-cordeiro",
+    "image_url": "https://static.inaturalist.org/photos/22305064/square.jpeg"
+  },
+  {
+    "taxon_id": "78976",
+    "scientific_name": "Salvinia molesta",
+    "region": ["Lu", "Ma"],
+    "common_name": "Salvínia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39028206/square.jpeg"
+  },
+  {
+    "taxon_id": "357682",
+    "scientific_name": "Senecio bicolor",
+    "region": ["Lu"],
+    "common_name": "Senécio",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153641253/square.jpg"
+  },
+  {
+    "taxon_id": "55607",
+    "scientific_name": "Senecio inaequidens",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44550290/square.jpg"
+  },
+  {
+    "taxon_id": "53208",
+    "scientific_name": "Senecio mikanioides",
+    "region": ["Ma"],
+    "common_name": "Erva-de-são-tiago",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176027345/square.jpeg"
+  },
+  {
     "taxon_id": "79069",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93392862/medium.jpeg"
+    "scientific_name": "Setaria verticillata",
+    "region": ["Ma"],
+    "common_name": "Milhã-verticilada",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93392862/square.jpeg"
   },
   {
-    "scientific_name": "Solanum lycopersicum var. lycopersicum",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
+    "taxon_id": "79140",
+    "scientific_name": "Solanum marginatum",
+    "region": ["Az"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32524573/square.jpg"
   },
   {
-    "scientific_name": "Solanum mauritianum",
-    "region": "Lu",
-    "common_name": "Tabaqueira",
     "taxon_id": "133287",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144959/medium.jpg"
+    "scientific_name": "Solanum mauritianum",
+    "region": ["Lu", "Az", "Ma"],
+    "common_name": "Tabaqueira",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144959/square.jpg"
   },
   {
-    "scientific_name": "Soleirolia soleirolii",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "79147",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168200768/medium.jpg"
+    "scientific_name": "Soleirolia soleirolii",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168200768/square.jpg"
   },
   {
-    "scientific_name": "Sorghum halepense",
-    "region": "Lu",
-    "common_name": "Sorgo-bravo",
     "taxon_id": "58387",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78416044/medium.jpg"
+    "scientific_name": "Sorghum halepense",
+    "region": ["Lu", "Ma"],
+    "common_name": "Sorgo-bravo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78416044/square.jpg"
   },
   {
-    "scientific_name": "Spartina densiflora",
-    "region": "Lu",
-    "common_name": "Espartina",
     "taxon_id": "772990",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60508300/medium.jpeg"
+    "scientific_name": "Spartina densiflora",
+    "region": ["Lu", "Ma"],
+    "common_name": "Espartina",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60508300/square.jpeg"
   },
   {
-    "scientific_name": "Symphyotrichum subulatum var. squamatum",
-    "region": "Ma",
-    "common_name": "desconhecido",
-    "taxon_id": "",
-    "image_url": ""
+    "taxon_id": "169489",
+    "scientific_name": "Symphyotrichum squamatum",
+    "region": ["Az", "Ma"],
+    "common_name": "Mata-jornaleiros",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29425040/square.jpeg"
   },
   {
-    "scientific_name": "Tamarix gallica",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "51303",
-    "image_url": "https://static.inaturalist.org/photos/100778396/medium.jpeg"
+    "scientific_name": "Tamarix gallica",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://static.inaturalist.org/photos/100778396/square.jpeg"
   },
   {
-    "scientific_name": "Tetragonia tetragonioides",
-    "region": "Ma",
-    "common_name": "Espinafre-da-nova-zelândia",
     "taxon_id": "418653",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32211332/medium.jpeg"
+    "scientific_name": "Tetragonia tetragonioides",
+    "region": ["Ma"],
+    "common_name": "Espinafre-da-nova-zelândia",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32211332/square.jpeg"
   },
   {
-    "scientific_name": "Tradescantia fluminensis",
-    "region": "Lu",
-    "common_name": "Erva-da-fortuna",
+    "taxon_id": "56846",
+    "scientific_name": "Torilis arvensis",
+    "region": ["Az"],
+    "common_name": "Salsinha",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391026391/square.jpg"
+  },
+  {
     "taxon_id": "79382",
-    "image_url": "https://static.inaturalist.org/photos/100160029/medium.jpg"
+    "scientific_name": "Tradescantia fluminensis",
+    "region": ["Lu", "Ma"],
+    "common_name": "Erva-da-fortuna",
+    "image_url": "https://static.inaturalist.org/photos/100160029/square.jpg"
   },
   {
-    "scientific_name": "Tradescantia zebrina",
-    "region": "Ma",
-    "common_name": "Trapoeraba-zebra",
     "taxon_id": "169883",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31336950/medium.jpeg"
+    "scientific_name": "Tradescantia zebrina",
+    "region": ["Ma"],
+    "common_name": "Trapoeraba-zebra",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31336950/square.jpeg"
   },
   {
-    "scientific_name": "Tropaeolum majus",
-    "region": "Lu",
-    "common_name": "Chagas",
     "taxon_id": "54329",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428853889/medium.jpg"
+    "scientific_name": "Tropaeolum majus",
+    "region": ["Lu"],
+    "common_name": "Chagas",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428853889/square.jpg"
   },
   {
-    "scientific_name": "Ulex europaeus",
-    "region": "Ma",
-    "common_name": "Tojo",
     "taxon_id": "51751",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62089764/medium.jpeg"
+    "scientific_name": "Ulex europaeus",
+    "region": ["Az", "Ma"],
+    "common_name": "Tojo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62089764/square.jpeg"
   },
   {
-    "scientific_name": "Ulex minor",
-    "region": "Ma",
-    "common_name": "Tojo-molar",
     "taxon_id": "338109",
-    "image_url": "https://static.inaturalist.org/photos/22314541/medium.jpeg"
+    "scientific_name": "Ulex minor",
+    "region": ["Az", "Ma"],
+    "common_name": "Tojo-molar",
+    "image_url": "https://static.inaturalist.org/photos/22314541/square.jpeg"
   },
   {
-    "scientific_name": "Verbena bonariensis",
-    "region": "Ma",
-    "common_name": "Gervão-roxo",
     "taxon_id": "79487",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283884295/medium.jpg"
+    "scientific_name": "Verbena bonariensis",
+    "region": ["Ma"],
+    "common_name": "Gervão-roxo",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283884295/square.jpg"
   },
   {
-    "scientific_name": "Verbena rigida",
-    "region": "Ma",
-    "common_name": "Verbena-lixa",
     "taxon_id": "127942",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13608257/medium.jpg"
+    "scientific_name": "Verbena rigida",
+    "region": ["Ma"],
+    "common_name": "Verbena-lixa",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13608257/square.jpg"
   },
   {
-    "scientific_name": "Vinca major",
-    "region": "Ma",
-    "common_name": "desconhecido",
     "taxon_id": "53326",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187076568/medium.jpeg"
+    "scientific_name": "Vinca major",
+    "region": ["Ma"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187076568/square.jpeg"
   },
   {
-    "scientific_name": "Zantedeschia aethiopica",
-    "region": "Ma",
-    "common_name": "jarro",
+    "taxon_id": "57928",
+    "scientific_name": "Xanthium strumarium ssp. canadense",
+    "region": ["Az"],
+    "common_name": "Sem nome comum",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2389771/square.jpg"
+  },
+  {
     "taxon_id": "56006",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10183/medium.jpg"
+    "scientific_name": "Zantedeschia aethiopica",
+    "region": ["Ma"],
+    "common_name": "Jarro",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10183/square.jpg"
   }
 ]
