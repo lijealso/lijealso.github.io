@@ -539,13 +539,6 @@
     "image_url": "https://static.inaturalist.org/photos/62142563/square.jpg"
   },
   {
-    "taxon_id": "60987",
-    "scientific_name": "Coronopus didymus",
-    "region": ["Ma"],
-    "common_name": "Mastruz",
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207927754/square.jpg"
-  },
-  {
     "taxon_id": "64240",
     "scientific_name": "Cortaderia selloana",
     "region": ["Lu", "Ma"],
